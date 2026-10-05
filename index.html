@@ -104,8 +104,8 @@ let sortDir = -1; // newest first by default
 
 function stratClass(s) {
   if (!s) return "chip";
-  if (s.includes("2↑") || s.includes("2u") || s.includes("2-up") || s === "3") return "chip up";
-  if (s.includes("2↓") || s.includes("2d") || s.includes("2-down")) return "chip down";
+  if (s.includes("2\u2191") || s.includes("2u") || s.includes("2-up") || s === "3") return "chip up";
+  if (s.includes("2\u2193") || s.includes("2d") || s.includes("2-down")) return "chip down";
   return "chip inside";
 }
 function midSpread(a) {
@@ -126,7 +126,7 @@ function contract(a) {
 function aligned(a) {
   const d = (a.daily || "").toLowerCase();
   const w = (a.weekly || "").toLowerCase();
-  const up = s => s.includes("2↑") || s.includes("2u") || s.includes("2-up") || s === "3" || s.includes("3");
+  const up = s => s.includes("2\u2191") || s.includes("2u") || s.includes("2-up") || s === "3" || s.includes("3");
   return up(d) && up(w);
 }
 function render() {
