@@ -1,6 +1,6 @@
 {
  "date": "2026-10-06",
- "updated_pt": "9:53 AM PT",
+ "updated_pt": "11:06 AM PT",
  "previous": {
   "date": "2026-10-05",
   "updated_pt": "12:52 PM PT",
@@ -451,6 +451,33 @@
   ]
  },
  "alerts": [
+  {
+   "time": "11:02 AM",
+   "ticker": "SPX",
+   "side": "PUT",
+   "strike": 7820,
+   "expiry": "10/6",
+   "entry": 2.0,
+   "source": "Discord LTP #bcf",
+   "link": "https://discord.com/channels/1244040902117167174/1484651542077505677/1557090737563242648",
+   "underlying": 7829.65,
+   "otm_pct": 0.1,
+   "opt_last": 1.85,
+   "bid": 1.85,
+   "ask": 1.9,
+   "spread_pct": 3,
+   "vol": 114233,
+   "oi": 48,
+   "iv": 3.3,
+   "impl_move": "±10.05 (±0.1%)",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↑",
+   "status": "open",
+   "exit": null,
+   "notes": "BTO 2 SPX 7820p 10/6 @ 2.00 (0DTE). OI 48 thin (<100). D 2↑ taking out prior high 7794.35, W 2↑ over prior high 7754.67; structure does not line up with bearish bias."
+  },
   {
    "time": "9:50 AM",
    "ticker": "NDSN",
