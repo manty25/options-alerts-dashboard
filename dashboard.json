@@ -1,6 +1,6 @@
 {
  "date": "2026-10-06",
- "updated_pt": "11:06 AM PT",
+ "updated_pt": "11:28 AM PT",
  "previous": {
   "date": "2026-10-05",
   "updated_pt": "12:52 PM PT",
@@ -451,6 +451,33 @@
   ]
  },
  "alerts": [
+  {
+   "time": "11:24 AM",
+   "ticker": "RPM",
+   "side": "CALL",
+   "strike": 105,
+   "expiry": "10/16",
+   "entry": 0.5,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2107537520770924600",
+   "underlying": 98.06,
+   "otm_pct": 7.1,
+   "opt_last": 0.23,
+   "bid": 0.15,
+   "ask": 0.35,
+   "spread_pct": 80,
+   "vol": 101,
+   "oi": 240,
+   "iv": 33.6,
+   "impl_move": "±4.75 (±4.8%)",
+   "prev_daily": "2↓",
+   "daily": "1",
+   "prev_weekly": "2↓",
+   "weekly": "2↓",
+   "status": "open",
+   "exit": null,
+   "notes": "'HIGH CONFIDENCE' $RPM 105 Call 10/16 .50, reposted as 'SWING PLAY', then 'ADDED HEAVY'; target 'room to $107 EOW'. Quoted last 0.23 vs posted 0.50 entry. Spread wide (80% of mid). D inside bar (no prior high 99.39/low 95.04 taken out); W 2↓ took out prior low 96.40; structure does not line up with bullish bias."
+  },
   {
    "time": "11:02 AM",
    "ticker": "SPX",
