@@ -1,6 +1,6 @@
 {
  "date": "2026-10-06",
- "updated_pt": "8:39 AM PT",
+ "updated_pt": "9:03 AM PT",
  "previous": {
   "date": "2026-10-05",
   "updated_pt": "12:52 PM PT",
@@ -451,6 +451,33 @@
   ]
  },
  "alerts": [
+  {
+   "time": "8:58 AM",
+   "ticker": "AWI",
+   "side": "CALL",
+   "strike": 175,
+   "expiry": "10/16",
+   "entry": 0.5,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2107500693968056363",
+   "underlying": 166.35,
+   "otm_pct": 5.2,
+   "opt_last": 0.35,
+   "bid": 0.15,
+   "ask": 0.35,
+   "spread_pct": 80,
+   "vol": 9,
+   "oi": 3,
+   "iv": 23.4,
+   "impl_move": "±3.1%",
+   "prev_daily": "3",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↑",
+   "status": "open",
+   "exit": null,
+   "notes": "THIN (OI 3, vol 9, spread 80% of mid); called @0.50 vs ask 0.35. D 2↑ over prior high 165.57, W 2↑ over prior week high 165.98, aligned bullish"
+  },
   {
    "time": "8:31 AM",
    "ticker": "FMX",
