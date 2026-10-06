@@ -1,6 +1,6 @@
 {
  "date": "2026-10-06",
- "updated_pt": "11:28 AM PT",
+ "updated_pt": "2026-10-06 11:38 AM PT",
  "previous": {
   "date": "2026-10-05",
   "updated_pt": "12:52 PM PT",
@@ -476,7 +476,7 @@
    "weekly": "2↓",
    "status": "open",
    "exit": null,
-   "notes": "'HIGH CONFIDENCE' $RPM 105 Call 10/16 .50, reposted as 'SWING PLAY', then 'ADDED HEAVY'; target 'room to $107 EOW'. Quoted last 0.23 vs posted 0.50 entry. Spread wide (80% of mid). D inside bar (no prior high 99.39/low 95.04 taken out); W 2↓ took out prior low 96.40; structure does not line up with bullish bias."
+   "notes": "'HIGH CONFIDENCE' $RPM 105 Call 10/16 .50, reposted as 'SWING PLAY', then 'ADDED HEAVY'; target 'room to $107 EOW'. Quoted last 0.23 vs posted 0.50 entry. Spread wide (80% of mid). D inside bar (no prior high 99.39/low 95.04 taken out); W 2↓ took out prior low 96.40; structure does not line up with bullish bias. 11:32 AM recheck: the RPM posts no longer show on @StockOptions888's profile or the list (possibly deleted)."
   },
   {
    "time": "11:02 AM",
@@ -501,9 +501,9 @@
    "daily": "2↑",
    "prev_weekly": "2↓",
    "weekly": "2↑",
-   "status": "open",
-   "exit": null,
-   "notes": "BTO 2 SPX 7820p 10/6 @ 2.00 (0DTE). OI 48 thin (<100). D 2↑ taking out prior high 7794.35, W 2↑ over prior high 7754.67; structure does not line up with bearish bias."
+   "status": "exited",
+   "exit": 2.4,
+   "notes": "BTO 2 SPX 7820p 10/6 @ 2.00 (0DTE). OI 48 thin (<100). D 2↑ taking out prior high 7794.35, W 2↑ over prior high 7754.67; structure does not line up with bearish bias. STC 2 @2.40 (+20%) 11:32 AM (BCF)."
   },
   {
    "time": "9:50 AM",
