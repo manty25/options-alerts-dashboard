@@ -1,6 +1,6 @@
 {
  "date": "2026-10-06",
- "updated_pt": "6:38 AM PT",
+ "updated_pt": "6:49 AM PT",
  "previous": {
   "date": "2026-10-05",
   "updated_pt": "12:52 PM PT",
@@ -451,6 +451,33 @@
   ]
  },
  "alerts": [
+  {
+   "time": "6:38 AM",
+   "ticker": "OKLO",
+   "side": "CALL",
+   "strike": 40,
+   "expiry": "10/9",
+   "entry": 0.2,
+   "source": "X @itsCblast",
+   "link": "https://x.com/itsCblast/status/2107465484933140484",
+   "underlying": 38.18,
+   "otm_pct": 4.8,
+   "opt_last": 0.77,
+   "bid": 0.75,
+   "ask": 0.78,
+   "spread_pct": 4,
+   "vol": 2797,
+   "oi": 8819,
+   "iv": 92.1,
+   "impl_move": "\u00b16.4%",
+   "prev_daily": "2\u2193",
+   "daily": "2\u2191",
+   "prev_weekly": "2\u2193",
+   "weekly": "3",
+   "status": "exited",
+   "exit": 0.94,
+   "notes": "entry 0.20 from Cblast's 10/5 call (2-3 day swing, before he was tracked); SOLD @0.94 (+370%) 6:38 AM; not posted on Discord #cblast"
+  },
   {
    "time": "6:34 AM",
    "ticker": "SNOW",
