@@ -1,6 +1,6 @@
 {
  "date": "2026-10-07",
- "updated_pt": "8:22 AM PT",
+ "updated_pt": "10:29 AM PT",
  "previous": {
   "date": "2026-10-06",
   "updated_pt": "2026-10-06 11:50 AM PT",
@@ -592,6 +592,33 @@
    "status": "open",
    "exit": null,
    "notes": "'HIGH CONFIDENCE' @.95, after 'Y'ALL READY / ADDING HEAVY' 8:17. Last 0.55 / mid 0.425, well under entry. THIN vol 9; spread 82% of mid. Strike 5.7% OTM vs ±3.4% implied move. D 2↑ over prior high 225.23, W 2↑ over prior week high 224.22, aligned bullish."
+  },
+  {
+   "time": "10:18 AM",
+   "ticker": "CSV",
+   "side": "CALL",
+   "strike": 35,
+   "expiry": "10/16",
+   "entry": 0.6,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2107883389739245576",
+   "underlying": 33.57,
+   "otm_pct": 4.3,
+   "opt_last": 0.25,
+   "bid": 0.05,
+   "ask": 0.45,
+   "spread_pct": 160,
+   "vol": 12,
+   "oi": 5,
+   "iv": 44.5,
+   "impl_move": "±1.87 (±5.6%)",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "status": "open",
+   "exit": null,
+   "notes": "'INSANELY MISPRICED + $APEI TYPE SETUP' @.60. Last 0.25 / mid 0.25, under entry. THIN: OI 5, vol 12; spread 160% of mid. Strike 4.3% OTM vs ±5.6% implied move. D 2↑ over prior high 32.91, W 2↑ over prior week high 33.26, aligned bullish."
   }
  ]
 }
