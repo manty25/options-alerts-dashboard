@@ -1,6 +1,6 @@
 {
  "date": "2026-10-07",
- "updated_pt": "7:53 AM PT",
+ "updated_pt": "2026-10-07 8:06 AM PT",
  "previous": {
   "date": "2026-10-06",
   "updated_pt": "2026-10-06 11:50 AM PT",
@@ -485,6 +485,32 @@
    "weekly": "2↑",
    "status": "open",
    "notes": "Posted as 'HIGH CONFIDENCE' and 'THIS CAN GO 500%' (reposted 3x 7:40-7:41). THIN: OI 10, wide spread 0.30/0.95; last 0.30 vs stated entry 0.45. Same ticker/expiry as MoonTrades7 NWE 75C at 7:16 (different strike). D & W both took out prior high."
+  },
+  {
+   "time": "8:02 AM",
+   "ticker": "HTO",
+   "side": "CALL",
+   "strike": 60,
+   "expiry": "10/16",
+   "entry": 0.5,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2107849134892073239",
+   "underlying": 58.64,
+   "otm_pct": 2.3,
+   "opt_last": 0.55,
+   "bid": 0.0,
+   "ask": 1.25,
+   "spread_pct": 200,
+   "vol": 2,
+   "oi": 3,
+   "iv": 47.3,
+   "impl_move": "≈±4.36 (±7.4%) from IV; no ATM straddle quote",
+   "prev_daily": "2↓",
+   "daily": "1",
+   "prev_weekly": "2↓",
+   "weekly": "2↓",
+   "status": "open",
+   "notes": "Posted as 'MISPRICED CONTRACTS' @.50, reposted @.55 at 8:03. THIN: OI 3, vol 2, quote 0.00/1.25. Daily inside bar (no prior H/L taken out); weekly 2↓ took out prior week low 59.70 — not aligned with bullish bias."
   }
  ]
 }
