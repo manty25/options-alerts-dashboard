@@ -1,6 +1,6 @@
 {
  "date": "2026-10-07",
- "updated_pt": "7:24 AM PT",
+ "updated_pt": "7:40 AM PT",
  "previous": {
   "date": "2026-10-06",
   "updated_pt": "2026-10-06 11:50 AM PT",
@@ -433,6 +433,32 @@
    "weekly": "2↑",
    "status": "open",
    "notes": "THIN: OI 8, vol 3, bid 0/ask 3.70 (quotes may be stale); underlying +8.6% today (68.92 to 74.85). Poster reposted @1.20/1.70/1.90 (7:17-7:18) and '+100%' at 7:22. D & W both took out prior high."
+  },
+  {
+   "time": "7:28 AM",
+   "ticker": "PGNY",
+   "side": "CALL",
+   "strike": 30,
+   "expiry": "10/16",
+   "entry": 0.15,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2107840582311964877",
+   "underlying": 27.42,
+   "otm_pct": 9.4,
+   "opt_last": 0.04,
+   "bid": 0.0,
+   "ask": 0.05,
+   "spread_pct": 200,
+   "vol": 3,
+   "oi": 125,
+   "iv": 36.3,
+   "impl_move": "±2.00 (±7.3%) approx, 25 straddle",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↑",
+   "status": "open",
+   "notes": "Posted as 'HIGH CONFIDENCE'. THIN: vol 3, bid 0/ask 0.05, last 0.04 vs stated entry 0.15 (quotes may be stale). Underlying 25.91 to 27.42 today (+5.8%). D & W both took out prior high."
   }
  ]
 }
