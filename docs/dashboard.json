@@ -1,6 +1,6 @@
 {
  "date": "2026-10-07",
- "updated_pt": "7:40 AM PT",
+ "updated_pt": "7:53 AM PT",
  "previous": {
   "date": "2026-10-06",
   "updated_pt": "2026-10-06 11:50 AM PT",
@@ -459,6 +459,32 @@
    "weekly": "2↑",
    "status": "open",
    "notes": "Posted as 'HIGH CONFIDENCE'. THIN: vol 3, bid 0/ask 0.05, last 0.04 vs stated entry 0.15 (quotes may be stale). Underlying 25.91 to 27.42 today (+5.8%). D & W both took out prior high."
+  },
+  {
+   "time": "7:40 AM",
+   "ticker": "NWE",
+   "side": "CALL",
+   "strike": 80,
+   "expiry": "10/16",
+   "entry": 0.45,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2107843445247373789",
+   "underlying": 74.9,
+   "otm_pct": 6.8,
+   "opt_last": 0.3,
+   "bid": 0.3,
+   "ask": 0.95,
+   "spread_pct": 104,
+   "vol": 470,
+   "oi": 10,
+   "iv": 37.3,
+   "impl_move": "≈±4.39 (±5.9%) from IV; no ATM put quotes",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↑",
+   "status": "open",
+   "notes": "Posted as 'HIGH CONFIDENCE' and 'THIS CAN GO 500%' (reposted 3x 7:40-7:41). THIN: OI 10, wide spread 0.30/0.95; last 0.30 vs stated entry 0.45. Same ticker/expiry as MoonTrades7 NWE 75C at 7:16 (different strike). D & W both took out prior high."
   }
  ]
 }
