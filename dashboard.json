@@ -1,6 +1,6 @@
 {
  "date": "2026-10-07",
- "updated_pt": "6:55 AM PT",
+ "updated_pt": "7:24 AM PT",
  "previous": {
   "date": "2026-10-06",
   "updated_pt": "2026-10-06 11:50 AM PT",
@@ -407,6 +407,32 @@
    "weekly": "1",
    "status": "open",
    "notes": "0DTE; BTO 15 @0.45; liquid, tight spread; mid above entry"
+  },
+  {
+   "time": "7:16 AM",
+   "ticker": "NWE",
+   "side": "CALL",
+   "strike": 75,
+   "expiry": "10/16",
+   "entry": 1.0,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2107837385119608880",
+   "underlying": 74.85,
+   "otm_pct": 0.2,
+   "opt_last": 0.15,
+   "bid": 0.0,
+   "ask": 3.7,
+   "spread_pct": 200,
+   "vol": 3,
+   "oi": 8,
+   "iv": 76.3,
+   "impl_move": "n/a",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↑",
+   "status": "open",
+   "notes": "THIN: OI 8, vol 3, bid 0/ask 3.70 (quotes may be stale); underlying +8.6% today (68.92 to 74.85). Poster reposted @1.20/1.70/1.90 (7:17-7:18) and '+100%' at 7:22. D & W both took out prior high."
   }
  ]
 }
