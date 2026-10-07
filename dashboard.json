@@ -1,6 +1,6 @@
 {
  "date": "2026-10-07",
- "updated_pt": "12:15 PM PT",
+ "updated_pt": "12:21 PM PT",
  "previous": {
   "date": "2026-10-06",
   "updated_pt": "2026-10-06 11:50 AM PT",
@@ -673,6 +673,33 @@
    "status": "open",
    "exit": null,
    "notes": "'DOUBLE INSIDE BAR SETUP + SWING TRADE + SYMPATHY TO $AMZN AND $BRZE + HIGH CONFIDENCE' @.75. Last 0.60 / mid 0.55, under entry. THIN volume (2) and wide spread 55% of mid; OI 140. Strike 4.5% OTM vs ±9.1% implied move. D 2↑ over prior day high 37.86 (prior day 2↑); W 1 inside week 38.55/34.41 (prior week 3 outside), no weekly high/low taken. Daily aligned bullish; weekly neutral inside."
+  },
+  {
+   "time": "12:18 PM",
+   "ticker": "BRZE",
+   "side": "CALL",
+   "strike": 32.5,
+   "expiry": "11/20",
+   "entry": 1.15,
+   "source": "Discord Diamond #free-alerts (proph)",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1557472084962316391",
+   "underlying": 28.8,
+   "otm_pct": 12.8,
+   "opt_last": 1.1,
+   "bid": 0.95,
+   "ask": 1.2,
+   "spread_pct": 23,
+   "vol": 122,
+   "oi": 275,
+   "iv": 58.4,
+   "impl_move": "±4.90 (±17.0%, 30 straddle)",
+   "prev_daily": "2↑",
+   "daily": "3",
+   "prev_weekly": "3",
+   "weekly": "2↑",
+   "status": "open",
+   "exit": null,
+   "notes": "'GAP FILL PLAY + AWS collaboration + Cantor $38 / Citizens $35 / D.A. Davidson $40 targets + EXTREME HIGH CONFIDENCE SWING TRADE' @1.15. Last 1.10 / mid 1.075, under entry. Spread 23% of mid; vol 122, OI 275. Strike 12.8% OTM vs ±17.0% implied move. D 3 outside: took prior day high 26.89 and low 26.19 (H 29.01 / L 26.16), closing near high (prior day 2↑); W 2↑ over prior week high 26.55 (prior week 3). Daily and weekly up-structure aligned with bullish bias."
   }
  ]
 }
