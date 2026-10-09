@@ -1,6 +1,6 @@
 {
  "date": "2026-10-09",
- "updated_pt": "8:58 AM PT",
+ "updated_pt": "2026-10-09 09:21",
  "previous": {
   "date": "2026-10-08",
   "updated_pt": "11:23 AM PT",
@@ -574,6 +574,33 @@
    "status": "open",
    "exit": null,
    "notes": "proph: '$LDOS 16 OCT 26 $125 CALL $1.20 SECTOR AND RELATIVE STRENGTH + SWING TRADE + MRO AWARD'. THIN: OI 66, vol 32, wide spread. D 2↑ taking prior high 119.48 (aligned); W 2↓ (low 117.68 taken, high 125.40 not) not aligned."
+  },
+  {
+   "time": "8:56 AM",
+   "ticker": "STE",
+   "side": "CALL",
+   "strike": 220,
+   "expiry": "10/16",
+   "entry": 0.95,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2108587313756340619",
+   "underlying": 214.27,
+   "otm_pct": 2.7,
+   "opt_last": 0.9,
+   "bid": 0.85,
+   "ask": 0.95,
+   "spread_pct": 11,
+   "vol": 990,
+   "oi": 134,
+   "iv": 23.2,
+   "impl_move": "±6.95 (±3.2%)",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "status": "open",
+   "exit": null,
+   "notes": "MoonTrades7 $1K-$100K challenge trade: 5 contracts @ .95 (8:56 AM), then a second post @ .85 (8:57 AM, https://x.com/MoonTrades7/status/2108587710122193261). D 2↑ taking prior high 210.92 (aligned); W 2↑ taking prior high 212.12 (aligned)."
   }
  ]
 }
