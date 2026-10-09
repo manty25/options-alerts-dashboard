@@ -1,6 +1,6 @@
 {
  "date": "2026-10-09",
- "updated_pt": "2026-10-09 10:13 AM PT",
+ "updated_pt": "2026-10-09 10:29 AM PT",
  "previous": {
   "date": "2026-10-08",
   "updated_pt": "11:23 AM PT",
@@ -655,6 +655,33 @@
    "status": "open",
    "exit": null,
    "notes": "StockOptions888 'HIGH CONFIDENCE' post 9:55 AM at 1.00; follow-ups 9:56/9:57 (https://x.com/StockOptions888/status/2108602509707424229, https://x.com/StockOptions888/status/2108602783486333404). D 2↑ (prior high 233.81 taken, aligned); W 2↑ (prior high 233.98 taken, aligned)."
+  },
+  {
+   "time": "10:20 AM",
+   "ticker": "MSM",
+   "side": "CALL",
+   "strike": 135,
+   "expiry": "10/16",
+   "entry": 0.45,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2108608491887997022",
+   "underlying": 130.54,
+   "otm_pct": 3.4,
+   "opt_last": 0.4,
+   "bid": 0.4,
+   "ask": 0.5,
+   "spread_pct": 22,
+   "vol": 4,
+   "oi": 22,
+   "iv": 25.2,
+   "impl_move": "±4.56 (±3.5%)",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "3",
+   "weekly": "1",
+   "status": "open",
+   "exit": null,
+   "notes": "MoonTrades7 10:20 AM at .45; add-on 10:20 AM at .50 (https://x.com/MoonTrades7/status/2108608674122113388); 10:27 AM 'MSM .60 already' (https://x.com/MoonTrades7/status/2108610308830871558). Thin: vol 4, OI 22. D 2↑ (prior high 129.97 taken, aligned); W 1 inside (no prior bar break)."
   }
  ]
 }
