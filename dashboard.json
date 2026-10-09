@@ -1,6 +1,6 @@
 {
  "date": "2026-10-09",
- "updated_pt": "2026-10-09T11:41:00-07:00",
+ "updated_pt": "2026-10-09T11:46:00-07:00",
  "previous": {
   "date": "2026-10-08",
   "updated_pt": "11:23 AM PT",
@@ -763,6 +763,33 @@
    "status": "open",
    "exit": null,
    "notes": "proph 11:30 AM at $0.85 'high confidence swing trade'; cites $598.95 pivot breakout, Baird PT $710, Barclays buy. Wide spread 54% of mid; vol 1 thin, OI 561. D 2↑ (prior high 581.59 taken, aligned); W 2↑ (prior high 569.57 taken, aligned)."
+  },
+  {
+   "time": "11:42 AM",
+   "ticker": "SEIC",
+   "side": "CALL",
+   "strike": 110,
+   "expiry": "10/16",
+   "entry": 0.15,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2108629057961341118",
+   "underlying": 104.95,
+   "otm_pct": 4.8,
+   "opt_last": 0.05,
+   "bid": 0.0,
+   "ask": 0.25,
+   "spread_pct": 200,
+   "vol": 1,
+   "oi": 671,
+   "iv": 26.9,
+   "impl_move": "±3.95 (±3.8%)",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "1",
+   "status": "open",
+   "exit": null,
+   "notes": "888 11:42 AM at $0.15 'high confidence', 'can go 1000%'. Bid 0 / ask 0.25 (200% of mid) wide; vol 1 thin, OI 671. D 2↑ (prior high 103.79 taken, aligned); W inside bar (1), no prior high/low taken yet."
   }
  ]
 }
