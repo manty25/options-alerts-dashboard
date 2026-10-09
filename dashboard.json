@@ -1,6 +1,6 @@
 {
  "date": "2026-10-09",
- "updated_pt": "2026-10-09 09:48",
+ "updated_pt": "2026-10-09 10:13 AM PT",
  "previous": {
   "date": "2026-10-08",
   "updated_pt": "11:23 AM PT",
@@ -628,6 +628,33 @@
    "status": "open",
    "exit": null,
    "notes": "StockOptions888 post 9:40 AM at .40; follow-up 9:40 AM 'THIS CAN GO 500%' (https://x.com/StockOptions888/status/2108598596153295203). Thin: vol 3, bid-ask 0.1-0.3 (100% of mid). D 2↑ taking prior high 85.81 (aligned); W 3 outside, current week took out prior high and low (mixed/neutral)."
+  },
+  {
+   "time": "9:55 AM",
+   "ticker": "IEX",
+   "side": "CALL",
+   "strike": 240,
+   "expiry": "10/16",
+   "entry": 1.0,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2108602322213613768",
+   "underlying": 234.8,
+   "otm_pct": 2.2,
+   "opt_last": 1.0,
+   "bid": 0.95,
+   "ask": 1.1,
+   "spread_pct": 15,
+   "vol": 357,
+   "oi": 205,
+   "iv": 21.5,
+   "impl_move": "±8.20 (±3.5%)",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "status": "open",
+   "exit": null,
+   "notes": "StockOptions888 'HIGH CONFIDENCE' post 9:55 AM at 1.00; follow-ups 9:56/9:57 (https://x.com/StockOptions888/status/2108602509707424229, https://x.com/StockOptions888/status/2108602783486333404). D 2↑ (prior high 233.81 taken, aligned); W 2↑ (prior high 233.98 taken, aligned)."
   }
  ]
 }
