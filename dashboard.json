@@ -1,6 +1,6 @@
 {
  "date": "2026-10-09",
- "updated_pt": "2026-10-09 10:29 AM PT",
+ "updated_pt": "2026-10-09T11:15:00-07:00",
  "previous": {
   "date": "2026-10-08",
   "updated_pt": "11:23 AM PT",
@@ -682,6 +682,33 @@
    "status": "open",
    "exit": null,
    "notes": "MoonTrades7 10:20 AM at .45; add-on 10:20 AM at .50 (https://x.com/MoonTrades7/status/2108608674122113388); 10:27 AM 'MSM .60 already' (https://x.com/MoonTrades7/status/2108610308830871558). Thin: vol 4, OI 22. D 2↑ (prior high 129.97 taken, aligned); W 1 inside (no prior bar break)."
+  },
+  {
+   "time": "11:14 AM",
+   "ticker": "TKR",
+   "side": "CALL",
+   "strike": 120,
+   "expiry": "10/16",
+   "entry": 1.1,
+   "source": "Discord proph (#free-alerts)",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1558180796391489690",
+   "underlying": 117.0,
+   "otm_pct": 2.6,
+   "opt_last": 0.9,
+   "bid": 0.55,
+   "ask": 0.9,
+   "spread_pct": 48,
+   "vol": 4,
+   "oi": 112,
+   "iv": 29.4,
+   "impl_move": "±4.90 (±4.2%)",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↓",
+   "status": "open",
+   "exit": null,
+   "notes": "proph 11:14 AM at $1.10 'gap fill play + $150 PT upgrade by Oppenheimer, swing'; reposted 11:14 AM (merged: https://discord.com/channels/948036115254878249/1525232955872772279/1558180847415332919). Wide spread 48% of mid; vol 4 thin, OI 112. D 2↑ (prior high 115.72 taken, aligned); W 2↓ (prior low 113.62 taken, high 122.77 not; not aligned)."
   }
  ]
 }
