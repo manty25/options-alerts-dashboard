@@ -1,6 +1,6 @@
 {
  "date": "2026-10-09",
- "updated_pt": "2026-10-09T11:15:00-07:00",
+ "updated_pt": "2026-10-09T11:15:00-07:00 11:20 AM PT",
  "previous": {
   "date": "2026-10-08",
   "updated_pt": "11:23 AM PT",
@@ -709,6 +709,33 @@
    "status": "open",
    "exit": null,
    "notes": "proph 11:14 AM at $1.10 'gap fill play + $150 PT upgrade by Oppenheimer, swing'; reposted 11:14 AM (merged: https://discord.com/channels/948036115254878249/1525232955872772279/1558180847415332919). Wide spread 48% of mid; vol 4 thin, OI 112. D 2↑ (prior high 115.72 taken, aligned); W 2↓ (prior low 113.62 taken, high 122.77 not; not aligned)."
+  },
+  {
+   "time": "11:14 AM",
+   "ticker": "FERG",
+   "side": "CALL",
+   "strike": 230,
+   "expiry": "10/16",
+   "entry": 0.7,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2108622192208728463",
+   "underlying": 220.27,
+   "otm_pct": 4.4,
+   "opt_last": 0.66,
+   "bid": 0.25,
+   "ask": 1.0,
+   "spread_pct": 120,
+   "vol": 2,
+   "oi": 273,
+   "iv": 31.4,
+   "impl_move": "±6.90 (±3.1%)",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↓",
+   "status": "open",
+   "exit": null,
+   "notes": "StockOptions888 11:14 AM at $0.70 'HIGH CONFIDENCE, can go 500%'. Very wide spread 120% of mid; vol 2 thin, OI 273. D 2↑ (prior high 216.79 taken, aligned); W 2↓ (prior low 218.26 taken, high 227.40 not; not aligned)."
   }
  ]
 }
