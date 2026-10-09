@@ -1,6 +1,6 @@
 {
  "date": "2026-10-09",
- "updated_pt": "2026-10-09 09:21",
+ "updated_pt": "2026-10-09 09:48",
  "previous": {
   "date": "2026-10-08",
   "updated_pt": "11:23 AM PT",
@@ -601,6 +601,33 @@
    "status": "open",
    "exit": null,
    "notes": "MoonTrades7 $1K-$100K challenge trade: 5 contracts @ .95 (8:56 AM), then a second post @ .85 (8:57 AM, https://x.com/MoonTrades7/status/2108587710122193261). D 2↑ taking prior high 210.92 (aligned); W 2↑ taking prior high 212.12 (aligned)."
+  },
+  {
+   "time": "9:40 AM",
+   "ticker": "MMSI",
+   "side": "CALL",
+   "strike": 90,
+   "expiry": "10/16",
+   "entry": 0.4,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2108598472467443894",
+   "underlying": 87.32,
+   "otm_pct": 3.1,
+   "opt_last": 0.2,
+   "bid": 0.1,
+   "ask": 0.3,
+   "spread_pct": 100,
+   "vol": 3,
+   "oi": 213,
+   "iv": 22.8,
+   "impl_move": "±3.92 (±4.5%)",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "3",
+   "status": "open",
+   "exit": null,
+   "notes": "StockOptions888 post 9:40 AM at .40; follow-up 9:40 AM 'THIS CAN GO 500%' (https://x.com/StockOptions888/status/2108598596153295203). Thin: vol 3, bid-ask 0.1-0.3 (100% of mid). D 2↑ taking prior high 85.81 (aligned); W 3 outside, current week took out prior high and low (mixed/neutral)."
   }
  ]
 }
