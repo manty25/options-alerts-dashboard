@@ -1,6 +1,6 @@
 {
  "date": "2026-10-09",
- "updated_pt": "2026-10-09T12:07:00-07:00",
+ "updated_pt": "2026-10-09T12:40:00-07:00",
  "previous": {
   "date": "2026-10-08",
   "updated_pt": "11:23 AM PT",
@@ -904,6 +904,35 @@
    "status": "open",
    "exit": null,
    "notes": "StockOptions888 11:55 AM 'HIGH CONFIDENCE' QLYS 220C 10/16 at $0.90; follow-up 'QLYS 230 potential'. Now last 0.70 (bid 0.20/ask 0.75, 116% of mid, wide); vol 4 (thin), OI 594. D 2↑ (prior high 201.79 taken, aligned); W 2↑ (prior high 195.40 taken, aligned).",
+   "reversal_daily": "",
+   "reversal_weekly": ""
+  },
+  {
+   "time": "12:25 PM",
+   "ticker": "PLTR",
+   "side": "CALL",
+   "strike": 215,
+   "expiry": "10/16",
+   "entry": 1.95,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2108639963268980840",
+   "underlying": 208.18,
+   "otm_pct": 3.3,
+   "opt_last": 1.87,
+   "bid": 1.94,
+   "ask": 1.95,
+   "spread_pct": 1,
+   "vol": 26210,
+   "oi": 3990,
+   "iv": 36.6,
+   "impl_move": "±9.38 (±4.5%)",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "status": "open",
+   "exit": null,
+   "notes": "MoonTrades7 12:25 PM $1K-$100K challenge trade, PLTR 215C 10/16 @ 1.95, 'all time high breakout', 5 contracts. Liquid (vol 26.2K, OI 3,990, tight spread). D 2↑ (prior high 204.44 taken, aligned); W 2↑ (prior high 194.78 taken, aligned). Reversal D: none | W: none.",
    "reversal_daily": "",
    "reversal_weekly": ""
   }
