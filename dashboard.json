@@ -1,6 +1,6 @@
 {
  "date": "2026-10-09",
- "updated_pt": "2026-10-09T11:56:00-07:00",
+ "updated_pt": "2026-10-09T12:07:00-07:00",
  "previous": {
   "date": "2026-10-08",
   "updated_pt": "11:23 AM PT",
@@ -817,6 +817,33 @@
    "status": "open",
    "exit": null,
    "notes": "Moon 11:51 AM 0DTE at $0.32 'lotto'. Now last 0.12 (bid 0.11/ask 0.13, 17% of mid); vol 55.6k, OI 6.9k, liquid. D 2↑ (prior high 204.44 taken, aligned); W 2↑ (prior high 194.78 taken, aligned)."
+  },
+  {
+   "time": "11:55 AM",
+   "ticker": "QLYS",
+   "side": "CALL",
+   "strike": 220,
+   "expiry": "10/16",
+   "entry": 0.9,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2108632497466855734",
+   "underlying": 201.01,
+   "otm_pct": 9.4,
+   "opt_last": 0.7,
+   "bid": 0.2,
+   "ask": 0.75,
+   "spread_pct": 116,
+   "vol": 4,
+   "oi": 594,
+   "iv": 48.5,
+   "impl_move": "n/a",
+   "prev_daily": "3",
+   "daily": "2↑",
+   "prev_weekly": "3",
+   "weekly": "2↑",
+   "status": "open",
+   "exit": null,
+   "notes": "StockOptions888 11:55 AM 'HIGH CONFIDENCE' QLYS 220C 10/16 at $0.90; follow-up 'QLYS 230 potential'. Now last 0.70 (bid 0.20/ask 0.75, 116% of mid, wide); vol 4 (thin), OI 594. D 2↑ (prior high 201.79 taken, aligned); W 2↑ (prior high 195.40 taken, aligned)."
   }
  ]
 }
