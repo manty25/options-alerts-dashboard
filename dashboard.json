@@ -1,6 +1,6 @@
 {
  "date": "2026-10-09",
- "updated_pt": "2026-10-09T11:46:00-07:00",
+ "updated_pt": "2026-10-09T11:56:00-07:00",
  "previous": {
   "date": "2026-10-08",
   "updated_pt": "11:23 AM PT",
@@ -790,6 +790,33 @@
    "status": "open",
    "exit": null,
    "notes": "888 11:42 AM at $0.15 'high confidence', 'can go 1000%'. Bid 0 / ask 0.25 (200% of mid) wide; vol 1 thin, OI 671. D 2↑ (prior high 103.79 taken, aligned); W inside bar (1), no prior high/low taken yet."
+  },
+  {
+   "time": "11:51 AM",
+   "ticker": "PLTR",
+   "side": "CALL",
+   "strike": 207.5,
+   "expiry": "10/09",
+   "entry": 0.32,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2108631504968433687",
+   "underlying": 207.51,
+   "otm_pct": 0.0,
+   "opt_last": 0.12,
+   "bid": 0.11,
+   "ask": 0.13,
+   "spread_pct": 17,
+   "vol": 55572,
+   "oi": 6884,
+   "iv": 2.9,
+   "impl_move": "±1.56 (±0.7%)",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "status": "open",
+   "exit": null,
+   "notes": "Moon 11:51 AM 0DTE at $0.32 'lotto'. Now last 0.12 (bid 0.11/ask 0.13, 17% of mid); vol 55.6k, OI 6.9k, liquid. D 2↑ (prior high 204.44 taken, aligned); W 2↑ (prior high 194.78 taken, aligned)."
   }
  ]
 }
