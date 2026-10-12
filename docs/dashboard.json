@@ -1,6 +1,6 @@
 {
  "date": "2026-10-12",
- "updated_pt": "11:56 AM PT",
+ "updated_pt": "12:39 PM PT",
  "previous": {
   "date": "2026-10-09",
   "updated_pt": "2026-10-09T12:40:00-07:00",
@@ -759,6 +759,35 @@
    "status": "open",
    "exit": null,
    "notes": "$1K-$100K challenge trade, 10 contracts, 'suspect bull flow'; entry .24. Strike 1.2% ITM. Liquid, tight spread. D 2↑→2↑ over prior high 6.35; W 2↑→2↑ over prior weekly high 6.35; aligned bullish.",
+   "reversal_daily": "",
+   "reversal_weekly": ""
+  },
+  {
+   "time": "12:24 PM",
+   "ticker": "FMBH",
+   "side": "CALL",
+   "strike": 50,
+   "expiry": "10/16",
+   "entry": 0.45,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2109727012562858260",
+   "underlying": 49.46,
+   "otm_pct": 1.1,
+   "opt_last": 0.4,
+   "bid": 0.4,
+   "ask": 0.5,
+   "spread_pct": 22,
+   "vol": 454,
+   "oi": 20,
+   "iv": 31.8,
+   "impl_move": "±2.95 (±6.0%)",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "1",
+   "weekly": "1",
+   "status": "open",
+   "exit": null,
+   "notes": "'HIGH CONFIDENCE' call @ .45; follow-up 12:25 PT '50 cents from ITM we go 250%'. Thin: OI 20 and wide spread (22% of mid). D 2↓→2↑ over prior high 49.13, lines up bullish; W 1→1 inside week, no confirmation.",
    "reversal_daily": "",
    "reversal_weekly": ""
   }
