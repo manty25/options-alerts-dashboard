@@ -1,6 +1,6 @@
 {
  "date": "2026-10-12",
- "updated_pt": "10:48 AM PT",
+ "updated_pt": "11:28 AM PT",
  "previous": {
   "date": "2026-10-09",
   "updated_pt": "2026-10-09T12:40:00-07:00",
@@ -672,6 +672,35 @@
    "status": "open",
    "exit": null,
    "notes": "INSIDE BAR @ 0.32. D taking prior high (1→2↑); W continuing 2↑; both align bullish.",
+   "reversal_daily": "",
+   "reversal_weekly": ""
+  },
+  {
+   "time": "11:26 AM",
+   "ticker": "GBX",
+   "side": "CALL",
+   "strike": 40,
+   "expiry": "10/16",
+   "entry": 0.4,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2109712267071955057",
+   "underlying": 39.4,
+   "otm_pct": 1.5,
+   "opt_last": 0.37,
+   "bid": 0.05,
+   "ask": 0.5,
+   "spread_pct": 164,
+   "vol": 1,
+   "oi": 2,
+   "iv": 41.1,
+   "impl_move": "±1.73 (±4.4%)",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "1",
+   "status": "open",
+   "exit": null,
+   "notes": "HIGH CONFIDENCE; entry .40. Thin OI/vol + wide spread. D 2↑→2↑ (over prior high 39.04), W 1 inside after prior 2↓; daily aligned bullish, weekly still repairing.",
    "reversal_daily": "",
    "reversal_weekly": ""
   }
