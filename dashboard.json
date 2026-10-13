@@ -1,6 +1,6 @@
 {
  "date": "2026-10-13",
- "updated_pt": "7:44 AM PT",
+ "updated_pt": "8:03 AM PT",
  "previous": {
   "date": "2026-10-12",
   "updated_pt": "12:50 PM PT",
@@ -466,9 +466,9 @@
    "daily": "2↑",
    "prev_weekly": "2↑",
    "weekly": "2↑",
-   "status": "open",
-   "exit": null,
-   "notes": "BTO 5 @ 1.09. D 2↑→2↑ over prior high 356.50; W 2↑→2↑ over prior week high 356.83; aligned bullish.",
+   "status": "exited",
+   "exit": 1.88,
+   "notes": "BTO 5 @ 1.09. D 2↑→2↑ over prior high 356.50; W 2↑→2↑ over prior week high 356.83; aligned bullish. | Exits: STC 3 @ 1.44 (7:52 AM PT), STC 2 @ 1.88 (8:03 AM PT); fully out (5 of 5), avg ≈1.62 vs 1.09 entry.",
    "reversal_daily": "",
    "reversal_weekly": ""
   },
