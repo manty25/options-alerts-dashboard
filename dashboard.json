@@ -1,6 +1,6 @@
 {
  "date": "2026-10-13",
- "updated_pt": "8:03 AM PT",
+ "updated_pt": "8:48 AM PT",
  "previous": {
   "date": "2026-10-12",
   "updated_pt": "12:50 PM PT",
@@ -498,6 +498,35 @@
    "status": "open",
    "exit": null,
    "notes": "INSIDE BAR. Wide spread (55% of mid); thin vol (1). D 2↑ over prior high 99.55, aligned bullish; W 1 inside prior week (prior W was 2↓).",
+   "reversal_daily": "",
+   "reversal_weekly": ""
+  },
+  {
+   "time": "8:37 AM",
+   "ticker": "CNXN",
+   "side": "CALL",
+   "strike": 100,
+   "expiry": "10/16",
+   "entry": null,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2110032309328203857",
+   "underlying": 95.93,
+   "otm_pct": 4.2,
+   "opt_last": 0.3,
+   "bid": 0.05,
+   "ask": 0.4,
+   "spread_pct": 156,
+   "vol": 127,
+   "oi": 5,
+   "iv": 42.1,
+   "impl_move": "±2.95 (±3.1%)",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "1",
+   "weekly": "2↑",
+   "status": "open",
+   "exit": null,
+   "notes": "No entry stated. Thin: OI 5, very wide spread (156% of mid). D 2↑ again (over prior high 94.87), W 2↑ out of an inside week (over 93.87); aligned bullish.",
    "reversal_daily": "",
    "reversal_weekly": ""
   }
