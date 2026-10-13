@@ -1,6 +1,6 @@
 {
  "date": "2026-10-13",
- "updated_pt": "6:41 AM PT",
+ "updated_pt": "7:20 AM PT",
  "previous": {
   "date": "2026-10-12",
   "updated_pt": "12:50 PM PT",
@@ -412,6 +412,35 @@
    "exit": 4.17,
    "notes": "0DTE SPXW; BTO 5 @ 2.10 (6:35). Exited fast: STC 3 @ 3.95 (6:38), STC 2 @ 4.50 (6:39); avg ~4.17 (~+99%). Quote data was stale (last trade Oct 12, no live bid/ask, vol/OI from prior session; IV not usable). Underlying = Oct 12 close. D 2↑→2↑ through Oct 12 (over prior high 7820.57), aligned bullish; W 2↑→1 inside prior week so far.",
    "reversal_daily": "",
+   "reversal_weekly": ""
+  },
+  {
+   "time": "7:09 AM",
+   "ticker": "BBAI",
+   "side": "CALL",
+   "strike": 2.5,
+   "expiry": "10/16",
+   "entry": 0.06,
+   "source": "Discord LTP #bcf (BCF)",
+   "link": "https://discord.com/channels/1244040902117167174/1484651542077505677/1559568857079742585",
+   "underlying": 2.42,
+   "otm_pct": 3.1,
+   "opt_last": 0.06,
+   "bid": 0.06,
+   "ask": 0.07,
+   "spread_pct": 15,
+   "vol": 5314,
+   "oi": 1864,
+   "iv": 95.3,
+   "impl_move": "±0.21 (±8.7%)",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↓",
+   "status": "open",
+   "exit": null,
+   "notes": "BTO 30 @ 0.06. D 2↑ over prior high 2.38 (aligned bullish); W 2↓ under prior week low 2.34. Reversal D: 2↓→green + vol↑.",
+   "reversal_daily": "2↓→green + vol↑",
    "reversal_weekly": ""
   }
  ]
