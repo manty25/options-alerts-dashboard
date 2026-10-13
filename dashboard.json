@@ -1,6 +1,6 @@
 {
   "date": "2026-10-13",
-  "updated_pt": "11:40 AM PT",
+  "updated_pt": "11:43 AM PT",
   "previous": {
     "date": "2026-10-12",
     "updated_pt": "12:50 PM PT",
@@ -672,6 +672,35 @@
       "status": "open",
       "exit": null,
       "notes": "HIGH CONFIDENCE; ADDED HEAVY; re-posted 11:31. Thin (OI 18, vol 4); wide spread (67% of mid). D 2↑ (took prior high 46.54), W 2↑ (took prior high 45.85); lines up with bullish bias. Strike ~4.9% OTM vs ±6.6% implied move.",
+      "reversal_daily": "",
+      "reversal_weekly": ""
+    },
+    {
+      "time": "11:37 AM",
+      "ticker": "MSM",
+      "side": "CALL",
+      "strike": 135,
+      "expiry": "10/16",
+      "entry": 0.6,
+      "source": "Discord Diamond #free-alerts (proph)",
+      "link": "https://discord.com/channels/948036115254878249/1525232955872772279",
+      "underlying": 131.71,
+      "otm_pct": 2.5,
+      "opt_last": 0.35,
+      "bid": 0.25,
+      "ask": 0.45,
+      "spread_pct": 57,
+      "vol": 7,
+      "oi": 276,
+      "iv": 28.4,
+      "impl_move": "n/a",
+      "prev_daily": "1",
+      "daily": "3",
+      "prev_weekly": "1",
+      "weekly": "2↓",
+      "status": "open",
+      "exit": null,
+      "notes": "Bullish outside bar + ATH/pivot breakout, $152 PT/Barclays buy (posted 4x). Entry 0.60 vs last 0.35 / mid 0.35. Low volume (7); wide spread (57% of mid). D 3 outside (took prior H130.77 & L128.67), W 2↓ (took prior L127.51, not H132.19); mixed vs bullish bias.",
       "reversal_daily": "",
       "reversal_weekly": ""
     }
