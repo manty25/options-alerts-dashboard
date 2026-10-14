@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updated_pt": "6:46 AM PT",
+  "updated_pt": "7:06 AM PT",
   "previous": {
     "date": "2026-10-13",
     "updated_pt": "11:59 AM PT",
@@ -382,6 +382,35 @@
       "status": "open",
       "exit": null,
       "notes": "BTO AAPL 16 OCT 26 350C @ 1.25; pivot breakouts + ATH potential; high-risk. Entry mid now ~1.12.",
+      "reversal_daily": "",
+      "reversal_weekly": ""
+    },
+    {
+      "time": "6:58 AM",
+      "ticker": "MU",
+      "side": "PUT",
+      "strike": 930,
+      "expiry": "10/14",
+      "entry": 3.5,
+      "source": "Discord LTP #bcf (BCF)",
+      "link": "https://discord.com/channels/1244040902117167174/1484651542077505677/1559928455586390097",
+      "underlying": 943.85,
+      "otm_pct": 1.5,
+      "opt_last": 3.21,
+      "bid": 3.1,
+      "ask": 3.35,
+      "spread_pct": 8.0,
+      "vol": 2792,
+      "oi": 1182,
+      "iv": 43.7,
+      "impl_move": "\u00b115.27 (\u00b11.6%)",
+      "prev_daily": "2\u2193",
+      "daily": "1",
+      "prev_weekly": "2\u2193",
+      "weekly": "2\u2193",
+      "status": "open",
+      "exit": null,
+      "notes": "BTO 2 MU 930p 10/14 @ 3.50. Entry mid now ~3.23.",
       "reversal_daily": "",
       "reversal_weekly": ""
     }
