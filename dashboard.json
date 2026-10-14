@@ -1,6 +1,6 @@
 {
  "date": "2026-10-14",
- "updated_pt": "2026-10-14 11:31 AM PT",
+ "updated_pt": "2026-10-14 11:58 AM PT",
  "previous": {
   "date": "2026-10-13",
   "updated_pt": "11:59 AM PT",
@@ -643,6 +643,35 @@
    "status": "open",
    "exit": null,
    "notes": "Entry @ 0.48 (momentum trade, continuation, high confidence). Vol 152 / OI 256 OK. Wide spread 47% of mid (0.33–0.53); last 0.42. IV 20.2%. D 2↑→2↑ over prior high 966.00; W 2↑→2↑ over prior week high 953.25, lines up with bullish call. Reversal none.",
+   "reversal_daily": "",
+   "reversal_weekly": ""
+  },
+  {
+   "time": "11:53 AM",
+   "ticker": "PLMR",
+   "side": "CALL",
+   "strike": 140,
+   "expiry": "10/16",
+   "entry": 0.8,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2110443905611173969",
+   "underlying": 135.8,
+   "otm_pct": 3.1,
+   "opt_last": 0.45,
+   "bid": 0.3,
+   "ask": 0.5,
+   "spread_pct": 50,
+   "vol": 25,
+   "oi": 23,
+   "iv": 38.3,
+   "impl_move": "±4.38 (±3.2%)",
+   "prev_daily": "2↑",
+   "daily": "3",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "status": "open",
+   "exit": null,
+   "notes": "Entry @ .80 per post (\"THIS CAN DOUBLE TODAY\"); quote shows last 0.45, bid/ask 0.30–0.50. THIN: vol 25 / OI 23, wide spread 50% of mid. IV 38.3%. D 2↑→3 outside bar (took out prior high 135.82 and low 133.24), closing green; W 2↑→2↑ over prior week high 132.75, lines up with bullish call. Reversal none.",
    "reversal_daily": "",
    "reversal_weekly": ""
   }
