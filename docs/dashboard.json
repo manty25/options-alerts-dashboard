@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "updated_pt": "2026-10-14 7:44 AM PT",
+  "updated_pt": "2026-10-14 8:19 AM PT",
   "previous": {
     "date": "2026-10-13",
     "updated_pt": "11:59 AM PT",
@@ -466,9 +466,9 @@
       "daily": "2\u2191",
       "prev_weekly": "2\u2191",
       "weekly": "2\u2191",
-      "status": "open",
-      "exit": null,
-      "notes": "Momentum trade @ 0.66. Wide spread (62% of mid). D 2\u2191\u21922\u2191 over prior day high 966.00; W 2\u2191\u21922\u2191 over prior week high 953.25; lines up with bullish call.",
+      "status": "exited",
+      "exit": 1.32,
+      "notes": "Momentum trade @ 0.66. Wide spread (62% of mid). D 2\u2191\u21922\u2191 over prior day high 966.00; W 2\u2191\u21922\u2191 over prior week high 953.25; lines up with bullish call. | Out @ 1.32 (8:14\u20138:16 AM PT; 100% vs 0.66 entry).",
       "reversal_daily": "",
       "reversal_weekly": ""
     }
