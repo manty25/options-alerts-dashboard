@@ -1,6 +1,6 @@
 {
  "date": "2026-10-14",
- "updated_pt": "7:19 AM PT",
+ "updated_pt": "2026-10-14 7:23 AM PT",
  "previous": {
   "date": "2026-10-13",
   "updated_pt": "11:59 AM PT",
@@ -440,6 +440,35 @@
    "status": "exited",
    "exit": 1.83,
    "notes": "BTO 5 @ 1.26. 0DTE. ITM 0.2%. D 2↑→1 inside; W 1→2↑ over prior week high 341.57. STC 5 @ 1.83 at 7:11 AM PT (+45% vs 1.26 entry).",
+   "reversal_daily": "",
+   "reversal_weekly": ""
+  },
+  {
+   "time": "7:21 AM",
+   "ticker": "COST",
+   "side": "CALL",
+   "strike": 990,
+   "expiry": "10/16",
+   "entry": 0.66,
+   "source": "Discord Diamond #free-alerts (proph)",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1559934135299211376",
+   "underlying": 966.59,
+   "otm_pct": 2.4,
+   "opt_last": 0.63,
+   "bid": 0.32,
+   "ask": 0.61,
+   "spread_pct": 62,
+   "vol": 52,
+   "oi": 650,
+   "iv": 18.8,
+   "impl_move": "±12.88 (±1.3%)",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "status": "open",
+   "exit": null,
+   "notes": "Momentum trade @ 0.66. Wide spread (62% of mid). D 2↑→2↑ over prior day high 966.00; W 2↑→2↑ over prior week high 953.25; lines up with bullish call.",
    "reversal_daily": "",
    "reversal_weekly": ""
   }
