@@ -1,6 +1,6 @@
 {
  "date": "2026-10-14",
- "updated_pt": "2026-10-14 8:57 AM PT",
+ "updated_pt": "2026-10-14 10:46 AM PT",
  "previous": {
   "date": "2026-10-13",
   "updated_pt": "11:59 AM PT",
@@ -556,6 +556,35 @@
    "status": "open",
    "exit": null,
    "notes": "Swing entry @ 0.45 ('SAFE +200% potential'). Thin (vol 4, OI 5). Bid/ask unusable (0–2.30, 200% of mid); last 1.43 vs entry 0.45. IV 58.5%. D 2↓→2↓ under prior day low 50.00 (against bullish bias so far); W 1→3 outside week (took prior H53.43 and L51.56).",
+   "reversal_daily": "",
+   "reversal_weekly": ""
+  },
+  {
+   "time": "10:43 AM",
+   "ticker": "AIZ",
+   "side": "CALL",
+   "strike": 280,
+   "expiry": "10/16",
+   "entry": 0.8,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2110426221427249189",
+   "underlying": 276.09,
+   "otm_pct": 1.4,
+   "opt_last": 0.3,
+   "bid": 0.0,
+   "ask": 0.95,
+   "spread_pct": 200,
+   "vol": 1,
+   "oi": 11,
+   "iv": 24.0,
+   "impl_move": 2.7,
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "status": "open",
+   "exit": null,
+   "notes": "Entry @ 0.80 ('THIS CAN DOUBLE TODAY'). Thin (vol 1, OI 11). Bid/ask 0–0.95 (200% of mid 0.475); last 0.30 vs entry 0.80. IV 24%, implied move ±7.42 (±2.7%) to 10/16. D 2↑→2↑ took prior day high 271.24; W 2↑→2↑ took prior week high 274.63; lines up with bullish bias.",
    "reversal_daily": "",
    "reversal_weekly": ""
   }
