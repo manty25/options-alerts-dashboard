@@ -1,6 +1,6 @@
 {
  "date": "2026-10-15",
- "updated_pt": "2026-10-15 9:37 AM PT",
+ "updated_pt": "2026-10-15 9:53 AM PT",
  "previous": {
   "date": "2026-10-14",
   "updated_pt": "2026-10-14 12:28 PM PT",
@@ -721,6 +721,37 @@
    "reversal_weekly": "",
    "iv_rank": 18,
    "iv_pctl": 41
+  },
+  {
+   "time": "9:52 AM",
+   "ticker": "SPY",
+   "side": "CALL",
+   "strike": 770,
+   "expiry": "10/15",
+   "entry": 0.72,
+   "source": "Discord LTP #bcf (BCF)",
+   "link": "https://discord.com/channels/1244040902117167174/1484651542077505677",
+   "underlying": 769.2,
+   "otm_pct": 0.1,
+   "opt_last": 0.93,
+   "bid": 0.93,
+   "ask": 0.94,
+   "spread_pct": 1.0,
+   "vol": 371580,
+   "oi": 12490,
+   "iv": 8.1,
+   "impl_move": "±2.24 (±0.3%)",
+   "prev_daily": "2↓",
+   "daily": "2↓",
+   "prev_weekly": "2↑",
+   "weekly": "2↓",
+   "status": "open",
+   "exit": null,
+   "notes": "BTO 5 SPY 770c 10/15 @ 0.72, SL under 769. 0DTE. Liquid (vol 371580, OI 12490, 1% spread). D 2↓ and W 2↓, both took out prior lows; structure doesn't line up with the bullish call.",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 10,
+   "iv_pctl": 12
   }
  ]
 }
