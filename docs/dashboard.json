@@ -1,6 +1,6 @@
 {
  "date": "2026-10-15",
- "updated_pt": "11:32 AM PT",
+ "updated_pt": "12:21 PM PT",
  "previous": {
   "date": "2026-10-14",
   "updated_pt": "2026-10-14 12:28 PM PT",
@@ -907,6 +907,37 @@
    "reversal_weekly": "",
    "iv_rank": 51,
    "iv_pctl": 53
+  },
+  {
+   "time": "12:18 PM",
+   "ticker": "VEON",
+   "side": "CALL",
+   "strike": 85,
+   "expiry": "10/16",
+   "entry": 0.95,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2110812499758997902",
+   "underlying": 84.97,
+   "otm_pct": 0.0,
+   "opt_last": 0.44,
+   "bid": 0.0,
+   "ask": 0.5,
+   "spread_pct": 200.0,
+   "vol": 46,
+   "oi": 372,
+   "iv": 20.5,
+   "impl_move": "±1.97 (±2.3%)",
+   "prev_daily": "2↑",
+   "daily": "3",
+   "prev_weekly": "1",
+   "weekly": "2↑",
+   "status": "open",
+   "exit": null,
+   "notes": "UNDERPRICED GLITCHED CONTRACT @ .95, reposted 12:19 PM @ 1.10. At the money. Quote looks stale or thin vs the caller's price: last 0.44, bid 0 / ask 0.50, spread 200% of mid; vol 46 (thin), OI 372. D 2↑→3 outside bar took out yesterday's high and low, closing up; W 1→2↑ took out last week's high. Daily and weekly both lean with the bullish call.",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 46,
+   "iv_pctl": 54
   }
  ]
 }
