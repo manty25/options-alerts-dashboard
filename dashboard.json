@@ -555,7 +555,7 @@
       "weekly": "2\u2193",
       "status": "open",
       "exit": null,
-      "notes": "SPY 15 OCT 26 $770 PUT @ 1.25; 0DTE. Mid now ~1.18. Strat D 2\u2193\u21922\u2193 W 2\u2191\u21922\u2193 (aligns with put bias on daily).",
+      "notes": "SPY 15 OCT 26 $770 PUT @ 1.25; 0DTE. Mid now ~1.18. Strat D 2\u2193\u21922\u2193 W 2\u2191\u21922\u2193 (aligns with put bias on daily). | SL above 770.65",
       "reversal_daily": "",
       "reversal_weekly": ""
     }
