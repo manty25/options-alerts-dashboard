@@ -1,6 +1,6 @@
 {
  "date": "2026-10-15",
- "updated_pt": "11:24 AM PT",
+ "updated_pt": "11:32 AM PT",
  "previous": {
   "date": "2026-10-14",
   "updated_pt": "2026-10-14 12:28 PM PT",
@@ -876,6 +876,37 @@
    "reversal_weekly": "",
    "iv_rank": 30,
    "iv_pctl": 28
+  },
+  {
+   "time": "11:27 AM",
+   "ticker": "JOE",
+   "side": "CALL",
+   "strike": 70,
+   "expiry": "10/16",
+   "entry": 0.15,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2110799775385981431",
+   "underlying": 68.54,
+   "otm_pct": 2.1,
+   "opt_last": 0.1,
+   "bid": 0.0,
+   "ask": 0.15,
+   "spread_pct": 200.0,
+   "vol": 159,
+   "oi": 310,
+   "iv": 30.7,
+   "impl_move": "±2.35 (±3.4%)",
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "3",
+   "status": "open",
+   "exit": null,
+   "notes": "HIGH CONFIDENCE / SHORT SQUEEZE @ .15 (posted 3x). Strike 2.1% OTM. Wide: bid 0, spread 200% of mid; vol 159, OI 310. D 1→2↑ took out the prior day's high; W 2↓→3 outside bar took out last week's high and low, closing up. Daily and weekly both lean with the bullish call.",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 51,
+   "iv_pctl": 53
   }
  ]
 }
