@@ -1,6 +1,6 @@
 {
  "date": "2026-10-15",
- "updated_pt": "2026-10-15 8:55 AM PT",
+ "updated_pt": "2026-10-15 9:26 AM PT",
  "previous": {
   "date": "2026-10-14",
   "updated_pt": "2026-10-14 12:28 PM PT",
@@ -589,13 +589,14 @@
    "daily": "2↓",
    "prev_weekly": "2↑",
    "weekly": "2↓",
-   "status": "open",
-   "exit": 1.52,
-   "notes": "SPY 15 OCT 26 $770 PUT @ 1.25; 0DTE. Mid now ~1.18. Strat D 2↓→2↓ W 2↑→2↓ (aligns with put bias on daily). | SL above 770.65 | STC 1/3 @ 1.52 (8:34 AM PT; +21.6% vs 1.25); 2 still open",
+   "status": "exited",
+   "exit": "1.52 / 1.60",
+   "notes": "SPY 15 OCT 26 $770 PUT @ 1.25; 0DTE. Mid now ~1.18. Strat D 2↓→2↓ W 2↑→2↓ (aligns with put bias on daily). | SL above 770.65 | STC 1/3 @ 1.52 (8:34 AM PT; +21.6% vs 1.25); 2 still open | STC final 2 @ 1.60 (9:23 AM PT; +28% vs 1.25). Fully closed.",
    "reversal_daily": "",
    "reversal_weekly": "",
    "iv_rank": 10,
-   "iv_pctl": 12
+   "iv_pctl": 12,
+   "exit_price": 1.6
   },
   {
    "time": "8:34 AM",
