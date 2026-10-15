@@ -1,6 +1,6 @@
 {
  "date": "2026-10-15",
- "updated_pt": "2026-10-15 9:26 AM PT",
+ "updated_pt": "2026-10-15 9:37 AM PT",
  "previous": {
   "date": "2026-10-14",
   "updated_pt": "2026-10-14 12:28 PM PT",
@@ -690,6 +690,37 @@
    "reversal_weekly": "",
    "iv_rank": 60,
    "iv_pctl": 62
+  },
+  {
+   "time": "9:36 AM",
+   "ticker": "USO",
+   "side": "PUT",
+   "strike": 155,
+   "expiry": "10/16",
+   "entry": 0.52,
+   "source": "Discord LTP #bcf (BCF)",
+   "link": "https://discord.com/channels/1244040902117167174/1484651542077505677",
+   "underlying": 157.51,
+   "otm_pct": 1.6,
+   "opt_last": 0.57,
+   "bid": 0.54,
+   "ask": 0.58,
+   "spread_pct": 7.0,
+   "vol": 1937,
+   "oi": 1141,
+   "iv": 32.7,
+   "impl_move": "±3.16 (±2.0%)",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↑",
+   "status": "open",
+   "exit": null,
+   "notes": "BTO 10 USO 155p 10/16 @ 0.52. Liquid (vol 1937, OI 1141, 7% spread). D and W both 2↑, took out prior highs; structure doesn't line up with the bearish put.",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 18,
+   "iv_pctl": 41
   }
  ]
 }
