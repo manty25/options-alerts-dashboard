@@ -1,6 +1,6 @@
 {
   "date": "2026-10-16",
-  "updated_pt": "2026-10-16 6:41 AM PT",
+  "updated_pt": "2026-10-16 6:52 AM PT",
   "previous": {
     "date": "2026-10-15",
     "updated_pt": "12:21 PM PT",
@@ -626,9 +626,9 @@
       "reversal_weekly": "",
       "iv_rank": 28,
       "iv_pctl": 36,
-      "status": "open",
-      "exit": null,
-      "notes": "LOTTO / 0DTE"
+      "status": "exited",
+      "exit": 1.45,
+      "notes": "LOTTO / 0DTE | exit ~1.45 (+46%)"
     },
     {
       "time": "9:35 AM ET",
@@ -693,6 +693,38 @@
       "status": "open",
       "exit": null,
       "notes": "0DTE; MOMENTUM TRADE + HIGH CONFIDENCE. Original call not in channel; details from GAINER quote (call \u2192 $0.30 / 100%)."
+    },
+    {
+      "time": "9:50 AM ET",
+      "time_pt": "6:50 AM PT",
+      "ticker": "HD",
+      "side": "CALL",
+      "strike": 315,
+      "expiry": "2026-10-16",
+      "entry": 0.7,
+      "source": "Discord Learn Trade Profit #bcf (BCF)",
+      "link": "https://discord.com/channels/1244040902117167174/1484651542077505677/1560651208572674111",
+      "underlying": 313.31,
+      "otm_pct": 0.5,
+      "opt_last": 0.27,
+      "bid": 0.3,
+      "ask": 0.43,
+      "spread_pct": 36,
+      "vol": 47,
+      "oi": 1495,
+      "iv": 16.3,
+      "impl_move": 5.04,
+      "prev_daily": "2\u2191",
+      "daily": "2\u2191",
+      "prev_weekly": "2\u2191",
+      "weekly": "2\u2191",
+      "reversal_daily": "",
+      "reversal_weekly": "",
+      "iv_rank": 53,
+      "iv_pctl": 57,
+      "status": "open",
+      "exit": null,
+      "notes": "thin vol; wide spread"
     }
   ]
 }
