@@ -1,6 +1,6 @@
 {
  "date": "2026-10-16",
- "updated_pt": "2026-10-16 7:06 AM PT",
+ "updated_pt": "7:12 AM PT",
  "previous": {
   "date": "2026-10-15",
   "updated_pt": "12:21 PM PT",
@@ -757,6 +757,38 @@
    "status": "open",
    "exit": null,
    "notes": "thin OI/vol; wide spread | swing trade, 'added heavy'"
+  },
+  {
+   "time": "10:11 AM ET",
+   "time_pt": "7:11 AM PT",
+   "ticker": "AAPL",
+   "side": "CALL",
+   "strike": 345,
+   "expiry": "2026-10-16",
+   "entry": 1.25,
+   "source": "Discord Learn Trade Profit #bcf (BCF)",
+   "link": "https://discord.com/channels/1244040902117167174/1484651542077505677/1560656319130636289",
+   "underlying": 344.64,
+   "otm_pct": 0.1,
+   "opt_last": 1.15,
+   "bid": 1.12,
+   "ask": 1.15,
+   "spread_pct": 3,
+   "vol": 34896,
+   "oi": 32261,
+   "iv": 18.4,
+   "impl_move": 3.02,
+   "prev_daily": "3",
+   "daily": "1",
+   "prev_weekly": "1",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 60,
+   "iv_pctl": 70,
+   "status": "open",
+   "exit": null,
+   "notes": "0DTE, BTO 3"
   }
  ]
 }
