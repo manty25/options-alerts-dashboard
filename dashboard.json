@@ -1,6 +1,6 @@
 {
  "date": "2026-10-16",
- "updated_pt": "8:58 AM PT",
+ "updated_pt": "9:07 AM PT",
  "previous": {
   "date": "2026-10-15",
   "updated_pt": "12:21 PM PT",
@@ -979,6 +979,38 @@
    "status": "open",
    "exit": null,
    "notes": "Entry 0.25; gap fill / RS / sector strength / high confidence swing. Quote last 0.14 mid 0.10; WIDE spread 100% of mid (0.05–0.15). Vol 18 / OI 2 THIN. IV 29.9%. Impl move ~±9.3% (IV-approx; no puts on 11/20 chain). Strat D 2↑→2↑; W 2↑→2↑. Reversal none. IV rank 49 | IV pctl 46."
+  },
+  {
+   "time": "12:01 PM ET",
+   "time_pt": "9:01 AM PT",
+   "ticker": "FIZZ",
+   "side": "CALL",
+   "strike": 35,
+   "expiry": "11/20",
+   "entry": 1.75,
+   "source": "Discord Diamond Trading #free-alerts (proph)",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1560684095971790869",
+   "underlying": 35.12,
+   "otm_pct": -0.3,
+   "opt_last": 1.4,
+   "bid": 1.1,
+   "ask": 1.55,
+   "spread_pct": 34,
+   "vol": 20,
+   "oi": 4,
+   "iv": 34.0,
+   "impl_move": "±3.70 (±10.5%)",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 49,
+   "iv_pctl": 46,
+   "status": "open",
+   "exit": null,
+   "notes": "Entry 1.75; gap fill / RS / sector strength / high confidence swing (second FIZZ strike after 40C at 8:55). Strike ~ATM (ITM 0.3%). Quote last 1.40 mid 1.33; WIDE spread 34% of mid (1.10–1.55). Vol 20 / OI 4 THIN. IV 34%. Impl move ~±10.5% (IV-approx). Strat D 2↑→2↑; W 2↑→2↑. Reversal none. IV rank 49 | IV pctl 46."
   }
  ]
 }
