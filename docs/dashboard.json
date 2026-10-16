@@ -1,6 +1,6 @@
 {
  "date": "2026-10-16",
- "updated_pt": "9:07 AM PT",
+ "updated_pt": "11:42 AM PT",
  "previous": {
   "date": "2026-10-15",
   "updated_pt": "12:21 PM PT",
@@ -1011,6 +1011,38 @@
    "status": "open",
    "exit": null,
    "notes": "Entry 1.75; gap fill / RS / sector strength / high confidence swing (second FIZZ strike after 40C at 8:55). Strike ~ATM (ITM 0.3%). Quote last 1.40 mid 1.33; WIDE spread 34% of mid (1.10–1.55). Vol 20 / OI 4 THIN. IV 34%. Impl move ~±10.5% (IV-approx). Strat D 2↑→2↑; W 2↑→2↑. Reversal none. IV rank 49 | IV pctl 46."
+  },
+  {
+   "time": "2:36 PM ET",
+   "time_pt": "11:36 AM PT",
+   "ticker": "RLI",
+   "side": "CALL",
+   "strike": 65,
+   "expiry": "11/20",
+   "entry": 0.65,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2111164427131297916",
+   "underlying": 60.65,
+   "otm_pct": 7.2,
+   "opt_last": null,
+   "bid": null,
+   "ask": null,
+   "spread_pct": null,
+   "vol": null,
+   "oi": null,
+   "iv": 33.0,
+   "impl_move": "±8.10 (±13.4%)",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "1",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 50,
+   "iv_pctl": 54,
+   "status": "open",
+   "exit": null,
+   "notes": "Entry .65; reposted at .70 (11:38 PT) and .75 (11:40 PT), merged. 'SAFE +200% SWING'. Strike 7.2% OTM. 65C not listed in the Yahoo chain, so no option quote/vol/OI. IV 33% (as of 10/14). Impl move ~±13.4% from 55 ATM straddle. Strat D 2↑→2↑; W 1→2↑. Reversal none. IV rank 50 | IV pctl 54 (52w 10%–56%)."
   }
  ]
 }
