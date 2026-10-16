@@ -1,6 +1,6 @@
 {
  "date": "2026-10-16",
- "updated_pt": "2026-10-16 7:25 AM PT",
+ "updated_pt": "7:34 AM PT",
  "previous": {
   "date": "2026-10-15",
   "updated_pt": "12:21 PM PT",
@@ -793,8 +793,8 @@
   {
    "reversal_daily": "",
    "reversal_weekly": "",
-   "status": "open",
-   "exit": null,
+   "status": "exited",
+   "exit": 0.93,
    "time": "10:13 AM ET",
    "time_pt": "7:13 AM PT",
    "ticker": "NVDA",
@@ -820,7 +820,7 @@
    "weekly": "2↓",
    "iv_rank": 21,
    "iv_pctl": 16,
-   "notes": "0DTE, $1K to $100K Challenge entry"
+   "notes": "0DTE, $1K to $100K Challenge entry | Sold @ 0.93, +48% (7:23 AM PT)"
   },
   {
    "reversal_daily": "",
@@ -853,6 +853,38 @@
    "iv_rank": 77,
    "iv_pctl": 86,
    "notes": "0DTE, BTO 10, wide spread"
+  },
+  {
+   "reversal_daily": "",
+   "reversal_weekly": "2↓→green + vol↑",
+   "status": "open",
+   "exit": null,
+   "time": "10:31 AM ET",
+   "time_pt": "7:31 AM PT",
+   "ticker": "AVNT",
+   "side": "CALL",
+   "strike": 40,
+   "expiry": "2026-10-16",
+   "entry": 0.4,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2111102625186034107",
+   "underlying": 39.87,
+   "otm_pct": 0.3,
+   "opt_last": 0.15,
+   "bid": 0.1,
+   "ask": 0.2,
+   "spread_pct": 67,
+   "vol": 17,
+   "oi": 146,
+   "iv": 31.3,
+   "impl_move": 1.31,
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "1",
+   "iv_rank": 32,
+   "iv_pctl": 60,
+   "notes": "0DTE, posted twice (7:31:02 and 7:31:15 PT), thin volume, wide spread"
   }
  ]
 }
