@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated_pt": "2026-10-19T10:48:00-07:00",
+ "updated_pt": "11:01 AM PT",
  "previous": {
   "date": "2026-10-16",
   "updated_pt": "2026-10-16 12:33 PM PT",
@@ -869,6 +869,38 @@
    "status": "open",
    "exit": null,
    "notes": "$1K-$100K challenge trade @ .25, 10 contracts. Thin: vol 3, OI 5. Wide spread 0.50 (200% of mid). Strike 14.6% OTM. Strat D 2↓→1; W 2↑→1. Reversal none. IV rank 54 | IV pctl 80 (52w 14%–56%, as of 10/15)."
+  },
+  {
+   "time": "2:00 PM ET",
+   "time_pt": "11:00 AM PT",
+   "ticker": "HD",
+   "side": "CALL",
+   "strike": 325,
+   "expiry": "10/23",
+   "entry": 0.42,
+   "source": "Discord Diamond Trading #free-alerts (proph)",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1561801203921457184",
+   "underlying": 310.2,
+   "otm_pct": 4.8,
+   "opt_last": 0.31,
+   "bid": 0.27,
+   "ask": 0.41,
+   "spread_pct": 41,
+   "vol": 41,
+   "oi": 373,
+   "iv": 28.9,
+   "impl_move": "±8.18 (±2.6%)",
+   "prev_daily": "2↑",
+   "daily": "2↓",
+   "prev_weekly": "2↑",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 52,
+   "iv_pctl": 56,
+   "status": "open",
+   "exit": null,
+   "notes": "Relative/sector strength, high-confidence momentum trade @ 0.42. Thin: vol 41. Wide spread 0.14 (41% of mid). Strike 4.8% OTM. Strat D 2↑→2↓; W 2↑→1. Reversal none. IV rank 52 | IV pctl 56 (52w 20%–36%, as of 10/15)."
   }
  ]
 }
