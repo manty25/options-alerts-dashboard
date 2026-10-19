@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated_pt": "11:23 AM PT",
+ "updated_pt": "2026-10-19T11:35:51-07:00",
  "previous": {
   "date": "2026-10-16",
   "updated_pt": "2026-10-16 12:33 PM PT",
@@ -933,6 +933,38 @@
    "status": "open",
    "exit": null,
    "notes": "Gap fill play, high confidence, relative/sector strength, swing trade @ 0.75. Thin: vol 9, OI 17. Spread 0.20 (27% of mid). Strike 6.2% OTM. Strat D 3→2↓; W 2↑→1. Reversal none. IV rank 23 | IV pctl 20 (52w 21%–60%, as of 10/15)."
+  },
+  {
+   "time": "2:34 PM ET",
+   "time_pt": "11:34 AM PT",
+   "ticker": "SPX",
+   "side": "CALL",
+   "strike": 7705,
+   "expiry": "10/19",
+   "entry": 2.05,
+   "source": "Discord LTP #bcf (BCF)",
+   "link": "https://discord.com/channels/1244040902117167174/1484651542077505677/1561809889775321159",
+   "underlying": 7705.19,
+   "otm_pct": 0.0,
+   "opt_last": 5.1,
+   "bid": 5.0,
+   "ask": 5.1,
+   "spread_pct": 2,
+   "vol": 70016,
+   "oi": 1615,
+   "iv": 3.2,
+   "impl_move": "±10.65 (±0.1%)",
+   "prev_daily": "3",
+   "daily": "1",
+   "prev_weekly": "2↓",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": "n/a",
+   "iv_pctl": "n/a",
+   "status": "open",
+   "exit": null,
+   "notes": "BTO 3 SPX 7705c 0DTE @ 2.05. At the money; last 5.10 at check vs 2.05 entry. Spread 0.10 (2% of mid). Strat D 3→1; W 2↓→1. Reversal none. IV rank/pctl n/a."
   }
  ]
 }
