@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated_pt": "2026-10-19T08:25:00-07:00",
+ "updated_pt": "2026-10-19T08:55:00-07:00",
  "previous": {
   "date": "2026-10-16",
   "updated_pt": "2026-10-16 12:33 PM PT",
@@ -546,9 +546,9 @@
    "reversal_weekly": "",
    "iv_rank": 64,
    "iv_pctl": 72,
-   "status": "open",
-   "exit": 0.56,
-   "notes": "BTO 40 @ 0.27, SL close under 13 (stock). Posted expiry 10/26 isn't a listed CLF expiry (weeklies 10/23, 10/30); quality numbers use 10/23. Wide spread (42% of mid). Strike 5.5% OTM. Strat D 2↑→2↑; W 1→2↑. Reversal none. IV rank 64 | IV pctl 72 (52w 48%–85%, as of 10/15). | STC 20 @ 0.43 (+59%, 7:17 AM PT), holding 20. | STC 15 @ 0.56 (+107%, 8:01 AM PT), holding 5 runners."
+   "status": "exited",
+   "exit": 0.64,
+   "notes": "BTO 40 @ 0.27, SL close under 13 (stock). Posted expiry 10/26 isn't a listed CLF expiry (weeklies 10/23, 10/30); quality numbers use 10/23. Wide spread (42% of mid). Strike 5.5% OTM. Strat D 2↑→2↑; W 1→2↑. Reversal none. IV rank 64 | IV pctl 72 (52w 48%–85%, as of 10/15). | STC 20 @ 0.43 (+59%, 7:17 AM PT), holding 20. | STC 15 @ 0.56 (+107%, 8:01 AM PT), holding 5 runners. | STC 5 @ 0.64 (+137%, 8:42 AM PT), all out."
   },
   {
    "time": "10:12 AM ET",
@@ -645,6 +645,38 @@
    "status": "exited",
    "exit": 2.9,
    "notes": "BTO 2, size small (0DTE). Partial STC 1 @ 2.25 at 7:47 AM PT. OTM 0.5%. Strat D 2↓→2↓; W 3→2↓. Reversal none. IV rank 58 | IV pctl 79 (52w 23%–57%, as of 10/15). SL to breakeven on runner (7:49 AM PT). | STC 1 @ 2.90 (+90%, 8:10 AM PT), fully exited."
+  },
+  {
+   "time": "11:32 AM ET",
+   "time_pt": "8:32 AM PT",
+   "ticker": "ROST",
+   "side": "CALL",
+   "strike": 250,
+   "expiry": "10/23",
+   "entry": 0.5,
+   "source": "Discord Diamond Trading #free-alerts",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1561764031507992668",
+   "underlying": 239.02,
+   "otm_pct": 4.6,
+   "opt_last": 0.45,
+   "bid": 0.45,
+   "ask": 0.55,
+   "spread_pct": 20,
+   "vol": 977,
+   "oi": 15,
+   "iv": 32.6,
+   "impl_move": "±6.67 (±2.8%)",
+   "prev_daily": "2↑",
+   "daily": "1",
+   "prev_weekly": "2↑",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 54,
+   "iv_pctl": 59,
+   "status": "open",
+   "exit": null,
+   "notes": "proph: weekly bullish outside bar + relative/sector strength + momentum. Thin OI (15). Spread 0.10 (20% of mid). Strike 4.6% OTM. Strat D 2↑→1; W 2↑→1. Reversal none. IV rank 54 | IV pctl 59 (52w 15%–41%, as of 10/15)."
   }
  ]
 }
