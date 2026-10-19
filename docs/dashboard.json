@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated_pt": "2026-10-19T10:08:00-07:00",
+ "updated_pt": "2026-10-19T10:17:57-07:00",
  "previous": {
   "date": "2026-10-16",
   "updated_pt": "2026-10-16 12:33 PM PT",
@@ -805,6 +805,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph entry 0.38 (above current ask 0.31); 'inside bar setup, gap fill play, high confidence/conviction'. Second COST call after 1030C at 9:49. Wide spread 0.11 (43% of mid). Strike 4.8% OTM. Strat D 1→2↑; W 2↑→1. Reversal none. IV rank 16 | IV pctl 10 (52w 17%–30%, as of 10/15)."
+  },
+  {
+   "time": "1:16 PM ET",
+   "time_pt": "10:16 AM PT",
+   "ticker": "TX",
+   "side": "CALL",
+   "strike": 65,
+   "expiry": "11/20",
+   "entry": 0.4,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2112231388930015496",
+   "underlying": 57.91,
+   "otm_pct": 12.2,
+   "opt_last": 0.3,
+   "bid": 0.1,
+   "ask": 0.5,
+   "spread_pct": 133,
+   "vol": 5,
+   "oi": 2,
+   "iv": 36.3,
+   "impl_move": "±5.18 (±8.9%)",
+   "prev_daily": "2↓",
+   "daily": "1",
+   "prev_weekly": "1",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 55,
+   "iv_pctl": 85,
+   "status": "open",
+   "exit": null,
+   "notes": "'HIGH CONFIDENCE' entry .40; reposted 10:17 AM PT ('THIS CAN GO 10X', merged). Thin: vol 5, OI 2. Wide spread 0.40 (133% of mid). Strike 12.2% OTM. Strat D 2↓→1; W 1→1. Reversal none. IV rank 55 | IV pctl 85 (52w 11%–63%, as of 10/15)."
   }
  ]
 }
