@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated_pt": "2026-10-19T08:03:00-07:00",
+ "updated_pt": "2026-10-19T08:25:00-07:00",
  "previous": {
   "date": "2026-10-16",
   "updated_pt": "2026-10-16 12:33 PM PT",
@@ -642,9 +642,9 @@
    "reversal_weekly": "",
    "iv_rank": 58,
    "iv_pctl": 79,
-   "status": "open",
-   "exit": 2.25,
-   "notes": "BTO 2, size small (0DTE). Partial STC 1 @ 2.25 at 7:47 AM PT. OTM 0.5%. Strat D 2↓→2↓; W 3→2↓. Reversal none. IV rank 58 | IV pctl 79 (52w 23%–57%, as of 10/15). SL to breakeven on runner (7:49 AM PT)."
+   "status": "exited",
+   "exit": 2.9,
+   "notes": "BTO 2, size small (0DTE). Partial STC 1 @ 2.25 at 7:47 AM PT. OTM 0.5%. Strat D 2↓→2↓; W 3→2↓. Reversal none. IV rank 58 | IV pctl 79 (52w 23%–57%, as of 10/15). SL to breakeven on runner (7:49 AM PT). | STC 1 @ 2.90 (+90%, 8:10 AM PT), fully exited."
   }
  ]
 }
