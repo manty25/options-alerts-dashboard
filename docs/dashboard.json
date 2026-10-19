@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated_pt": "6:53 AM PT",
+ "updated_pt": "2026-10-19 7:19 AM PT",
  "previous": {
   "date": "2026-10-16",
   "updated_pt": "2026-10-16 12:33 PM PT",
@@ -547,8 +547,40 @@
    "iv_rank": 64,
    "iv_pctl": 72,
    "status": "open",
+   "exit": 0.43,
+   "notes": "BTO 40 @ 0.27, SL close under 13 (stock). Posted expiry 10/26 isn't a listed CLF expiry (weeklies 10/23, 10/30); quality numbers use 10/23. Wide spread (42% of mid). Strike 5.5% OTM. Strat D 2↑→2↑; W 1→2↑. Reversal none. IV rank 64 | IV pctl 72 (52w 48%–85%, as of 10/15). | STC 20 @ 0.43 (+59%, 7:17 AM PT), holding 20."
+  },
+  {
+   "time": "10:12 AM ET",
+   "time_pt": "7:12 AM PT",
+   "ticker": "QQQ",
+   "side": "PUT",
+   "strike": 717,
+   "expiry": "10/19",
+   "entry": 1.53,
+   "source": "Discord LTP #bcf",
+   "link": "https://discord.com/channels/1244040902117167174/1484651542077505677/1561743976774762640",
+   "underlying": 721.41,
+   "otm_pct": 0.6,
+   "opt_last": 2.16,
+   "bid": 2.16,
+   "ask": 2.17,
+   "spread_pct": 0,
+   "vol": 32479,
+   "oi": 1571,
+   "iv": 26.6,
+   "impl_move": "±5.25 (±0.7%)",
+   "prev_daily": "2↓",
+   "daily": "1",
+   "prev_weekly": "2↓",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 37,
+   "iv_pctl": 42,
+   "status": "open",
    "exit": null,
-   "notes": "BTO 40 @ 0.27, SL close under 13 (stock). Posted expiry 10/26 isn't a listed CLF expiry (weeklies 10/23, 10/30); quality numbers use 10/23. Wide spread (42% of mid). Strike 5.5% OTM. Strat D 2↑→2↑; W 1→2↑. Reversal none. IV rank 64 | IV pctl 72 (52w 48%–85%, as of 10/15)."
+   "notes": "0DTE, BTO 5 @ 1.53. Strike 0.6% OTM. Spread 0.01 (tight). Strat D 2↓→1; W 2↓→1. Reversal none. IV rank 37 | IV pctl 42 (52w 15%–30%, as of 10/15)."
   }
  ]
 }
