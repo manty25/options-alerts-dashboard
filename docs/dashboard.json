@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated_pt": "2026-10-19T10:02:00-07:00",
+ "updated_pt": "2026-10-19T10:08:00-07:00",
  "previous": {
   "date": "2026-10-16",
   "updated_pt": "2026-10-16 12:33 PM PT",
@@ -773,6 +773,38 @@
    "status": "open",
    "exit": null,
    "notes": "'High confidence', entry .80 (above current ask .45); reposted twice 9:57 AM PT (merged). Thin OI (16). Wide spread 0.15 (40% of mid). Strike 16.8% OTM. Strat D 2↓→2↓; W 2↑→1. Reversal none. IV rank 39 | IV pctl 66 (52w 24%–124%, as of 10/15)."
+  },
+  {
+   "time": "1:02 PM ET",
+   "time_pt": "10:02 AM PT",
+   "ticker": "COST",
+   "side": "CALL",
+   "strike": 1040,
+   "expiry": "10/23",
+   "entry": 0.38,
+   "source": "Discord Diamond Trading #free-alerts",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1561786704334028892",
+   "underlying": 992.81,
+   "otm_pct": 4.8,
+   "opt_last": 0.29,
+   "bid": 0.2,
+   "ask": 0.31,
+   "spread_pct": 43,
+   "vol": 130,
+   "oi": 326,
+   "iv": 21.3,
+   "impl_move": "±17.43 (±1.8%)",
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 16,
+   "iv_pctl": 10,
+   "status": "open",
+   "exit": null,
+   "notes": "proph entry 0.38 (above current ask 0.31); 'inside bar setup, gap fill play, high confidence/conviction'. Second COST call after 1030C at 9:49. Wide spread 0.11 (43% of mid). Strike 4.8% OTM. Strat D 1→2↑; W 2↑→1. Reversal none. IV rank 16 | IV pctl 10 (52w 17%–30%, as of 10/15)."
   }
  ]
 }
