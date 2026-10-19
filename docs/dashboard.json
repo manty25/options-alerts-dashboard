@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated_pt": "2026-10-19T10:17:57-07:00",
+ "updated_pt": "2026-10-19T10:48:00-07:00",
  "previous": {
   "date": "2026-10-16",
   "updated_pt": "2026-10-16 12:33 PM PT",
@@ -837,6 +837,38 @@
    "status": "open",
    "exit": null,
    "notes": "'HIGH CONFIDENCE' entry .40; reposted 10:17 AM PT ('THIS CAN GO 10X', merged). Thin: vol 5, OI 2. Wide spread 0.40 (133% of mid). Strike 12.2% OTM. Strat D 2↓→1; W 1→1. Reversal none. IV rank 55 | IV pctl 85 (52w 11%–63%, as of 10/15)."
+  },
+  {
+   "time": "1:43 PM ET",
+   "time_pt": "10:43 AM PT",
+   "ticker": "LAUR",
+   "side": "CALL",
+   "strike": 45,
+   "expiry": "11/20",
+   "entry": 0.25,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2112238210202128893",
+   "underlying": 39.28,
+   "otm_pct": 14.6,
+   "opt_last": 0.35,
+   "bid": 0.0,
+   "ask": 0.5,
+   "spread_pct": 200,
+   "vol": 3,
+   "oi": 5,
+   "iv": 46.0,
+   "impl_move": "±3.90 (±9.9%)",
+   "prev_daily": "2↓",
+   "daily": "1",
+   "prev_weekly": "2↑",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 54,
+   "iv_pctl": 80,
+   "status": "open",
+   "exit": null,
+   "notes": "$1K-$100K challenge trade @ .25, 10 contracts. Thin: vol 3, OI 5. Wide spread 0.50 (200% of mid). Strike 14.6% OTM. Strat D 2↓→1; W 2↑→1. Reversal none. IV rank 54 | IV pctl 80 (52w 14%–56%, as of 10/15)."
   }
  ]
 }
