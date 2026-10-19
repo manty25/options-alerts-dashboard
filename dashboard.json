@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated_pt": "2026-10-19T11:35:51-07:00",
+ "updated_pt": "2026-10-19T11:42:00-07:00",
  "previous": {
   "date": "2026-10-16",
   "updated_pt": "2026-10-16 12:33 PM PT",
@@ -964,7 +964,7 @@
    "iv_pctl": "n/a",
    "status": "open",
    "exit": null,
-   "notes": "BTO 3 SPX 7705c 0DTE @ 2.05. At the money; last 5.10 at check vs 2.05 entry. Spread 0.10 (2% of mid). Strat D 3→1; W 2↓→1. Reversal none. IV rank/pctl n/a."
+   "notes": "BTO 3 SPX 7705c 0DTE @ 2.05. At the money; last 5.10 at check vs 2.05 entry. Spread 0.10 (2% of mid). Strat D 3→1; W 2↓→1. Reversal none. IV rank/pctl n/a. | Stop: 5-min close under 7694 (11:35 AM PT). | STC 2 @ 3.20 (+56%, 11:37 AM PT; posted as 10/9, read as 10/19), holding 1 runner."
   }
  ]
 }
