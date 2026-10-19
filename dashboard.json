@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated_pt": "2026-10-19T07:50:00-07:00",
+ "updated_pt": "2026-10-19T08:03:00-07:00",
  "previous": {
   "date": "2026-10-16",
   "updated_pt": "2026-10-16 12:33 PM PT",
@@ -547,8 +547,8 @@
    "iv_rank": 64,
    "iv_pctl": 72,
    "status": "open",
-   "exit": 0.43,
-   "notes": "BTO 40 @ 0.27, SL close under 13 (stock). Posted expiry 10/26 isn't a listed CLF expiry (weeklies 10/23, 10/30); quality numbers use 10/23. Wide spread (42% of mid). Strike 5.5% OTM. Strat D 2↑→2↑; W 1→2↑. Reversal none. IV rank 64 | IV pctl 72 (52w 48%–85%, as of 10/15). | STC 20 @ 0.43 (+59%, 7:17 AM PT), holding 20."
+   "exit": 0.56,
+   "notes": "BTO 40 @ 0.27, SL close under 13 (stock). Posted expiry 10/26 isn't a listed CLF expiry (weeklies 10/23, 10/30); quality numbers use 10/23. Wide spread (42% of mid). Strike 5.5% OTM. Strat D 2↑→2↑; W 1→2↑. Reversal none. IV rank 64 | IV pctl 72 (52w 48%–85%, as of 10/15). | STC 20 @ 0.43 (+59%, 7:17 AM PT), holding 20. | STC 15 @ 0.56 (+107%, 8:01 AM PT), holding 5 runners."
   },
   {
    "time": "10:12 AM ET",
@@ -589,9 +589,9 @@
    "side": "CALL",
    "strike": 45,
    "expiry": "11/20",
-   "entry": 0.5,
+   "entry": 0.35,
    "source": "X @MoonTrades7",
-   "link": "https://x.com/MoonTrades7/status/2112190040377864213",
+   "link": "https://x.com/MoonTrades7/status/2112196250976026858",
    "underlying": 41.75,
    "otm_pct": 7.8,
    "opt_last": null,
@@ -612,7 +612,7 @@
    "iv_pctl": 8,
    "status": "open",
    "exit": null,
-   "notes": "Strike 45 not on Yahoo chain (avail 40/55). OTM 7.8%. Strat D 3→2↓; W 3→2↓. Reversal none. IV rank 13 | IV pctl 8 (52w 16%–75%, as of 10/15). SAFE +200% SWING per source."
+   "notes": "Strike 45 not on Yahoo chain (avail 40/55). OTM 7.8%. Strat D 3→2↓; W 3→2↓. Reversal none. IV rank 13 | IV pctl 8 (52w 16%–75%, as of 10/15). SAFE +200% SWING per source. Source edited post at 7:56 AM PT: entry .50 changed to .35 (original https://x.com/MoonTrades7/status/2112190040377864213)."
   },
   {
    "time": "10:44 AM ET",
@@ -644,7 +644,7 @@
    "iv_pctl": 79,
    "status": "open",
    "exit": 2.25,
-   "notes": "BTO 2, size small (0DTE). Partial STC 1 @ 2.25 at 7:47 AM PT. OTM 0.5%. Strat D 2↓→2↓; W 3→2↓. Reversal none. IV rank 58 | IV pctl 79 (52w 23%–57%, as of 10/15)."
+   "notes": "BTO 2, size small (0DTE). Partial STC 1 @ 2.25 at 7:47 AM PT. OTM 0.5%. Strat D 2↓→2↓; W 3→2↓. Reversal none. IV rank 58 | IV pctl 79 (52w 23%–57%, as of 10/15). SL to breakeven on runner (7:49 AM PT)."
   }
  ]
 }
