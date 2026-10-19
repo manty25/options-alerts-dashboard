@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated_pt": "2026-10-19T12:21:00-07:00",
+ "updated_pt": "2026-10-19T12:27:00-07:00",
  "previous": {
   "date": "2026-10-16",
   "updated_pt": "2026-10-16 12:33 PM PT",
@@ -1058,9 +1058,9 @@
    "oi": 1501,
    "iv": 2.7,
    "impl_move": "±8.90 (±0.1%)",
-   "status": "open",
-   "exit": null,
-   "notes": "BTO 3 SPX 7710c 0DTE @ 1.25 (12:14 PM PT). 0.1% OTM; last 1.67 at check vs 1.25 entry. Spread 0.10 (6% of mid). Strat D 3→1; W 2↓→1. Reversal none. IV rank/pctl n/a. | PT 1: 7708 / SL below 7700 (12:14 PM PT). | STC 2 @ 2.10 (+68%, 12:19 PM PT), holding 1 runner."
+   "status": "exited",
+   "exit": 2.65,
+   "notes": "BTO 3 SPX 7710c 0DTE @ 1.25 (12:14 PM PT). 0.1% OTM; last 1.67 at check vs 1.25 entry. Spread 0.10 (6% of mid). Strat D 3→1; W 2↓→1. Reversal none. IV rank/pctl n/a. | PT 1: 7708 / SL below 7700 (12:14 PM PT). | STC 2 @ 2.10 (+68%, 12:19 PM PT), holding 1 runner. | STC final 1 @ 2.65 (+112%, 12:19 PM PT). Fully exited."
   }
  ]
 }
