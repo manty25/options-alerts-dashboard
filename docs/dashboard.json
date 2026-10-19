@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated_pt": "2026-10-19 7:19 AM PT",
+ "updated_pt": "2026-10-19 7:31 AM PT",
  "previous": {
   "date": "2026-10-16",
   "updated_pt": "2026-10-16 12:33 PM PT",
@@ -514,9 +514,9 @@
    "reversal_weekly": "",
    "iv_rank": 34,
    "iv_pctl": 47,
-   "status": "open",
-   "exit": 0.7,
-   "notes": "0DTE, BTO 10 @ 0.32 | STC 5 @ 0.70 (+119%, 6:33 AM PT), holding 5. Thin vol (1) and wide spread (bid 0 / ask 1, early quote). Strike 3.0% OTM. Strat D 3→1; W 2↓→1. Reversal none. IV rank 34 | IV pctl 47 (52w 37%–62%, as of 10/15)."
+   "status": "exited",
+   "exit": 0.91,
+   "notes": "0DTE, BTO 10 @ 0.32 | STC 5 @ 0.70 (+119%, 6:33 AM PT), holding 5. Thin vol (1) and wide spread (bid 0 / ask 1, early quote). Strike 3.0% OTM. Strat D 3→1; W 2↓→1. Reversal none. IV rank 34 | IV pctl 47 (52w 37%–62%, as of 10/15). | STC 5 @ 0.91 (+184%, 7:29 AM PT), fully exited."
   },
   {
    "time": "9:49 AM ET",
