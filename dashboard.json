@@ -1,6 +1,6 @@
 {
  "date": "2026-10-19",
- "updated_pt": "2026-10-19T12:27:00-07:00",
+ "updated_pt": "2026-10-19 12:32 PM PT",
  "previous": {
   "date": "2026-10-16",
   "updated_pt": "2026-10-16 12:33 PM PT",
@@ -1061,6 +1061,38 @@
    "status": "exited",
    "exit": 2.65,
    "notes": "BTO 3 SPX 7710c 0DTE @ 1.25 (12:14 PM PT). 0.1% OTM; last 1.67 at check vs 1.25 entry. Spread 0.10 (6% of mid). Strat D 3→1; W 2↓→1. Reversal none. IV rank/pctl n/a. | PT 1: 7708 / SL below 7700 (12:14 PM PT). | STC 2 @ 2.10 (+68%, 12:19 PM PT), holding 1 runner. | STC final 1 @ 2.65 (+112%, 12:19 PM PT). Fully exited."
+  },
+  {
+   "underlying": 7704.53,
+   "prev_daily": "3",
+   "daily": "1",
+   "prev_weekly": "2↓",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": "n/a",
+   "iv_pctl": "n/a",
+   "source": "Discord LTP #bcf (BCF)",
+   "expiry": "10/19",
+   "ticker": "SPX",
+   "time": "3:27 PM ET",
+   "time_pt": "12:27 PM PT",
+   "side": "CALL",
+   "strike": 7715,
+   "entry": 1.1,
+   "link": "https://discord.com/channels/1244040902117167174/1484651542077505677",
+   "otm_pct": 0.1,
+   "opt_last": 0.55,
+   "bid": 0.55,
+   "ask": 0.6,
+   "spread_pct": 9,
+   "vol": 90432,
+   "oi": 1710,
+   "iv": 2.3,
+   "impl_move": "±7.20 (±0.1%)",
+   "status": "open",
+   "exit": null,
+   "notes": "BTO 3 SPX 7715c 0DTE @ 1.10 (12:27 PM PT), 'Hero or zero'. 0.1% OTM; last 0.55 at check vs 1.10 entry. Spread 0.05 (9% of mid). Strat D 3→1; W 2↓→1. Reversal none. IV rank/pctl n/a."
   }
  ]
 }
