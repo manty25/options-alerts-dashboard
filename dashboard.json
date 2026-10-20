@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "updated_pt": "2026-10-20 11:11 AM PT",
+ "updated_pt": "2026-10-20 12:10 PM PT",
  "previous": {
   "date": "2026-10-19",
   "updated_pt": "2026-10-19 12:32 PM PT",
@@ -1223,6 +1223,38 @@
    "status": "open",
    "exit": null,
    "notes": "MoonTrades7: '🚨 $SPHR 120 CALL 11/20 @ 5.50 SAFE LARGE ACCOUNT PLAY, +200% swing'. 6.4% OTM. Chain last 4.80, bid 3.80 / ask 5.10, mid 4.45, spread 29% of mid (wide). Vol 37, OI 51 (thin). IV 54.6%. Implied move ±16.50 (±14.6%). Strat D 1→2↑; W 2↓→2↑. Reversal D none, W none. IV rank 70 | IV pctl 79 (52w IV 33%–74%, as of 10/16)."
+  },
+  {
+   "time": "3:04 PM ET",
+   "time_pt": "12:04 PM PT",
+   "ticker": "PEBO",
+   "side": "CALL",
+   "strike": 40,
+   "expiry": "11/20",
+   "entry": 0.3,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2112621106729308337",
+   "underlying": 37.37,
+   "otm_pct": 7.1,
+   "opt_last": 0.25,
+   "bid": 0.05,
+   "ask": 0.25,
+   "spread_pct": 133,
+   "vol": 37,
+   "oi": 2,
+   "iv": 24.1,
+   "impl_move": "±2.55 (±6.8%)",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↑",
+   "reversal_daily": "2↓→green + vol↑",
+   "reversal_weekly": "",
+   "iv_rank": 13,
+   "iv_pctl": 10,
+   "status": "open",
+   "exit": null,
+   "notes": "MoonTrades7: '$1K-$100K CHALLENGE TRADE $PEBO 40 CALL 11/20 @ .30 10 contracts'. 7.1% OTM. Chain last 0.25, bid 0.05 / ask 0.25, mid 0.15, spread 133% of mid (wide). Vol 37, OI 2 (thin). IV 24.1%. Implied move ±2.55 (±6.8%). Strat D 2↓→2↑; W 2↓→2↑. Reversal D 2↓→green + vol↑, W none. IV rank 13 | IV pctl 10 (52w IV 12%–53%, as of 10/16)."
   }
  ]
 }
