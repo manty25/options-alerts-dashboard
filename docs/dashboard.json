@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "updated_pt": "11:47 AM ET",
+ "updated_pt": "8:53 AM PT",
  "previous": {
   "date": "2026-10-19",
   "updated_pt": "2026-10-19 12:32 PM PT",
@@ -999,6 +999,38 @@
    "status": "open",
    "exit": null,
    "notes": "1K CHALLENGE: $SR 90 Call 11/20 .50 (reposted 8:45 'HIGH CONFIDENCE' and 'HERE', merged). 7.9% OTM. 90 strike not listed in the 11/20 chain (only 85 found), so no last/bid/ask/vol/OI. IV 26% (as of 10/16), implied move est. ±6.32 (±7.6%). Strat D 2↑→2↑ (prior high taken out); W 2↑→2↑. Reversal none. IV rank 63 | IV pctl 73 (52w IV 12%–35%, as of 10/16)."
+  },
+  {
+   "underlying": 4.52,
+   "prev_daily": "2↓",
+   "daily": "2↓",
+   "prev_weekly": "3",
+   "weekly": "2↓",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 23,
+   "iv_pctl": 28,
+   "source": "X @MoonTrades7",
+   "expiry": "10/23",
+   "ticker": "RILY",
+   "time": "11:50 AM ET",
+   "time_pt": "8:50 AM PT",
+   "side": "CALL",
+   "strike": 5.5,
+   "entry": 0.22,
+   "link": "https://x.com/MoonTrades7/status/2112572197738844221",
+   "otm_pct": 21.7,
+   "opt_last": 0.02,
+   "bid": 0.0,
+   "ask": 0.01,
+   "spread_pct": 200,
+   "vol": 326,
+   "oi": 2901,
+   "iv": 93.8,
+   "impl_move": "±0.29 (±6.4%)",
+   "status": "open",
+   "exit": null,
+   "notes": "'adding heavy' $RILY 5.5 CALL 10/23 @ .22 (reposted 8:51 @ .19, merged). 21.7% OTM. Quote last 0.02, bid 0.00/ask 0.01 (spread 200% of mid, wide), vol 326, OI 2901, IV 93.8%. Implied move ±0.29 (±6.4%). Strat D 2↓→2↓, W 3→2↓; bearish structure vs bullish call. Reversal none. IV rank 23 | IV pctl 28 (52w IV 52%–153%, as of 10/16)."
   }
  ]
 }
