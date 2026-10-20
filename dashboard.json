@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "updated_pt": "10:16 AM ET",
+ "updated_pt": "10:27 AM ET",
  "previous": {
   "date": "2026-10-19",
   "updated_pt": "2026-10-19 12:32 PM PT",
@@ -676,9 +676,9 @@
    "oi": 1799,
    "iv": null,
    "impl_move": "±4.30 (±2.7%)",
-   "status": "open",
-   "exit": null,
-   "notes": "BTO 10 USO 160p 10/21 @ 0.86 (9:34 AM ET). 1.1% OTM. No live bid/ask at check (just after open), so spread and option IV n/a; last 1.63 may be stale. Vol 2714, OI 1799. Strat D 2↑→1; W 2↑→2↑. Reversal none. IV rank 20 / pctl 44 (52w IV 26–129%, as of 10/16). | STC 5 @ 1.35 (+57%, 6:53 AM PT), holding 5 runners."
+   "status": "exited",
+   "exit": 3.23,
+   "notes": "BTO 10 USO 160p 10/21 @ 0.86 (9:34 AM ET). 1.1% OTM. No live bid/ask at check (just after open), so spread and option IV n/a; last 1.63 may be stale. Vol 2714, OI 1799. Strat D 2↑→1; W 2↑→2↑. Reversal none. IV rank 20 / pctl 44 (52w IV 26–129%, as of 10/16). | STC 5 @ 1.35 (+57%, 6:53 AM PT), holding 5 runners. | STC 3 @ 2.75 (+220%, 7:23 AM PT), STC 2 @ 3.23 (+276%, 7:25 AM PT), all 10 out; BCF: '300% or so'."
   },
   {
    "underlying": 12.61,
@@ -742,7 +742,7 @@
    "impl_move": "±0.90 (±3.4%)",
    "status": "open",
    "exit": null,
-   "notes": "BTO 50 CCL 27c 10/23 @ 0.23. 1.8% OTM. Last 0.23, mid 0.22. Spread 0.06 (27% of mid, wide). Vol 54, OI 2701. IV 40.0%. Strat D 2↓→2↑; W 2↑→1. Reversal none. IV rank 26 | IV pctl 26 (52w 32%–70%, as of 10/16)."
+   "notes": "BTO 50 CCL 27c 10/23 @ 0.23. 1.8% OTM. Last 0.23, mid 0.22. Spread 0.06 (27% of mid, wide). Vol 54, OI 2701. IV 40.0%. Strat D 2↓→2↑; W 2↑→1. Reversal none. IV rank 26 | IV pctl 26 (52w 32%–70%, as of 10/16). | STC 40 @ 0.38 (+65%, 7:21 AM PT), 10 left."
   }
  ]
 }
