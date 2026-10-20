@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "updated_pt": "10:36 AM ET",
+ "updated_pt": "10:46 AM ET",
  "previous": {
   "date": "2026-10-19",
   "updated_pt": "2026-10-19 12:32 PM PT",
@@ -775,6 +775,38 @@
    "status": "open",
    "exit": null,
    "notes": "$UPS 10/23 102C @ 0.19 (inside bar setup, Evercore $107 PT, sector/relative strength). 2.8% OTM. Last 0.14, mid 0.125 (below stated 0.19 entry). Spread 0.05 (40% of mid, wide). Vol 8 (thin), OI 696. IV 22.9%. Strat D 1→2↑; W 2↑→1. Reversal none. IV rank 64 | IV pctl 80 (52w 21%–47%, as of 10/16)."
+  },
+  {
+   "underlying": 156.89,
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 11,
+   "iv_pctl": 27,
+   "source": "Discord Diamond #free-alerts (proph)",
+   "expiry": "10/23",
+   "ticker": "ROKU",
+   "time": "10:38 AM ET",
+   "time_pt": "7:38 AM PT",
+   "side": "CALL",
+   "strike": 160,
+   "entry": 0.49,
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279",
+   "otm_pct": 2.0,
+   "opt_last": 0.34,
+   "bid": 0.27,
+   "ask": 0.45,
+   "spread_pct": 50,
+   "vol": 10,
+   "oi": 159,
+   "iv": 23.1,
+   "impl_move": "±3.20 (±2.0%)",
+   "status": "open",
+   "exit": null,
+   "notes": "$ROKU 10/23 160C @ 0.49 (inside bar setup, momentum, relative strength). 2.0% OTM. Last 0.34, mid 0.36 (below stated 0.49 entry). Spread 0.18 (50% of mid, wide). Vol 10 (thin), OI 159. IV 23.1%. Strat D 1→2↑ (prior high taken out); W 2↑→2↑. Reversal none. IV rank 11 | IV pctl 27 (52w 14%–82%, as of 10/16)."
   }
  ]
 }
