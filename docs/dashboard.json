@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "updated_pt": "11:23 AM ET",
+ "updated_pt": "11:47 AM ET",
  "previous": {
   "date": "2026-10-19",
   "updated_pt": "2026-10-19 12:32 PM PT",
@@ -967,6 +967,38 @@
    "status": "open",
    "exit": null,
    "notes": "$1K-$100K challenge trade: $PTON 5.5 CALL 10/23 @ .08, 50 contracts. 2.1% OTM. Chain last 0.05, mid 0.04 (vs posted entry 0.08). Spread 0.02 (50% of mid, wide). Vol 12 (thin volume), OI 1022. IV 42.2%. Implied move ±0.24 (±4.4%). Strat D 2↓→2↑ (prior high taken out); W 2↑→1. Reversal none. IV rank 44 | IV pctl 58 (52w IV 41%–105%, as of 10/16)."
+  },
+  {
+   "underlying": 83.4,
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 63,
+   "iv_pctl": 73,
+   "source": "X @StockOptions888",
+   "expiry": "11/20",
+   "ticker": "SR",
+   "time": "11:44 AM ET",
+   "time_pt": "8:44 AM PT",
+   "side": "CALL",
+   "strike": 90,
+   "entry": 0.5,
+   "link": "https://x.com/StockOptions888/status/2112570711755878731",
+   "otm_pct": 7.9,
+   "opt_last": null,
+   "bid": null,
+   "ask": null,
+   "spread_pct": null,
+   "vol": null,
+   "oi": null,
+   "iv": 26.0,
+   "impl_move": "±6.32 (±7.6%) est. from 26% IV",
+   "status": "open",
+   "exit": null,
+   "notes": "1K CHALLENGE: $SR 90 Call 11/20 .50 (reposted 8:45 'HIGH CONFIDENCE' and 'HERE', merged). 7.9% OTM. 90 strike not listed in the 11/20 chain (only 85 found), so no last/bid/ask/vol/OI. IV 26% (as of 10/16), implied move est. ±6.32 (±7.6%). Strat D 2↑→2↑ (prior high taken out); W 2↑→2↑. Reversal none. IV rank 63 | IV pctl 73 (52w IV 12%–35%, as of 10/16)."
   }
  ]
 }
