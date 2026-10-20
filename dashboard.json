@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "updated_pt": "2026-10-20 9:08 AM PT",
+ "updated_pt": "2026-10-20 9:12 AM PT",
  "previous": {
   "date": "2026-10-19",
   "updated_pt": "2026-10-19 12:32 PM PT",
@@ -1094,7 +1094,7 @@
    "impl_move": "±21.70 (±0.3%)",
    "status": "open",
    "exit": null,
-   "notes": "BTO 2 SPX 7735C 10/20 (0DTE) @ 5.00. 0.2% OTM. Chain last 4.40, mid 4.40 (vs posted entry 5.00). Spread 0.20 (5% of mid). Vol 51781, OI 4232. IV 6.5%. Implied move ±21.70 (±0.3%). Strat D 1→3; W 2↓→1. Reversal none. IV rank n/a | IV pctl n/a."
+   "notes": "BTO 2 SPX 7735C 10/20 (0DTE) @ 5.00 (added BTO 2 @ 4.00 at 9:05 AM PT, merged). 0.2% OTM. Chain last 4.40, mid 4.40 (vs posted entry 5.00). Spread 0.20 (5% of mid). Vol 51781, OI 4232. IV 6.5%. Implied move ±21.70 (±0.3%). Strat D 1→3; W 2↓→1. Reversal none. IV rank n/a | IV pctl n/a."
   }
  ]
 }
