@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "updated_pt": "10:27 AM ET",
+ "updated_pt": "10:36 AM ET",
  "previous": {
   "date": "2026-10-19",
   "updated_pt": "2026-10-19 12:32 PM PT",
@@ -740,9 +740,41 @@
    "oi": 2701,
    "iv": 40.0,
    "impl_move": "±0.90 (±3.4%)",
+   "status": "exited",
+   "exit": 0.65,
+   "notes": "BTO 50 CCL 27c 10/23 @ 0.23. 1.8% OTM. Last 0.23, mid 0.22. Spread 0.06 (27% of mid, wide). Vol 54, OI 2701. IV 40.0%. Strat D 2↓→2↑; W 2↑→1. Reversal none. IV rank 26 | IV pctl 26 (52w 32%–70%, as of 10/16). | STC 40 @ 0.38 (+65%, 7:21 AM PT), 10 left. | STC 10 @ 0.65 (+183%, 7:30 AM PT), all 50 out."
+  },
+  {
+   "underlying": 99.22,
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 64,
+   "iv_pctl": 80,
+   "source": "Discord Diamond #free-alerts (proph)",
+   "expiry": "10/23",
+   "ticker": "UPS",
+   "time": "10:28 AM ET",
+   "time_pt": "7:28 AM PT",
+   "side": "CALL",
+   "strike": 102,
+   "entry": 0.19,
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279",
+   "otm_pct": 2.8,
+   "opt_last": 0.14,
+   "bid": 0.1,
+   "ask": 0.15,
+   "spread_pct": 40,
+   "vol": 8,
+   "oi": 696,
+   "iv": 22.9,
+   "impl_move": "±2.14 (±2.2%)",
    "status": "open",
    "exit": null,
-   "notes": "BTO 50 CCL 27c 10/23 @ 0.23. 1.8% OTM. Last 0.23, mid 0.22. Spread 0.06 (27% of mid, wide). Vol 54, OI 2701. IV 40.0%. Strat D 2↓→2↑; W 2↑→1. Reversal none. IV rank 26 | IV pctl 26 (52w 32%–70%, as of 10/16). | STC 40 @ 0.38 (+65%, 7:21 AM PT), 10 left."
+   "notes": "$UPS 10/23 102C @ 0.19 (inside bar setup, Evercore $107 PT, sector/relative strength). 2.8% OTM. Last 0.14, mid 0.125 (below stated 0.19 entry). Spread 0.05 (40% of mid, wide). Vol 8 (thin), OI 696. IV 22.9%. Strat D 1→2↑; W 2↑→1. Reversal none. IV rank 64 | IV pctl 80 (52w 21%–47%, as of 10/16)."
   }
  ]
 }
