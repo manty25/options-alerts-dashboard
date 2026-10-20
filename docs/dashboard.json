@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "updated_pt": "2026-10-20 9:39 AM PT",
+ "updated_pt": "2026-10-20 10:37 AM PT",
  "previous": {
   "date": "2026-10-19",
   "updated_pt": "2026-10-19 12:32 PM PT",
@@ -1127,6 +1127,38 @@
    "status": "open",
    "exit": null,
    "notes": "1K challenge: $DCBO 35 Call 11/20 @ .50 (reposted 9:35-9:36 AM PT incl. 'THIS CAN GO 500%', '250 contracts swinging', merged). 17.6% OTM. Chain last 0.40, mid 0.40 (vs posted entry 0.50). Spread 0.10 (25% of mid, wide). Vol 26, OI 4 (thin). IV 53.2%. Implied move ±3.65 (±12.3%). Strat D 1→2↑; W 2↑→2↑. Reversal none. IV rank 44 | IV pctl 68 (52w IV 21%–105%, as of 10/16)."
+  },
+  {
+   "time": "1:31 PM ET",
+   "time_pt": "10:31 AM PT",
+   "ticker": "WASH",
+   "side": "CALL",
+   "strike": 40,
+   "expiry": "11/20",
+   "entry": 0.6,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2112597665213231492",
+   "underlying": 38.48,
+   "otm_pct": 4.0,
+   "opt_last": 0.7,
+   "bid": 0.0,
+   "ask": 0.7,
+   "spread_pct": 200,
+   "vol": 1,
+   "oi": 34,
+   "iv": 28.6,
+   "impl_move": "±2.33 (±6.0%)",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↑",
+   "reversal_daily": "2↓→green + vol↑",
+   "reversal_weekly": "",
+   "iv_rank": 39,
+   "iv_pctl": 50,
+   "status": "open",
+   "exit": null,
+   "notes": "$1K-$100K challenge: $WASH 40 CALL 11/20 @ .60, 10 contracts, 'SAFE NOVEMBER, +200% swing' (reposted 10:32-10:35 AM PT @ .65/.70/.75 incl. 'adding heavy on main account now', merged). 4.0% OTM. Chain last 0.70, bid 0.00 / ask 0.70, mid 0.35, spread 200% of mid (wide). Vol 1, OI 34 (thin). IV 28.6%. Implied move ±2.33 (±6.0%). Strat D 2↓→2↑; W 2↓→2↑. Reversal D 2↓→green + vol↑, W none. IV rank 39 | IV pctl 50 (52w IV 12%–57%, as of 10/16)."
   }
  ]
 }
