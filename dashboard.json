@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "updated_pt": "9:38 AM ET",
+ "updated_pt": "10:00 AM ET",
  "previous": {
   "date": "2026-10-19",
   "updated_pt": "2026-10-19 12:32 PM PT",
@@ -678,7 +678,39 @@
    "impl_move": "±4.30 (±2.7%)",
    "status": "open",
    "exit": null,
-   "notes": "BTO 10 USO 160p 10/21 @ 0.86 (9:34 AM ET). 1.1% OTM. No live bid/ask at check (just after open), so spread and option IV n/a; last 1.63 may be stale. Vol 2714, OI 1799. Strat D 2↑→1; W 2↑→2↑. Reversal none. IV rank 20 / pctl 44 (52w IV 26–129%, as of 10/16)."
+   "notes": "BTO 10 USO 160p 10/21 @ 0.86 (9:34 AM ET). 1.1% OTM. No live bid/ask at check (just after open), so spread and option IV n/a; last 1.63 may be stale. Vol 2714, OI 1799. Strat D 2↑→1; W 2↑→2↑. Reversal none. IV rank 20 / pctl 44 (52w IV 26–129%, as of 10/16). | STC 5 @ 1.35 (+57%, 6:53 AM PT), holding 5 runners."
+  },
+  {
+   "underlying": 12.61,
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 73,
+   "iv_pctl": 78,
+   "source": "X @itsCblast",
+   "expiry": "10/23",
+   "ticker": "TTD",
+   "time": "9:52 AM ET",
+   "time_pt": "6:52 AM PT",
+   "side": "CALL",
+   "strike": 13,
+   "entry": 0.15,
+   "link": "https://x.com/itsCblast/status/2112542579774615698",
+   "otm_pct": 3.1,
+   "opt_last": 0.08,
+   "bid": 0.07,
+   "ask": 0.08,
+   "spread_pct": 13,
+   "vol": 182,
+   "oi": 2566,
+   "iv": 40.6,
+   "impl_move": "±0.68 (±5.4%)",
+   "status": "open",
+   "exit": null,
+   "notes": "NEW ENTRY $TTD 10/23 13C @ 0.15 ($1K to $100K Challenge). 3.1% OTM. Mid 0.075 at check (below stated 0.15 entry). Spread 0.01 (13% of mid). Vol 182, OI 2566. IV 40.6%. Strat D 2↓→2↑; W 2↑→1. Reversal none. IV rank 73 | IV pctl 78 (52w 42%–100%, as of 10/16)."
   }
  ]
 }
