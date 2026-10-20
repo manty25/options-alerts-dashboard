@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "updated_pt": "11:20 AM ET",
+ "updated_pt": "11:23 AM ET",
  "previous": {
   "date": "2026-10-19",
   "updated_pt": "2026-10-19 12:32 PM PT",
@@ -935,6 +935,38 @@
    "status": "open",
    "exit": null,
    "notes": "$TDOC 6.5 Call 10/23 .07 (posted 3x 8:17 AM PT, merged). 5.9% OTM. Chain last 0.02, mid 0.02 (vs posted entry 0.07). Spread 0.02 (100% of mid, wide). Vol 77, OI 73 (thin OI). IV 54.7%. Implied move ±0.28 (±4.6%). Strat D 2↓→2↑ (prior high taken out); W 2↑→2↓. Reversal none. IV rank 52 | IV pctl 59 (52w IV 41%–97%, as of 10/16)."
+  },
+  {
+   "underlying": 5.39,
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 44,
+   "iv_pctl": 58,
+   "source": "X @MoonTrades7",
+   "expiry": "10/23",
+   "ticker": "PTON",
+   "time": "11:20 AM ET",
+   "time_pt": "8:20 AM PT",
+   "side": "CALL",
+   "strike": 5.5,
+   "entry": 0.08,
+   "link": "https://x.com/MoonTrades7/status/2112564542941356414",
+   "otm_pct": 2.1,
+   "opt_last": 0.05,
+   "bid": 0.03,
+   "ask": 0.05,
+   "spread_pct": 50,
+   "vol": 12,
+   "oi": 1022,
+   "iv": 42.2,
+   "impl_move": "±0.24 (±4.4%)",
+   "status": "open",
+   "exit": null,
+   "notes": "$1K-$100K challenge trade: $PTON 5.5 CALL 10/23 @ .08, 50 contracts. 2.1% OTM. Chain last 0.05, mid 0.04 (vs posted entry 0.08). Spread 0.02 (50% of mid, wide). Vol 12 (thin volume), OI 1022. IV 42.2%. Implied move ±0.24 (±4.4%). Strat D 2↓→2↑ (prior high taken out); W 2↑→1. Reversal none. IV rank 44 | IV pctl 58 (52w IV 41%–105%, as of 10/16)."
   }
  ]
 }
