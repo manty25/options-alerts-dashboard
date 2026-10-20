@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "updated_pt": "9:03 AM PT",
+ "updated_pt": "2026-10-20 9:08 AM PT",
  "previous": {
   "date": "2026-10-19",
   "updated_pt": "2026-10-19 12:32 PM PT",
@@ -1063,6 +1063,38 @@
    "status": "open",
    "exit": null,
    "notes": "$RILY 4.5 CALL 10/23 @ .17 (reposted 8:56 'ADDING HEAVY' @ .18, merged). 1.1% ITM. Quote last 0.15, bid 0.13/ask 0.16 (spread 21% of mid), vol 308, OI 1875, IV 62.5%. Implied move ±0.29 (±6.4%). Strat D 2↓→2↓, W 3→2↓; bearish structure vs bullish call. Reversal none. IV rank 23 | IV pctl 28 (52w IV 52%–153%, as of 10/16)."
+  },
+  {
+   "underlying": 7719.46,
+   "prev_daily": "1",
+   "daily": "3",
+   "prev_weekly": "2↓",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": "n/a",
+   "iv_pctl": "n/a",
+   "source": "Discord LTP #bcf",
+   "expiry": "10/20",
+   "ticker": "SPX",
+   "time": "11:58 AM ET",
+   "time_pt": "8:58 AM PT",
+   "side": "CALL",
+   "strike": 7735,
+   "entry": 5.0,
+   "link": "https://discord.com/channels/1244040902117167174/1484651542077505677#2026-10-20T08:58-BTO2-SPX7735c",
+   "otm_pct": 0.2,
+   "opt_last": 4.4,
+   "bid": 4.3,
+   "ask": 4.5,
+   "spread_pct": 5,
+   "vol": 51781,
+   "oi": 4232,
+   "iv": 6.5,
+   "impl_move": "±21.70 (±0.3%)",
+   "status": "open",
+   "exit": null,
+   "notes": "BTO 2 SPX 7735C 10/20 (0DTE) @ 5.00. 0.2% OTM. Chain last 4.40, mid 4.40 (vs posted entry 5.00). Spread 0.20 (5% of mid). Vol 51781, OI 4232. IV 6.5%. Implied move ±21.70 (±0.3%). Strat D 1→3; W 2↓→1. Reversal none. IV rank n/a | IV pctl n/a."
   }
  ]
 }
