@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "updated_pt": "10:00 AM ET",
+ "updated_pt": "10:16 AM ET",
  "previous": {
   "date": "2026-10-19",
   "updated_pt": "2026-10-19 12:32 PM PT",
@@ -711,6 +711,38 @@
    "status": "open",
    "exit": null,
    "notes": "NEW ENTRY $TTD 10/23 13C @ 0.15 ($1K to $100K Challenge). 3.1% OTM. Mid 0.075 at check (below stated 0.15 entry). Spread 0.01 (13% of mid). Vol 182, OI 2566. IV 40.6%. Strat D 2↓→2↑; W 2↑→1. Reversal none. IV rank 73 | IV pctl 78 (52w 42%–100%, as of 10/16)."
+  },
+  {
+   "underlying": 26.52,
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 26,
+   "iv_pctl": 26,
+   "source": "Discord LTP #bcf (BCF)",
+   "expiry": "10/23",
+   "ticker": "CCL",
+   "time": "10:13 AM ET",
+   "time_pt": "7:13 AM PT",
+   "side": "CALL",
+   "strike": 27,
+   "entry": 0.23,
+   "link": "https://discord.com/channels/1244040902117167174/1484651542077505677",
+   "otm_pct": 1.8,
+   "opt_last": 0.23,
+   "bid": 0.19,
+   "ask": 0.25,
+   "spread_pct": 27,
+   "vol": 54,
+   "oi": 2701,
+   "iv": 40.0,
+   "impl_move": "±0.90 (±3.4%)",
+   "status": "open",
+   "exit": null,
+   "notes": "BTO 50 CCL 27c 10/23 @ 0.23. 1.8% OTM. Last 0.23, mid 0.22. Spread 0.06 (27% of mid, wide). Vol 54, OI 2701. IV 40.0%. Strat D 2↓→2↑; W 2↑→1. Reversal none. IV rank 26 | IV pctl 26 (52w 32%–70%, as of 10/16)."
   }
  ]
 }
