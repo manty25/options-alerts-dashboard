@@ -1,6 +1,6 @@
 {
  "date": "2026-10-20",
- "updated_pt": "10:53 AM ET",
+ "updated_pt": "11:09 AM ET",
  "previous": {
   "date": "2026-10-19",
   "updated_pt": "2026-10-19 12:32 PM PT",
@@ -868,9 +868,41 @@
    "oi": 1065,
    "iv": 46.8,
    "impl_move": "±3.96 (±2.5%)",
+   "status": "exited",
+   "exit": 1.05,
+   "notes": "BTO 10 USO 160C 10/21 @ 0.77. 2.2% OTM. Last 0.83, mid 0.805. Spread 0.15 (19% of mid). Vol 240, OI 1065. IV 46.8%. Implied move ±3.96 (±2.5%). Strat D 2↑→2↓ (prior low taken out, against bullish bias); W 2↑→2↑. Reversal none. IV rank 20 | IV pctl 44 (52w 26%–129%, as of 10/16). | 7:53 AM PT: 'SL under 156'. | STC 10 @ 1.05 (+36%, 8:05 AM PT), all out."
+  },
+  {
+   "underlying": 7743.39,
+   "prev_daily": "1",
+   "daily": "3",
+   "prev_weekly": "2↓",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": "n/a",
+   "iv_pctl": "n/a",
+   "source": "Discord LTP #bcf",
+   "expiry": "10/21",
+   "ticker": "SPX",
+   "time": "11:06 AM ET",
+   "time_pt": "8:06 AM PT",
+   "side": "CALL",
+   "strike": 7750,
+   "entry": 6.0,
+   "link": "https://discord.com/channels/1244040902117167174/1484651542077505677/1562119923881349151",
+   "otm_pct": 0.1,
+   "opt_last": 20.9,
+   "bid": 20.6,
+   "ask": 20.8,
+   "spread_pct": 1,
+   "vol": 3227,
+   "oi": 2476,
+   "iv": 10.5,
+   "impl_move": "±50.00 (±0.6%)",
    "status": "open",
    "exit": null,
-   "notes": "BTO 10 USO 160C 10/21 @ 0.77. 2.2% OTM. Last 0.83, mid 0.805. Spread 0.15 (19% of mid). Vol 240, OI 1065. IV 46.8%. Implied move ±3.96 (±2.5%). Strat D 2↑→2↓ (prior low taken out, against bullish bias); W 2↑→2↑. Reversal none. IV rank 20 | IV pctl 44 (52w 26%–129%, as of 10/16)."
+   "notes": "BTO 1 SPX 7750C 10/21 @ 6.00. 0.1% OTM. Chain last 20.9, mid 20.70 (vs posted entry 6.00). Spread 0.20 (1% of mid). Vol 3227, OI 2476. IV 10.5%. Implied move ±50.00 (±0.6%). Strat D 1→3 (prior high and low taken out, closing above prior high); W 2↓→1. Reversal none. IV rank n/a | IV pctl n/a."
   }
  ]
 }
