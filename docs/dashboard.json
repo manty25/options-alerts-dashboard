@@ -1,6 +1,6 @@
 {
  "date": "2026-10-21",
- "updated_pt": "10:40 AM PT",
+ "updated_pt": "2026-10-21 12:06 PM PT",
  "previous": {
   "date": "2026-10-20",
   "updated_pt": "2026-10-20 12:52 PM PT",
@@ -807,6 +807,38 @@
    "status": "open",
    "exit": null,
    "notes": "StockOptions888: '1K CHALLENGE ☢️ $PUK 25 Call 11/20 .80🚨' (10:37 AM PT), reposted 10:37 ('almost ITM'), 10:37 ('Best r/r setup') and 10:38 ('THIS CAN GO 500%'), merged as duplicates. 1.7% OTM. 25 strike not listed in the Yahoo chain (listed: 15, 17.5, 20, 30), so no option last/bid/ask/vol/OI/IV. Implied move ±8.03 (±32.6%) to 11/20 from the 20 straddle. Strat D 2↑→2↑; W 1→2↑. Reversal D none, W none. IV rank 18 | IV pctl 15 (52w IV 11%–80%, as of 10/19)."
+  },
+  {
+   "time": "3:00 PM ET",
+   "time_pt": "12:00 PM PT",
+   "ticker": "TITN",
+   "side": "CALL",
+   "strike": 25,
+   "expiry": "11/20",
+   "entry": 0.55,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2112982440205840891",
+   "underlying": 22.56,
+   "otm_pct": 10.8,
+   "opt_last": 0.3,
+   "bid": 0.35,
+   "ask": 0.5,
+   "spread_pct": 35,
+   "vol": 13,
+   "oi": 255,
+   "iv": 50.5,
+   "impl_move": "±2.45 (±10.9%)",
+   "prev_daily": "3",
+   "daily": "1",
+   "prev_weekly": "2↓",
+   "weekly": "2↓",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 38,
+   "iv_pctl": 50,
+   "status": "open",
+   "exit": null,
+   "notes": "MoonTrades7: '🚨 $TITN 25 CALL 11/20 @ .55' (12:00 PM PT / 3:00 PM ET). 10.8% OTM. Last 0.30, bid 0.35 / ask 0.50 (mid 0.425, spread 35% of mid, wide), vol 13 (thin), OI 255, IV 50.5%. Implied move ±2.45 (±10.9%) to 11/20. Strat D 3→1; W 2↓→2↓. Reversal D none, W none. IV rank 38 | IV pctl 50 (52w IV 25%–83%, as of 10/19)."
   }
  ]
 }
