@@ -1,6 +1,6 @@
 {
  "date": "2026-10-21",
- "updated_pt": "9:36 AM PT",
+ "updated_pt": "10:15 AM PT",
  "previous": {
   "date": "2026-10-20",
   "updated_pt": "2026-10-20 12:52 PM PT",
@@ -743,6 +743,38 @@
    "status": "open",
    "exit": null,
    "notes": "MoonTrades7: '🚨 $PINS 23.5 CALL 10/23 @ .35 — suspicious bull flow' (quoting a $PINS 25c 11/20 flow post). 0.4% OTM. Last 0.35, bid 0.33 / ask 0.36, mid 0.345, spread 9% of mid. Vol 45 (thin, under 50), OI 1189. IV 47.1%. Implied move ±0.79 (±3.4%). Strat D 2↑→2↑; W 2↑→2↑. Reversal D none, W none. IV rank 70 | IV pctl 72 (52w IV 32%–81%, as of 10/19)."
+  },
+  {
+   "time": "1:08 PM ET",
+   "time_pt": "10:08 AM PT",
+   "ticker": "HY",
+   "side": "CALL",
+   "strike": 35,
+   "expiry": "11/20",
+   "entry": 0.65,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2112954091907489832",
+   "underlying": 29.99,
+   "otm_pct": 16.7,
+   "opt_last": 0.55,
+   "bid": 0.55,
+   "ask": 0.7,
+   "spread_pct": 24,
+   "vol": 299,
+   "oi": 1,
+   "iv": 61.5,
+   "impl_move": "±5.29 (±17.6%)",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↓",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 27,
+   "iv_pctl": 13,
+   "status": "open",
+   "exit": null,
+   "notes": "StockOptions888: '1K CHALLENGE ☢️ $HY 35 Call 11/20 .65🚨' (10:08 AM PT), reposted 10:08 ('500% POTENTIAL'), 10:09 ('HERE') and 10:09 ('250 contracts swinging'), merged as duplicates. 16.7% OTM. Last 0.55, bid 0.55 / ask 0.70, mid 0.625, spread 24% of mid (wide). Vol 299, OI 1 (thin, under 100). IV 61.5%. Implied move ±5.29 (±17.6%) to 11/20. Strat D 2↓→2↑ (prior high taken out); W 2↓→2↓. Reversal D none, W none. IV rank 27 | IV pctl 13 (52w IV 20%–84%, as of 10/19)."
   }
  ]
 }
