@@ -1,6 +1,6 @@
 {
  "date": "2026-10-22",
- "updated_pt": "2026-10-22T10:55:00-07:00",
+ "updated_pt": "2026-10-22T11:12:00-07:00",
  "previous": {
   "date": "2026-10-21",
   "updated_pt": "2026-10-21 12:06 PM PT",
@@ -647,6 +647,38 @@
    "status": "open",
    "exit": null,
    "notes": "@MoonTrades7: '🚨 $BMY 65 CALL 10/23 @ .11 ADDING HEAVY HIGH CONFIDENCE' (10:49 AM PT). 3.0% OTM. Last 0.04, bid 0.02 / ask 0.05 (spread 86% of mid), vol 62, OI 247: wide spread. Last well below stated 0.11 entry. IV 28.7%. Implied move to 10/23 ±1.34 (±2.1%). Strat D 1→2↑, W 3→2↑ (bullish, lines up with call). Reversal none. IV rank 65 | IV pctl 88 (52w IV 21%–41%, as of 10/20)."
+  },
+  {
+   "time": "2:02 PM ET",
+   "time_pt": "11:02 AM PT",
+   "ticker": "WM",
+   "side": "CALL",
+   "strike": 260,
+   "expiry": "11/20",
+   "entry": 1.3,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2113330115665170703",
+   "underlying": 239.03,
+   "otm_pct": 8.8,
+   "opt_last": 1.05,
+   "bid": 0.95,
+   "ask": 1.1,
+   "spread_pct": 15,
+   "vol": 115,
+   "oi": 24,
+   "iv": 25.3,
+   "impl_move": 5.8,
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 63,
+   "iv_pctl": 84,
+   "status": "open",
+   "exit": null,
+   "notes": "@StockOptions888: '🚨 $WM 260 CALL 11/20 @ 1.30 THIS CAN GO 500%+' (11:02 AM PT; reposted 11:03 without price, merged). 8.8% OTM. Last 1.05, bid 0.95 / ask 1.10 (spread 15% of mid), vol 115, OI 24: thin OI. Last below stated 1.30 entry. IV 25.3%. Implied move to 11/20 ±13.85 (±5.8%). Strat D 1→2↑, W 2↑→2↑ (bullish, lines up with call). Reversal none. IV rank 63 | IV pctl 84 (52w IV 15%–30%, as of 10/20)."
   }
  ]
 }
