@@ -1,6 +1,6 @@
 {
  "date": "2026-10-22",
- "updated_pt": "2026-10-22T09:16:00-07:00",
+ "updated_pt": "2026-10-22T09:20:00-07:00",
  "previous": {
   "date": "2026-10-21",
   "updated_pt": "2026-10-21 12:06 PM PT",
@@ -484,9 +484,9 @@
    "reversal_weekly": "",
    "iv_rank": 16,
    "iv_pctl": 16,
-   "status": "open",
+   "status": "exited",
    "exit": null,
-   "notes": "proph: '$ULTA 23 OCT 26 $650 CALL $1.35 HIGH CONFIDENCE + RELATIVE AND SECTOR STRENGTH' (9:13 AM PT). 2.4% OTM. THIN: OI 26, vol 5, spread 148% of mid (quote data looks stale vs entry 1.35). Strat D 2↑→2↑, W 2↑→2↑. Reversal none. IV rank 16 | IV pctl 16 (52w IV 21%–60%, as of 10/20). Implied move n/a."
+   "notes": "proph: '$ULTA 23 OCT 26 $650 CALL $1.35 HIGH CONFIDENCE + RELATIVE AND SECTOR STRENGTH' (9:13 AM PT). 2.4% OTM. THIN: OI 26, vol 5, spread 148% of mid (quote data looks stale vs entry 1.35). Strat D 2↑→2↑, W 2↑→2↑. Reversal none. IV rank 16 | IV pctl 16 (52w IV 21%–60%, as of 10/20). Implied move n/a. | 9:16 AM PT proph: '$Ulta instantly gone' (treated as exit; no exit price given)."
   }
  ]
 }
