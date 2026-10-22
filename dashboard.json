@@ -1,6 +1,6 @@
 {
  "date": "2026-10-22",
- "updated_pt": "2026-10-22T10:25:50-07:00",
+ "updated_pt": "2026-10-22T10:55:00-07:00",
  "previous": {
   "date": "2026-10-21",
   "updated_pt": "2026-10-21 12:06 PM PT",
@@ -615,6 +615,38 @@
    "status": "open",
    "exit": null,
    "notes": "@StockOptions888: '🚨 $WDFC 230 CALL 11/20 @ .85 THIS CAN GO 500%+' (10:25 AM PT). 11.7% OTM. Last 0.40, bid 0.50 / ask 0.95 (spread 62% of mid), vol 24, OI 254: thin volume, wide spread. IV 30.7%. Implied move to 11/20 ±14.20 (±6.9%). Strat D 2↓→3, W 2↓→3. Reversal W: 2↓→green + vol↑. IV rank 64 | IV pctl 92 (52w IV 21%–57%, as of 10/20)."
+  },
+  {
+   "time": "1:49 PM ET",
+   "time_pt": "10:49 AM PT",
+   "ticker": "BMY",
+   "side": "CALL",
+   "strike": 65,
+   "expiry": "10/23",
+   "entry": 0.11,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2113327004552749360",
+   "underlying": 63.1,
+   "otm_pct": 3.0,
+   "opt_last": 0.04,
+   "bid": 0.02,
+   "ask": 0.05,
+   "spread_pct": 86,
+   "vol": 62,
+   "oi": 247,
+   "iv": 28.7,
+   "impl_move": 2.1,
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "3",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 65,
+   "iv_pctl": 88,
+   "status": "open",
+   "exit": null,
+   "notes": "@MoonTrades7: '🚨 $BMY 65 CALL 10/23 @ .11 ADDING HEAVY HIGH CONFIDENCE' (10:49 AM PT). 3.0% OTM. Last 0.04, bid 0.02 / ask 0.05 (spread 86% of mid), vol 62, OI 247: wide spread. Last well below stated 0.11 entry. IV 28.7%. Implied move to 10/23 ±1.34 (±2.1%). Strat D 1→2↑, W 3→2↑ (bullish, lines up with call). Reversal none. IV rank 65 | IV pctl 88 (52w IV 21%–41%, as of 10/20)."
   }
  ]
 }
