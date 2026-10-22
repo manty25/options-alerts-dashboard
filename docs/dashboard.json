@@ -1,6 +1,6 @@
 {
  "date": "2026-10-22",
- "updated_pt": "2026-10-22T09:20:00-07:00",
+ "updated_pt": "2026-10-22T09:27:00-07:00",
  "previous": {
   "date": "2026-10-21",
   "updated_pt": "2026-10-21 12:06 PM PT",
@@ -487,6 +487,38 @@
    "status": "exited",
    "exit": null,
    "notes": "proph: '$ULTA 23 OCT 26 $650 CALL $1.35 HIGH CONFIDENCE + RELATIVE AND SECTOR STRENGTH' (9:13 AM PT). 2.4% OTM. THIN: OI 26, vol 5, spread 148% of mid (quote data looks stale vs entry 1.35). Strat D 2↑→2↑, W 2↑→2↑. Reversal none. IV rank 16 | IV pctl 16 (52w IV 21%–60%, as of 10/20). Implied move n/a. | 9:16 AM PT proph: '$Ulta instantly gone' (treated as exit; no exit price given)."
+  },
+  {
+   "time": "12:24 PM ET",
+   "time_pt": "9:24 AM PT",
+   "ticker": "SNN",
+   "side": "CALL",
+   "strike": 35,
+   "expiry": "11/20",
+   "entry": 0.25,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2113305548716397018",
+   "underlying": 30.74,
+   "otm_pct": 13.9,
+   "opt_last": null,
+   "bid": null,
+   "ask": null,
+   "spread_pct": null,
+   "vol": null,
+   "oi": null,
+   "iv": null,
+   "impl_move": 7.1,
+   "prev_daily": "3",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 22,
+   "iv_pctl": 23,
+   "status": "open",
+   "exit": null,
+   "notes": "@StockOptions888: '1K CHALLENGE $SNN 35 Call 11/20 .25' (9:24 AM PT), reposted 'HIGH CONFIDENCE $SNN 35 Call 11/20' 9:25 and '$SNN 35 Call 11/20 HERE' 9:25 (merged). 13.9% OTM. 35 strike not in Yahoo chain (only 30 listed), so no option quote/vol/OI/IV. Implied move to 11/20 ±2.17 (±7.1%) from ATM 30 straddle. Strat D 3→2↑, W 2↑→2↑. Reversal none. IV rank 22 | IV pctl 23 (52w IV 17%–77%, as of 10/20)."
   }
  ]
 }
