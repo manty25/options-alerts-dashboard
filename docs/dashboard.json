@@ -1,6 +1,6 @@
 {
  "date": "2026-10-22",
- "updated_pt": "2026-10-22T09:06:00-07:00",
+ "updated_pt": "2026-10-22T09:16:00-07:00",
  "previous": {
   "date": "2026-10-21",
   "updated_pt": "2026-10-21 12:06 PM PT",
@@ -388,9 +388,9 @@
    "reversal_weekly": "",
    "iv_rank": 65,
    "iv_pctl": 75,
-   "status": "open",
-   "exit": null,
-   "notes": "proph: '$HD 23 OCT 26 $332.5 CALL $0.46 INSIDE BAR + RELATIVE AND SECTOR STRENGTH + MOMENTUM CONTINUATION' (8:02 AM PT). 2.7% OTM. 332.5 strike not in data feed chain, so option quote/vol/OI/IV n/a. ATM straddle implied move ±6.37 (±2.0%) to 10/23. Strat D 1→2↑, W 2↑→2↑ (prior highs taken out). Reversal none. IV rank 65 | IV pctl 75 (52w IV 20%–36%, as of 10/20)."
+   "status": "exited",
+   "exit": 0.46,
+   "notes": "proph: '$HD 23 OCT 26 $332.5 CALL $0.46 INSIDE BAR + RELATIVE AND SECTOR STRENGTH + MOMENTUM CONTINUATION' (8:02 AM PT). 2.7% OTM. 332.5 strike not in data feed chain, so option quote/vol/OI/IV n/a. ATM straddle implied move ±6.37 (±2.0%) to 10/23. Strat D 1→2↑, W 2↑→2↑ (prior highs taken out). Reversal none. IV rank 65 | IV pctl 75 (52w IV 20%–36%, as of 10/20). | 9:05 AM PT proph reposted the call, then 'took $HD $332.5 breakeven' (exit ~0.46)."
   },
   {
    "time": "11:06 AM ET",
@@ -455,6 +455,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph: '$ZUMZ 20 NOV 26 $15 CALL $0.75 BULLISH OUTSIDE BAR ON THE DAILY TIME FRAME + SECTOR AND RELATIVE STRENGTH + GAP FILL PLAY + HIGH CONFIDENCE SWING TRADE' (9:00 AM PT, reposted 9:01). 4.0% OTM. THIN: OI 59, vol 3, spread 111% of mid. Strat D 2↓→3, W 2↑→2↓. Reversal none. IV rank 36 | IV pctl 17 (52w IV 20%–91%, as of 10/20). Channel link (message permalink unavailable)."
+  },
+  {
+   "time": "12:13 PM ET",
+   "time_pt": "9:13 AM PT",
+   "ticker": "ULTA",
+   "side": "CALL",
+   "strike": 650,
+   "expiry": "10/23",
+   "entry": 1.35,
+   "source": "Discord Diamond Trading #free-alerts (proph)",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1562861568654311446",
+   "underlying": 634.67,
+   "otm_pct": 2.4,
+   "opt_last": 0.1,
+   "bid": 0.15,
+   "ask": 1.0,
+   "spread_pct": 148,
+   "vol": 5,
+   "oi": 26,
+   "iv": 29.7,
+   "impl_move": null,
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 16,
+   "iv_pctl": 16,
+   "status": "open",
+   "exit": null,
+   "notes": "proph: '$ULTA 23 OCT 26 $650 CALL $1.35 HIGH CONFIDENCE + RELATIVE AND SECTOR STRENGTH' (9:13 AM PT). 2.4% OTM. THIN: OI 26, vol 5, spread 148% of mid (quote data looks stale vs entry 1.35). Strat D 2↑→2↑, W 2↑→2↑. Reversal none. IV rank 16 | IV pctl 16 (52w IV 21%–60%, as of 10/20). Implied move n/a."
   }
  ]
 }
