@@ -1,6 +1,6 @@
 {
  "date": "2026-10-22",
- "updated_pt": "2026-10-22 9:37 AM PT",
+ "updated_pt": "9:44 AM PT",
  "previous": {
   "date": "2026-10-21",
   "updated_pt": "2026-10-21 12:06 PM PT",
@@ -551,6 +551,38 @@
    "status": "open",
    "exit": null,
    "notes": "@StockOptions888: '1K CHALLENGE $AFL 123 Call 10/23 .30' (9:35 AM PT). 0.8% OTM. Last 0.15, bid 0.15 / ask 0.50 (spread 108% of mid), vol 4, OI 47: thin, wide. IV 24.5%. Implied move to 10/23 ±2.05 (±1.7%). Strat D 2↑→2↑, W 2↑→2↑. Reversal none. IV rank 69 | IV pctl 74 (52w IV 13%–28%, as of 10/20)."
+  },
+  {
+   "time": "12:41 PM ET",
+   "time_pt": "9:41 AM PT",
+   "ticker": "HVT",
+   "side": "CALL",
+   "strike": 35,
+   "expiry": "11/20",
+   "entry": 0.2,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2113309849991938134",
+   "underlying": 29.62,
+   "otm_pct": 18.2,
+   "opt_last": 0.2,
+   "bid": 0.15,
+   "ask": 0.2,
+   "spread_pct": 29,
+   "vol": 531,
+   "oi": 2,
+   "iv": 45.5,
+   "impl_move": 11.2,
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "3",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 46,
+   "iv_pctl": 60,
+   "status": "open",
+   "exit": null,
+   "notes": "@StockOptions888: '$HVT 35 CALL 11/20 @ 0.20 DAY / SWING' (9:41 AM PT), reposted 9:43 (https://x.com/StockOptions888/status/2113310225486991854) plus '300 contracts added for swing'. 18.2% OTM. Last 0.20, bid 0.15 / ask 0.20 (spread 29% of mid), vol 531, OI 2: thin OI, wide. IV 45.5%. Implied move to 11/20 ±3.32 (±11.2%). Strat D 2↓→2↑, W 3→2↑. Reversal none. IV rank 46 | IV pctl 60 (52w IV 16%–80%, as of 10/20)."
   }
  ]
 }
