@@ -1,6 +1,6 @@
 {
  "date": "2026-10-22",
- "updated_pt": "2026-10-22T09:27:00-07:00",
+ "updated_pt": "2026-10-22 9:37 AM PT",
  "previous": {
   "date": "2026-10-21",
   "updated_pt": "2026-10-21 12:06 PM PT",
@@ -519,6 +519,38 @@
    "status": "open",
    "exit": null,
    "notes": "@StockOptions888: '1K CHALLENGE $SNN 35 Call 11/20 .25' (9:24 AM PT), reposted 'HIGH CONFIDENCE $SNN 35 Call 11/20' 9:25 and '$SNN 35 Call 11/20 HERE' 9:25 (merged). 13.9% OTM. 35 strike not in Yahoo chain (only 30 listed), so no option quote/vol/OI/IV. Implied move to 11/20 ±2.17 (±7.1%) from ATM 30 straddle. Strat D 3→2↑, W 2↑→2↑. Reversal none. IV rank 22 | IV pctl 23 (52w IV 17%–77%, as of 10/20)."
+  },
+  {
+   "time": "12:35 PM ET",
+   "time_pt": "9:35 AM PT",
+   "ticker": "AFL",
+   "side": "CALL",
+   "strike": 123,
+   "expiry": "10/23",
+   "entry": 0.3,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2113308354823213514",
+   "underlying": 122.08,
+   "otm_pct": 0.8,
+   "opt_last": 0.15,
+   "bid": 0.15,
+   "ask": 0.5,
+   "spread_pct": 108,
+   "vol": 4,
+   "oi": 47,
+   "iv": 24.5,
+   "impl_move": 1.7,
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 69,
+   "iv_pctl": 74,
+   "status": "open",
+   "exit": null,
+   "notes": "@StockOptions888: '1K CHALLENGE $AFL 123 Call 10/23 .30' (9:35 AM PT). 0.8% OTM. Last 0.15, bid 0.15 / ask 0.50 (spread 108% of mid), vol 4, OI 47: thin, wide. IV 24.5%. Implied move to 10/23 ±2.05 (±1.7%). Strat D 2↑→2↑, W 2↑→2↑. Reversal none. IV rank 69 | IV pctl 74 (52w IV 13%–28%, as of 10/20)."
   }
  ]
 }
