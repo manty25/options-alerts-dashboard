@@ -1,6 +1,6 @@
 {
  "date": "2026-10-22",
- "updated_pt": "9:44 AM PT",
+ "updated_pt": "2026-10-22T10:25:50-07:00",
  "previous": {
   "date": "2026-10-21",
   "updated_pt": "2026-10-21 12:06 PM PT",
@@ -583,6 +583,38 @@
    "status": "open",
    "exit": null,
    "notes": "@StockOptions888: '$HVT 35 CALL 11/20 @ 0.20 DAY / SWING' (9:41 AM PT), reposted 9:43 (https://x.com/StockOptions888/status/2113310225486991854) plus '300 contracts added for swing'. 18.2% OTM. Last 0.20, bid 0.15 / ask 0.20 (spread 29% of mid), vol 531, OI 2: thin OI, wide. IV 45.5%. Implied move to 11/20 ±3.32 (±11.2%). Strat D 2↓→2↑, W 3→2↑. Reversal none. IV rank 46 | IV pctl 60 (52w IV 16%–80%, as of 10/20)."
+  },
+  {
+   "time": "1:25 PM ET",
+   "time_pt": "10:25 AM PT",
+   "ticker": "WDFC",
+   "side": "CALL",
+   "strike": 230,
+   "expiry": "11/20",
+   "entry": 0.85,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2113320800963227825",
+   "underlying": 205.85,
+   "otm_pct": 11.7,
+   "opt_last": 0.4,
+   "bid": 0.5,
+   "ask": 0.95,
+   "spread_pct": 62,
+   "vol": 24,
+   "oi": 254,
+   "iv": 30.7,
+   "impl_move": 6.9,
+   "prev_daily": "2↓",
+   "daily": "3",
+   "prev_weekly": "2↓",
+   "weekly": "3",
+   "reversal_daily": "",
+   "reversal_weekly": "2↓→green + vol↑",
+   "iv_rank": 64,
+   "iv_pctl": 92,
+   "status": "open",
+   "exit": null,
+   "notes": "@StockOptions888: '🚨 $WDFC 230 CALL 11/20 @ .85 THIS CAN GO 500%+' (10:25 AM PT). 11.7% OTM. Last 0.40, bid 0.50 / ask 0.95 (spread 62% of mid), vol 24, OI 254: thin volume, wide spread. IV 30.7%. Implied move to 11/20 ±14.20 (±6.9%). Strat D 2↓→3, W 2↓→3. Reversal W: 2↓→green + vol↑. IV rank 64 | IV pctl 92 (52w IV 21%–57%, as of 10/20)."
   }
  ]
 }
