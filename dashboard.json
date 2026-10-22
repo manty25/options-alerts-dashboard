@@ -1,6 +1,6 @@
 {
  "date": "2026-10-22",
- "updated_pt": "7:10 AM PT",
+ "updated_pt": "7:22 AM PT",
  "previous": {
   "date": "2026-10-21",
   "updated_pt": "2026-10-21 12:06 PM PT",
@@ -263,6 +263,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph: '$LOW 23 OCT 26 $205 CALL $0.40 GAP FILL PLAY + $200 PRICE TARGET BY EVERCORE ISI + RELATIVE AND SECTOR STRENGTH' (7:08 AM PT / 10:08 AM ET), reposted with 'HIGH CONFIDENCE!!' same minute (merged). 2.0% OTM. Last 0.13, bid 0.10 / ask 0.70 (mid 0.40, spread 150% of mid, wide), vol 13 (thin), OI 512, IV 35.7%. Implied move ±4.45 (±2.2%) to 10/23. Strat D 2↓→2↑ (prior high taken out); W 2↑→2↑. Reversal D none, W none. IV rank 84 | IV pctl 88 (52w IV 20%–38%, as of 10/20). Message link is the channel (exact message link not captured)."
+  },
+  {
+   "time": "10:19 AM ET",
+   "time_pt": "7:19 AM PT",
+   "ticker": "KO",
+   "side": "CALL",
+   "strike": 95,
+   "expiry": "10/23",
+   "entry": 0.23,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2113274050881737075",
+   "underlying": 94.33,
+   "otm_pct": 0.7,
+   "opt_last": 0.1,
+   "bid": 0.11,
+   "ask": 0.19,
+   "spread_pct": 53,
+   "vol": 44,
+   "oi": 946,
+   "iv": 15.9,
+   "impl_move": "±1.03 (±1.1%)",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 66,
+   "iv_pctl": 80,
+   "status": "open",
+   "exit": null,
+   "notes": "MoonTrades7: '$KO 95 CALL 10/23 @ .23 ALL TIME HIGH BREAKOUT' (7:19 AM PT / 10:19 AM ET); reposted 7:20 AM PT as '800 CONTRACTS $KO 95 CALL 10/23 @ .25' (merged, https://x.com/MoonTrades7/status/2113274274303897662). 0.7% OTM. Last 0.10, bid 0.11 / ask 0.19 (mid 0.15, spread 53% of mid, wide), vol 44 (thin), OI 946, IV 15.9%. Implied move ±1.03 (±1.1%) to 10/23. Strat D 2↓→2↑ (prior high taken out); W 2↑→2↑. Reversal D none, W none. IV rank 66 | IV pctl 80 (52w IV 13%–25%, as of 10/20)."
   }
  ]
 }
