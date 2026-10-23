@@ -1,6 +1,6 @@
 {
  "date": "2026-10-23",
- "updated_pt": "2026-10-23 11:05 AM PT",
+ "updated_pt": "2026-10-23 11:21 AM PT",
  "previous": {
   "date": "2026-10-22",
   "updated_pt": "2026-10-22T12:09:00-07:00",
@@ -775,6 +775,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph: '$LMT 30 OCT 26 $635 CALL $1.30 DOUBLE EARNINGS BEAT + INSIDE BAR + GAP FILL PLAY + price targets' (10:57 AM PT). 4.8% OTM. Thin: OI 23, vol 21, spread 200% of mid (bid 0). Strat D 2↑→1, W 2↑→2↑. Reversal none. IV rank 63 | IV pctl 78 (52w IV 19%–40%, as of 10/21)."
+  },
+  {
+   "time": "2:19 PM ET",
+   "time_pt": "11:19 AM PT",
+   "ticker": "BRZE",
+   "side": "CALL",
+   "strike": 32.5,
+   "expiry": "11/20",
+   "entry": 1.15,
+   "source": "Discord Diamond Trading #free-alerts (proph)",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279",
+   "underlying": 45.88,
+   "otm_pct": -29.2,
+   "opt_last": 13.52,
+   "bid": 13.4,
+   "ask": 13.6,
+   "spread_pct": 1,
+   "vol": 4,
+   "oi": 4315,
+   "iv": 70.1,
+   "impl_move": "±8.91 (±19.4%)",
+   "prev_daily": "2↑",
+   "daily": "1",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 1,
+   "iv_pctl": 0,
+   "status": "open",
+   "exit": null,
+   "notes": "proph: '$BRZE 20 NOV 26 $32.5 CALL $1.15' gap fill play, AWS collaboration, Cantor $38, Citizens $35, D.A. Davidson $40 (11:19 AM PT). Strike 29.2% ITM; posted entry 1.15 vs option last 13.52. Thin volume (4); OI 4315, spread 1% of mid. Strat D 2↑→1, W 2↑→2↑. Reversal none. IV rank 1 | IV pctl 0 (52w IV 6%–108%, as of 10/21)."
   }
  ]
 }
