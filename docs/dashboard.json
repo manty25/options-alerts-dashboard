@@ -1,6 +1,6 @@
 {
  "date": "2026-10-23",
- "updated_pt": "7:53 AM PT",
+ "updated_pt": "2026-10-23T07:58:00-07:00",
  "previous": {
   "date": "2026-10-22",
   "updated_pt": "2026-10-22T12:09:00-07:00",
@@ -549,8 +549,8 @@
    "iv_rank": 16,
    "iv_pctl": 36,
    "status": "exited",
-   "exit": 1.89,
-   "notes": "BCF: 'BTO 5 SPY 762c 10/23 @ 1.55' (6:52 AM PT). 0.1% OTM, 0DTE. Last 1.18, bid 1.17 / ask 1.18 (spread 1% of mid), vol 9198, OI 6456. Quote may lag; last below stated 1.55 entry. IV 10.6%. Implied move to 10/23 ±4.66 (±0.6%). Strat D 2↓→2↓, W 2↓→2↓ (bearish, doesn't line up with call). Reversal none. IV rank 16 | IV pctl 36 (52w IV 11%–27%, as of 10/21). EXIT: BCF 'STC 3 SPY 762c 10/23 @ 1.89' (7:48 AM PT; 3 of 5)."
+   "exit": 2.1,
+   "notes": "BCF: 'BTO 5 SPY 762c 10/23 @ 1.55' (6:52 AM PT). 0.1% OTM, 0DTE. Last 1.18, bid 1.17 / ask 1.18 (spread 1% of mid), vol 9198, OI 6456. Quote may lag; last below stated 1.55 entry. IV 10.6%. Implied move to 10/23 ±4.66 (±0.6%). Strat D 2↓→2↓, W 2↓→2↓ (bearish, doesn't line up with call). Reversal none. IV rank 16 | IV pctl 36 (52w IV 11%–27%, as of 10/21). EXIT: BCF 'STC 3 SPY 762c 10/23 @ 1.89' (7:48 AM PT; 3 of 5). EXIT: BCF 'STC 2 SPY 762c 10/23 @ 2.10 — All out' (7:52 AM PT; remaining 2 of 5)."
   },
   {
    "time": "10:14 AM ET",
@@ -583,6 +583,38 @@
    "status": "open",
    "exit": null,
    "notes": "MoonTrades7: '$1K-$100K CHALLENGE TRADE — $ENVX 3 CALL 10/30 @.11' (7:14 AM PT). 9.9% OTM. Last 0.03, bid 0.00 / ask 0.03 (spread 200% of mid), vol 3, OI 1787; thin volume and wide spread; quote may lag, last below stated 0.11 entry. IV 56.3%. Implied move ±0.32 (±11.7%). Strat D 2↑→3, W 3→2↓. Reversal none. IV rank 52 | IV pctl 62 (52w IV 70%–127%, as of 10/21)."
+  },
+  {
+   "time": "10:55 AM ET",
+   "time_pt": "7:55 AM PT",
+   "ticker": "SPY",
+   "side": "PUT",
+   "strike": 762,
+   "expiry": "10/23",
+   "entry": 1.44,
+   "source": "Discord LTP #bcf (BCF)",
+   "link": "https://discord.com/channels/1244040902117167174/1484651542077505677#2026-10-23T07:55",
+   "underlying": 762.82,
+   "otm_pct": 0.1,
+   "opt_last": 2.29,
+   "bid": 2.25,
+   "ask": 2.26,
+   "spread_pct": 0,
+   "vol": 16507,
+   "oi": 10293,
+   "iv": 16.7,
+   "impl_move": 0.5,
+   "prev_daily": "2↓",
+   "daily": "2↓",
+   "prev_weekly": "2↓",
+   "weekly": "2↓",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 16,
+   "iv_pctl": 36,
+   "status": "open",
+   "exit": null,
+   "notes": "BCF: 'BTO 10 SPY 762p 10/23 @ 1.44' + 'Stop above 763' (7:55 AM PT). 0.1% OTM, 0DTE. Last 2.29, bid 2.25 / ask 2.26 (spread 0% of mid), vol 16507, OI 10293. Quote may lag; last above stated 1.44 entry. IV 16.7%. Implied move ±3.82 (±0.5%). Strat D 2↓→2↓, W 2↓→2↓ (bearish, lines up with put). Reversal none. IV rank 16 | IV pctl 36 (52w IV 11%–27%, as of 10/21)."
   }
  ]
 }
