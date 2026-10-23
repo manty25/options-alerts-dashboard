@@ -1,6 +1,6 @@
 {
  "date": "2026-10-23",
- "updated_pt": "2026-10-23 10:52 AM PT",
+ "updated_pt": "2026-10-23 11:02 AM PT",
  "previous": {
   "date": "2026-10-22",
   "updated_pt": "2026-10-22T12:09:00-07:00",
@@ -711,6 +711,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph: '$BY 20 NOV 26 $40 CALL $0.70 DOUBLE EARNINGS BEAT + ALL-TIME HIGH BREAKOUT SETUP + $39.79 PIVOT BREAKOUT POTENTIAL' (10:45 AM PT). 2.7% OTM. Nov 20 chain not available from the data feed (only 12/18 and 3/19 listed), so option last/spread/vol/OI/IV/implied move n/a. Strat D 2↑→2↑, W 1→2↑ (bullish, lines up with call). Reversal none. IV rank 10 | IV pctl 4 (52w IV 13%–68%, as of 10/21)."
+  },
+  {
+   "time": "1:55 PM ET",
+   "time_pt": "10:55 AM PT",
+   "ticker": "TGS",
+   "side": "CALL",
+   "strike": 30,
+   "expiry": "11/20",
+   "entry": 0.4,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2113690720104304684",
+   "underlying": 27.0,
+   "otm_pct": 11.1,
+   "opt_last": 0.35,
+   "bid": 0.25,
+   "ask": 0.4,
+   "spread_pct": 46,
+   "vol": 26,
+   "oi": 87,
+   "iv": 44.5,
+   "impl_move": "±2.57 (±9.5%)",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "3",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 29,
+   "iv_pctl": 22,
+   "status": "open",
+   "exit": null,
+   "notes": "@StockOptions888: '🚨 $TGS 30 CALL 11/20 @ .40 THIS CAN GO 500%+' (10:55 AM PT), reposted 10:55:37 (merged). 11.1% OTM. Thin: OI 87, vol 26, spread 46% of mid. Strat D 2↓→2↑, W 2↓→3. Reversal none. IV rank 29 | IV pctl 22 (52w IV 17%–98%, as of 10/21)."
   }
  ]
 }
