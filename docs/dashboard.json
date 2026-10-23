@@ -1,6 +1,6 @@
 {
  "date": "2026-10-23",
- "updated_pt": "2026-10-23T07:58:00-07:00",
+ "updated_pt": "2026-10-23T08:15:00-07:00",
  "previous": {
   "date": "2026-10-22",
   "updated_pt": "2026-10-22T12:09:00-07:00",
@@ -612,9 +612,9 @@
    "reversal_weekly": "",
    "iv_rank": 16,
    "iv_pctl": 36,
-   "status": "open",
-   "exit": null,
-   "notes": "BCF: 'BTO 10 SPY 762p 10/23 @ 1.44' + 'Stop above 763' (7:55 AM PT). 0.1% OTM, 0DTE. Last 2.29, bid 2.25 / ask 2.26 (spread 0% of mid), vol 16507, OI 10293. Quote may lag; last above stated 1.44 entry. IV 16.7%. Implied move ±3.82 (±0.5%). Strat D 2↓→2↓, W 2↓→2↓ (bearish, lines up with put). Reversal none. IV rank 16 | IV pctl 36 (52w IV 11%–27%, as of 10/21)."
+   "status": "exited",
+   "exit": 1.44,
+   "notes": "BCF: 'BTO 10 SPY 762p 10/23 @ 1.44' + 'Stop above 763' (7:55 AM PT). 0.1% OTM, 0DTE. Last 2.29, bid 2.25 / ask 2.26 (spread 0% of mid), vol 16507, OI 10293. Quote may lag; last above stated 1.44 entry. IV 16.7%. Implied move ±3.82 (±0.5%). Strat D 2↓→2↓, W 2↓→2↓ (bearish, lines up with put). Reversal none. IV rank 16 | IV pctl 36 (52w IV 11%–27%, as of 10/21). EXIT: BCF 'STC 10 SPY 762p 10/23 @ 1.44' (8:12 AM PT; all 10, flat vs 1.44 entry)."
   }
  ]
 }
