@@ -1,6 +1,6 @@
 {
  "date": "2026-10-23",
- "updated_pt": "6:35 AM PT",
+ "updated_pt": "6:55 AM PT",
  "previous": {
   "date": "2026-10-22",
   "updated_pt": "2026-10-22T12:09:00-07:00",
@@ -519,5 +519,38 @@
    }
   ]
  },
- "alerts": []
+ "alerts": [
+  {
+   "time": "9:52 AM ET",
+   "time_pt": "6:52 AM PT",
+   "ticker": "SPY",
+   "side": "CALL",
+   "strike": 762,
+   "expiry": "10/23",
+   "entry": 1.55,
+   "source": "Discord LTP #bcf (BCF)",
+   "link": "https://discord.com/channels/1244040902117167174/1484651542077505677/1563188260497395855",
+   "underlying": 760.86,
+   "otm_pct": 0.1,
+   "opt_last": 1.18,
+   "bid": 1.17,
+   "ask": 1.18,
+   "spread_pct": 1,
+   "vol": 9198,
+   "oi": 6456,
+   "iv": 10.6,
+   "impl_move": 0.6,
+   "prev_daily": "2↓",
+   "daily": "2↓",
+   "prev_weekly": "2↓",
+   "weekly": "2↓",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 16,
+   "iv_pctl": 36,
+   "status": "open",
+   "exit": null,
+   "notes": "BCF: 'BTO 5 SPY 762c 10/23 @ 1.55' (6:52 AM PT). 0.1% OTM, 0DTE. Last 1.18, bid 1.17 / ask 1.18 (spread 1% of mid), vol 9198, OI 6456. Quote may lag; last below stated 1.55 entry. IV 10.6%. Implied move to 10/23 ±4.66 (±0.6%). Strat D 2↓→2↓, W 2↓→2↓ (bearish, doesn't line up with call). Reversal none. IV rank 16 | IV pctl 36 (52w IV 11%–27%, as of 10/21)."
+  }
+ ]
 }
