@@ -1,6 +1,6 @@
 {
  "date": "2026-10-26",
- "updated_pt": "2026-10-26 6:53 AM PT",
+ "updated_pt": "2026-10-26 7:21 AM PT",
  "previous": {
   "date": "2026-10-23",
   "updated_pt": "2026-10-23 11:21 AM PT",
@@ -359,6 +359,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph: '$MCD 30 OCT 26 $260 CALL $0.33 INSIDE BAR + HIGH CONFIDENCE'. Update 6:48 AM PT: '$0.42 on $MCD here! 27% return!' (https://discord.com/channels/948036115254878249/1525232955872772279/1564274550018023495). 3.6% OTM. Last 0.25, mid 0.22, spread 0.10 (45% of mid, wide), vol 29 (thin), OI 825. IV 22.1%. Implied move ±2.4% to 10/30. Strat D 1→1, W 2↑→1. Reversal none. IV rank 69 | IV pctl 88 (52w IV 15%–29%, as of 10/22)."
+  },
+  {
+   "time": "10:17 AM ET",
+   "time_pt": "7:17 AM PT",
+   "ticker": "ULTA",
+   "side": "CALL",
+   "strike": 670,
+   "expiry": "10/30",
+   "entry": 1.35,
+   "source": "Discord Diamond Trading #free-alerts (proph)",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1564281886564417762",
+   "underlying": 632.51,
+   "otm_pct": 5.9,
+   "opt_last": 0.73,
+   "bid": 0.35,
+   "ask": 1.0,
+   "spread_pct": 96,
+   "vol": 1,
+   "oi": 4,
+   "iv": 35.3,
+   "impl_move": "±19.50 (±3.1%)",
+   "prev_daily": "1",
+   "daily": "1",
+   "prev_weekly": "2↑",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 28,
+   "iv_pctl": 34,
+   "status": "open",
+   "exit": null,
+   "notes": "proph: '$ULTA 30 OCT 26 $670 CALL $1.35 INSIDE BAR + $730 PT by Jefferies + $700 PT by BofA + sector and relative strength'. 5.9% OTM. Last 0.73 (below stated entry 1.35), mid 0.68, spread 0.65 (96% of mid, wide), vol 1 (thin), OI 4 (thin). IV 35.3%. Implied move ±3.1% to 10/30. Strat D 1→1, W 2↑→1. Reversal none. IV rank 28 | IV pctl 34 (52w IV 21%–60%, as of 10/22)."
   }
  ]
 }
