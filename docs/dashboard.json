@@ -1,6 +1,6 @@
 {
  "date": "2026-10-26",
- "updated_pt": "10:47 AM PT",
+ "updated_pt": "12:10 PM PT",
  "previous": {
   "date": "2026-10-23",
   "updated_pt": "2026-10-23 11:21 AM PT",
@@ -551,6 +551,38 @@
    "status": "open",
    "exit": null,
    "notes": "MoonTrades7: 'HIGH CONFIDENCE HEAVY SWING $FR 60 CALL 11/20 @ .35' (10:47 AM PT). 7.9% OTM. Last 0.20, bid 0.10/ask 0.35, mid 0.225, spread 111% of mid (wide). Vol 20, OI 5 (thin). IV 28.0%, implied move ±6.8% to 11/20. Strat D 2↓→2↑ (prior high taken out, lines up with call), W 2↓→1. Reversal none. IV rank 51 | IV pctl 49 (52w IV 11%–36%, as of 10/22)."
+  },
+  {
+   "time": "3:02 PM ET",
+   "time_pt": "12:02 PM PT",
+   "ticker": "MCBS",
+   "side": "CALL",
+   "strike": 40,
+   "expiry": "11/20",
+   "entry": 0.3,
+   "source": "X @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2114794777862701443",
+   "underlying": 36.58,
+   "otm_pct": 9.3,
+   "opt_last": 0.2,
+   "bid": 0.0,
+   "ask": 0.25,
+   "spread_pct": 200,
+   "vol": 7,
+   "oi": 1,
+   "iv": 32.0,
+   "impl_move": "±3.75 (±10.3%)",
+   "prev_daily": "2↑",
+   "daily": "3",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 15,
+   "iv_pctl": 6,
+   "status": "open",
+   "exit": null,
+   "notes": "StockOptions888: '$MCBS 40 CALL 11/20 @ .30 / THIS CAN GO 1000%+' (12:02 PM PT); reposted 12:02:47 PM PT as '1K-100K CHALLENGE' (merged). 9.3% OTM. Last 0.20, bid 0.00/ask 0.25, mid 0.125, spread 200% of mid (wide). Vol 7, OI 1 (thin). IV 32.0%, implied move ±10.3% to 11/20. Strat D 2↑→3 (outside bar, both sides taken out), W 2↑→2↑ (prior high taken out, lines up with call). Reversal none. IV rank 15 | IV pctl 6 (52w IV 14%–62%, as of 10/22)."
   }
  ]
 }
