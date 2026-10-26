@@ -1,6 +1,6 @@
 {
  "date": "2026-10-26",
- "updated_pt": "8:42 AM PT",
+ "updated_pt": "10:47 AM PT",
  "previous": {
   "date": "2026-10-23",
   "updated_pt": "2026-10-23 11:21 AM PT",
@@ -519,6 +519,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph: '$IBM 30 OCT 26 $262.5 CALL $1.66 INSIDE BAR + GAP FILL PLAY + DOUBLE EARNINGS BEAT + $280 PT Jefferies/Citi + $277 PT Barclays' (8:38 AM PT). 2.8% OTM. Last 1.45, bid 1.42/ask 1.67, mid 1.545, spread 16% of mid. Vol 153, OI 141. IV 35.9%, implied move ±3.3% to 10/30. Strat D 1→2↑ (prior high taken out, lines up with call), W 2↑→1. Reversal none. IV rank 33 | IV pctl 43 (52w IV 22%–62%, as of 10/22)."
+  },
+  {
+   "time": "1:47 PM ET",
+   "time_pt": "10:47 AM PT",
+   "ticker": "FR",
+   "side": "CALL",
+   "strike": 60,
+   "expiry": "11/20",
+   "entry": 0.35,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2114775825937793182",
+   "underlying": 55.61,
+   "otm_pct": 7.9,
+   "opt_last": 0.2,
+   "bid": 0.1,
+   "ask": 0.35,
+   "spread_pct": 111,
+   "vol": 20,
+   "oi": 5,
+   "iv": 28.0,
+   "impl_move": "±3.80 (±6.8%)",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 51,
+   "iv_pctl": 49,
+   "status": "open",
+   "exit": null,
+   "notes": "MoonTrades7: 'HIGH CONFIDENCE HEAVY SWING $FR 60 CALL 11/20 @ .35' (10:47 AM PT). 7.9% OTM. Last 0.20, bid 0.10/ask 0.35, mid 0.225, spread 111% of mid (wide). Vol 20, OI 5 (thin). IV 28.0%, implied move ±6.8% to 11/20. Strat D 2↓→2↑ (prior high taken out, lines up with call), W 2↓→1. Reversal none. IV rank 51 | IV pctl 49 (52w IV 11%–36%, as of 10/22)."
   }
  ]
 }
