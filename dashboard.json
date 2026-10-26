@@ -1,6 +1,6 @@
 {
  "date": "2026-10-26",
- "updated_pt": "2026-10-26T08:38:00-07:00",
+ "updated_pt": "8:42 AM PT",
  "previous": {
   "date": "2026-10-23",
   "updated_pt": "2026-10-23 11:21 AM PT",
@@ -487,6 +487,38 @@
    "status": "open",
    "exit": null,
    "notes": "@StockOptions888: '$MSM 130 CALL 11/20 @ .85 THIS CAN GO 500%+' (8:29 AM PT), reposted 8:30 AM PT as '1K CHALLENGE $MSM 130 CALL 11/20 @ .85' (https://x.com/StockOptions888/status/2114741443785019815, merged). 8.1% OTM. Last 1.00, bid 0.50/ask 0.85, mid 0.675, spread 52% of mid (wide). Vol 8 (thin), OI 185. IV 29.6%, implied move ±6.2% to 11/20. Strat D 1→2↑ (prior high taken out, lines up with call), W 3→1. Reversal none. IV rank 49 | IV pctl 82 (52w IV 22%–47%, as of 10/22)."
+  },
+  {
+   "time": "11:38 AM ET",
+   "time_pt": "8:38 AM PT",
+   "ticker": "IBM",
+   "side": "CALL",
+   "strike": 262.5,
+   "expiry": "10/30",
+   "entry": 1.66,
+   "source": "Discord Diamond Trading #free-alerts (proph)",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1564302162534731807",
+   "underlying": 255.35,
+   "otm_pct": 2.8,
+   "opt_last": 1.45,
+   "bid": 1.42,
+   "ask": 1.67,
+   "spread_pct": 16,
+   "vol": 153,
+   "oi": 141,
+   "iv": 35.9,
+   "impl_move": "±8.52 (±3.3%)",
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 33,
+   "iv_pctl": 43,
+   "status": "open",
+   "exit": null,
+   "notes": "proph: '$IBM 30 OCT 26 $262.5 CALL $1.66 INSIDE BAR + GAP FILL PLAY + DOUBLE EARNINGS BEAT + $280 PT Jefferies/Citi + $277 PT Barclays' (8:38 AM PT). 2.8% OTM. Last 1.45, bid 1.42/ask 1.67, mid 1.545, spread 16% of mid. Vol 153, OI 141. IV 35.9%, implied move ±3.3% to 10/30. Strat D 1→2↑ (prior high taken out, lines up with call), W 2↑→1. Reversal none. IV rank 33 | IV pctl 43 (52w IV 22%–62%, as of 10/22)."
   }
  ]
 }
