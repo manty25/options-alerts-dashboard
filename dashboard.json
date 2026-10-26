@@ -1,6 +1,6 @@
 {
  "date": "2026-10-26",
- "updated_pt": "6:43 AM PT",
+ "updated_pt": "2026-10-26 6:53 AM PT",
  "previous": {
   "date": "2026-10-23",
   "updated_pt": "2026-10-23 11:21 AM PT",
@@ -327,6 +327,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph: '$AMD 30 OCT 26 $550 CALL $5.70 INSIDE BAR + GAP FILL PLAY + ... HIGH-RISK'. Update 6:38 AM PT: '$6.50 on $AMD here! 14% return!' (https://discord.com/channels/948036115254878249/1525232955872772279/1564272080113897707). 5.2% OTM. Last 5.17, bid/ask not quoted (0/0), vol 3 (thin), OI 2744. IV 12.5% (quote likely stale). Implied move ±6.4% to 10/30. Strat D 1→2↑, W 2↓→1. Reversal none. IV rank 44 | IV pctl 67 (52w IV 42%–89%, as of 10/22)."
+  },
+  {
+   "time": "9:45 AM ET",
+   "time_pt": "6:45 AM PT",
+   "ticker": "MCD",
+   "side": "CALL",
+   "strike": 260,
+   "expiry": "10/30",
+   "entry": 0.33,
+   "source": "Discord Diamond Trading #free-alerts (proph)",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1564273889566134425",
+   "underlying": 251.07,
+   "otm_pct": 3.6,
+   "opt_last": 0.25,
+   "bid": 0.17,
+   "ask": 0.27,
+   "spread_pct": 45,
+   "vol": 29,
+   "oi": 825,
+   "iv": 22.1,
+   "impl_move": "±5.92 (±2.4%)",
+   "prev_daily": "1",
+   "daily": "1",
+   "prev_weekly": "2↑",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 69,
+   "iv_pctl": 88,
+   "status": "open",
+   "exit": null,
+   "notes": "proph: '$MCD 30 OCT 26 $260 CALL $0.33 INSIDE BAR + HIGH CONFIDENCE'. Update 6:48 AM PT: '$0.42 on $MCD here! 27% return!' (https://discord.com/channels/948036115254878249/1525232955872772279/1564274550018023495). 3.6% OTM. Last 0.25, mid 0.22, spread 0.10 (45% of mid, wide), vol 29 (thin), OI 825. IV 22.1%. Implied move ±2.4% to 10/30. Strat D 1→1, W 2↑→1. Reversal none. IV rank 69 | IV pctl 88 (52w IV 15%–29%, as of 10/22)."
   }
  ]
 }
