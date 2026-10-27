@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "updated_pt": "2026-10-27 10:10 AM PT",
+ "updated_pt": "2026-10-27 10:20 AM PT",
  "previous": {
   "date": "2026-10-26",
   "updated_pt": "12:10 PM PT",
@@ -518,7 +518,39 @@
    "iv_pctl": 38,
    "status": "open",
    "exit": null,
-   "notes": "@MoonTrades7: 'HIGH CONFIDENCE HEAVY SWING 🚨 $TRMK 50 CALL 11/20 @ .35'. 7.6% OTM. Last 0.60 (stale), no live bid/ask, vol 15, OI 0: thin. Quote IV (6.3%) unreliable without a bid/ask, so IV and implied move left blank. Strat D 2↑→2↓, W 2↑→2↑. Reversal none. IV rank 30 | IV pctl 38 (52w IV 11%–42%, as of 10/23)."
+   "notes": "@MoonTrades7: 'HIGH CONFIDENCE HEAVY SWING 🚨 $TRMK 50 CALL 11/20 @ .35'. 7.6% OTM. Last 0.60 (stale), no live bid/ask, vol 15, OI 0: thin. Quote IV (6.3%) unreliable without a bid/ask, so IV and implied move left blank. Strat D 2↑→2↓, W 2↑→2↑. Reversal none. IV rank 30 | IV pctl 38 (52w IV 11%–42%, as of 10/23). Reposted 10:10 AM PT (1:10 PM ET) @ .40: https://x.com/MoonTrades7/status/2115128896936955981 (merged, no new alert)."
+  },
+  {
+   "time": "1:18 PM ET",
+   "time_pt": "10:18 AM PT",
+   "ticker": "CNOB",
+   "side": "CALL",
+   "strike": 35,
+   "expiry": "11/20",
+   "entry": 0.3,
+   "source": "Discord Diamond Trading #free-alerts (proph)",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279",
+   "underlying": 33.18,
+   "otm_pct": 5.5,
+   "opt_last": 0.25,
+   "bid": 0.1,
+   "ask": 0.5,
+   "spread_pct": 133,
+   "vol": 4,
+   "oi": 2,
+   "iv": 33.6,
+   "impl_move": "±2.86 (8.6%)",
+   "prev_daily": "2↑",
+   "daily": "2↓",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 42,
+   "iv_pctl": 66,
+   "status": "open",
+   "exit": null,
+   "notes": "proph: '$CNOB 20 NOV 26 $35 CALL $0.30 ALL-TIME HIGH BREAKOUT + $37 PRICE TARGET BY RAYMOND JAMES AND KBW'. 5.5% OTM. Last 0.25, bid 0.10/ask 0.50 (spread 133% of mid), vol 4, OI 2: thin and wide. IV 33.6%, implied move ±2.86 to 11/20. Strat D 2↑→2↓, W 2↑→2↑. Reversal none. IV rank 42 | IV pctl 66 (52w IV 12%–73%, as of 10/23)."
   }
  ]
 }
