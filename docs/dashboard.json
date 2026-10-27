@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "updated_pt": "12:31 PM PT",
+ "updated_pt": "12:47 PM PT",
  "previous": {
   "date": "2026-10-26",
   "updated_pt": "12:10 PM PT",
@@ -775,6 +775,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph: '$AAPL 30 OCT 26 $355 CALL $0.63 ALL-TIME HIGH BREAKOUT POTENTIAL + $349.12 PIVOT BREAKOUT POTENTIAL + FLOW TRADE + HIGHER CONFIDENCE'. 2.2% OTM. Last 0.64, bid 0.64/ask 0.70 (spread 9% of mid), vol 8846, OI 16062. IV 21.5%, implied move ±6.47 (1.9%). Strat D 2↓→2↑, W 2↑→1. Reversal none. IV rank 58 | IV pctl 68 (52w IV 17%–34%, as of 10/23)."
+  },
+  {
+   "time": "3:40 PM ET",
+   "time_pt": "12:40 PM PT",
+   "ticker": "CCBG",
+   "side": "CALL",
+   "strike": 55,
+   "expiry": "11/20",
+   "entry": 0.35,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2115166860467634380",
+   "underlying": 51.48,
+   "otm_pct": 6.8,
+   "opt_last": null,
+   "bid": null,
+   "ask": null,
+   "spread_pct": null,
+   "vol": null,
+   "oi": null,
+   "iv": null,
+   "impl_move": "n/a",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 13,
+   "iv_pctl": 3,
+   "status": "open",
+   "exit": null,
+   "notes": "@MoonTrades7: 'HIGH CONFIDENCE HEAVY SWING $CCBG 55 CALL 11/20 @. 35'. 6.8% OTM. Option quote n/a (Yahoo shows no 11/20 chain for CCBG). Implied move n/a. Strat D 2↑→2↑, W 2↑→2↑. Reversal none. IV rank 13 | IV pctl 3 (52w IV 13%–61%, as of 10/23)."
   }
  ]
 }
