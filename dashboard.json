@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "updated_pt": "2026-10-27 6:41 AM PT",
+ "updated_pt": "2026-10-27 9:18 AM PT",
  "previous": {
   "date": "2026-10-26",
   "updated_pt": "12:10 PM PT",
@@ -359,6 +359,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph: '$SPCX 30 OCT 26 $152.5 CALL $1.53 DOUBLE INSIDE BAR SETUP + $120.5B DEAL WITH ANTHROPIC + $250 PRICE TARGET BY NEEDHAM + DOUBLE EARNINGS BEAT + HIGH-RISK'. 6:37 AM PT follow-up: 'this is a high-risk trade due to taking before any confirmations' (https://discord.com/channels/948036115254878249/1525232955872772279/1564634153767407617). 2.5% OTM. Last 1.45, bid/ask not quoted yet (open), vol 8444, OI 5326. Chain IV unreliable at open. Implied move ±7.17 (±4.8%) to 10/30. Strat D 2↑→1, W 1→1. Reversal none. IV rank 39 | IV pctl 72 (52w IV 13%–115%, as of 10/23)."
+  },
+  {
+   "time": "12:15 PM ET",
+   "time_pt": "9:15 AM PT",
+   "ticker": "PKE",
+   "side": "CALL",
+   "strike": 30,
+   "expiry": "11/20",
+   "entry": 0.45,
+   "source": "Discord Diamond Trading #free-alerts (proph)",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1564673882126815324",
+   "underlying": 26.92,
+   "otm_pct": 11.4,
+   "opt_last": 0.3,
+   "bid": 0.0,
+   "ask": 0.9,
+   "spread_pct": 200,
+   "vol": 1,
+   "oi": 32,
+   "iv": 51.2,
+   "impl_move": 20.1,
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 26,
+   "iv_pctl": 7,
+   "status": "open",
+   "exit": null,
+   "notes": "proph: '$PKE 20 NOV 26 $30 CALL $0.45 SWING TRADE + $SPCX SYMPATHY + RELATIVE AND SECTOR STRENGTH' (reposted 9:16 AM PT, https://discord.com/channels/948036115254878249/1525232955872772279/1564674106886987938). 11.4% OTM. Last 0.30, bid 0.00 / ask 0.90 (mid 0.45, spread 200% of mid), vol 1, OI 32: thin. IV 51.2%. Implied move ±20.1% to 11/20 (ATM 25 straddle). Strat D 2↑→2↑, W 2↓→2↑. Reversal none. IV rank 26 | IV pctl 7 (52w IV 18%–94%, as of 10/23)."
   }
  ]
 }
