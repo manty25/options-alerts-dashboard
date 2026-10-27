@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "updated_pt": "2026-10-27 12:22 PM PT",
+ "updated_pt": "12:31 PM PT",
  "previous": {
   "date": "2026-10-26",
   "updated_pt": "12:10 PM PT",
@@ -422,7 +422,7 @@
    "iv_pctl": 87,
    "status": "open",
    "exit": null,
-   "notes": "proph: '$DASH 30 OCT 26 $185 CALL $0.80 HIGH CONFIDENCE + OVERREACTION'. 6.5% OTM. Last 0.70, bid 0.38 / ask 0.94 (mid 0.66, spread 85% of mid): wide. Vol 74, OI 229. IV 53.3%. Implied move ±4.3% (±7.41, ATM 175 straddle) to 10/30. Strat D 2↓→1, W 3→2↓. Reversal none. IV rank 67 | IV pctl 87 (52w IV 32%–81%, as of 10/23)."
+   "notes": "proph: '$DASH 30 OCT 26 $185 CALL $0.80 HIGH CONFIDENCE + OVERREACTION'. 6.5% OTM. Last 0.70, bid 0.38 / ask 0.94 (mid 0.66, spread 85% of mid): wide. Vol 74, OI 229. IV 53.3%. Implied move ±4.3% (±7.41, ATM 175 straddle) to 10/30. Strat D 2↓→1, W 3→2↓. Reversal none. IV rank 67 | IV pctl 87 (52w IV 32%–81%, as of 10/23). 12:27 PM PT proph averaged down, new fill $0.44."
   },
   {
    "time": "12:48 PM ET",
@@ -743,6 +743,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph: '$BKU 20 NOV 26 $45 CALL $0.65 INSIDE BAR + ALL-TIME HIGH BREAKOUT + HIGH CONFIDENCE SWING TRADE'. 3.5% OTM. Last 0.55, bid 0.55/ask 0.80 (spread 37% of mid, wide), vol 2 (thin), OI 216. IV 31.1%, implied move ±2.38 (5.5%). Strat D 2↑→1, W 2↑→2↑. Reversal none. IV rank 43 | IV pctl 46 (52w IV 12%–58%, as of 10/23). Reposted 12:21 PM PT."
+  },
+  {
+   "time": "3:24 PM ET",
+   "time_pt": "12:24 PM PT",
+   "ticker": "AAPL",
+   "side": "CALL",
+   "strike": 355,
+   "expiry": "10/30",
+   "entry": 0.63,
+   "source": "Discord Diamond Trading #free-alerts (proph)",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1564721577734574081",
+   "underlying": 347.35,
+   "otm_pct": 2.2,
+   "opt_last": 0.64,
+   "bid": 0.64,
+   "ask": 0.7,
+   "spread_pct": 9,
+   "vol": 8846,
+   "oi": 16062,
+   "iv": 21.5,
+   "impl_move": "±6.47 (1.9%)",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 58,
+   "iv_pctl": 68,
+   "status": "open",
+   "exit": null,
+   "notes": "proph: '$AAPL 30 OCT 26 $355 CALL $0.63 ALL-TIME HIGH BREAKOUT POTENTIAL + $349.12 PIVOT BREAKOUT POTENTIAL + FLOW TRADE + HIGHER CONFIDENCE'. 2.2% OTM. Last 0.64, bid 0.64/ask 0.70 (spread 9% of mid), vol 8846, OI 16062. IV 21.5%, implied move ±6.47 (1.9%). Strat D 2↓→2↑, W 2↑→1. Reversal none. IV rank 58 | IV pctl 68 (52w IV 17%–34%, as of 10/23)."
   }
  ]
 }
