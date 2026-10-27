@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "updated_pt": "2026-10-27 9:18 AM PT",
+ "updated_pt": "2026-10-27 9:36 AM PT",
  "previous": {
   "date": "2026-10-26",
   "updated_pt": "12:10 PM PT",
@@ -391,6 +391,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph: '$PKE 20 NOV 26 $30 CALL $0.45 SWING TRADE + $SPCX SYMPATHY + RELATIVE AND SECTOR STRENGTH' (reposted 9:16 AM PT, https://discord.com/channels/948036115254878249/1525232955872772279/1564674106886987938). 11.4% OTM. Last 0.30, bid 0.00 / ask 0.90 (mid 0.45, spread 200% of mid), vol 1, OI 32: thin. IV 51.2%. Implied move ±20.1% to 11/20 (ATM 25 straddle). Strat D 2↑→2↑, W 2↓→2↑. Reversal none. IV rank 26 | IV pctl 7 (52w IV 18%–94%, as of 10/23)."
+  },
+  {
+   "time": "12:34 PM ET",
+   "time_pt": "9:34 AM PT",
+   "ticker": "DASH",
+   "side": "CALL",
+   "strike": 185,
+   "expiry": "10/30",
+   "entry": 0.8,
+   "source": "Discord Diamond Trading #free-alerts (proph)",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1564678646935851090",
+   "underlying": 173.79,
+   "otm_pct": 6.5,
+   "opt_last": 0.7,
+   "bid": 0.38,
+   "ask": 0.94,
+   "spread_pct": 85,
+   "vol": 74,
+   "oi": 229,
+   "iv": 53.3,
+   "impl_move": 4.3,
+   "prev_daily": "2↓",
+   "daily": "1",
+   "prev_weekly": "3",
+   "weekly": "2↓",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 67,
+   "iv_pctl": 87,
+   "status": "open",
+   "exit": null,
+   "notes": "proph: '$DASH 30 OCT 26 $185 CALL $0.80 HIGH CONFIDENCE + OVERREACTION'. 6.5% OTM. Last 0.70, bid 0.38 / ask 0.94 (mid 0.66, spread 85% of mid): wide. Vol 74, OI 229. IV 53.3%. Implied move ±4.3% (±7.41, ATM 175 straddle) to 10/30. Strat D 2↓→1, W 3→2↓. Reversal none. IV rank 67 | IV pctl 87 (52w IV 32%–81%, as of 10/23)."
   }
  ]
 }
