@@ -1,6 +1,6 @@
 {
  "date": "2026-10-27",
- "updated_pt": "2026-10-27 10:03 AM PT",
+ "updated_pt": "2026-10-27 10:10 AM PT",
  "previous": {
   "date": "2026-10-26",
   "updated_pt": "12:10 PM PT",
@@ -487,6 +487,38 @@
    "status": "open",
    "exit": null,
    "notes": "@StockOptions888: '$OSW 30 CALL 11/20 @ .25 THIS CAN GO 1000%+' (reposted 9:56 and 9:57 AM PT as '1K - 100K CHALLENGE', merged). 18.8% OTM. The 30 strike isn't in the listed 11/20 chain (only 22.5 and 25 strikes show), so no quote, vol, OI or IV. Strat D 2↑→2↑, W 2↓→2↑. Reversal none. IV rank 48 | IV pctl 86 (52w IV 19%–71%, as of 10/23)."
+  },
+  {
+   "time": "1:07 PM ET",
+   "time_pt": "10:07 AM PT",
+   "ticker": "TRMK",
+   "side": "CALL",
+   "strike": 50,
+   "expiry": "11/20",
+   "entry": 0.35,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2115128260342206936",
+   "underlying": 46.48,
+   "otm_pct": 7.6,
+   "opt_last": 0.6,
+   "bid": null,
+   "ask": null,
+   "spread_pct": null,
+   "vol": 15,
+   "oi": 0,
+   "iv": null,
+   "impl_move": null,
+   "prev_daily": "2↑",
+   "daily": "2↓",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 30,
+   "iv_pctl": 38,
+   "status": "open",
+   "exit": null,
+   "notes": "@MoonTrades7: 'HIGH CONFIDENCE HEAVY SWING 🚨 $TRMK 50 CALL 11/20 @ .35'. 7.6% OTM. Last 0.60 (stale), no live bid/ask, vol 15, OI 0: thin. Quote IV (6.3%) unreliable without a bid/ask, so IV and implied move left blank. Strat D 2↑→2↓, W 2↑→2↑. Reversal none. IV rank 30 | IV pctl 38 (52w IV 11%–42%, as of 10/23)."
   }
  ]
 }
