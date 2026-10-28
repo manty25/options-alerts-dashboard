@@ -1,6 +1,6 @@
 {
  "date": "2026-10-28",
- "updated_pt": "2026-10-28 10:19 AM PT",
+ "updated_pt": "2026-10-28 10:27 AM PT",
  "previous": {
   "date": "2026-10-27",
   "updated_pt": "12:47 PM PT",
@@ -583,6 +583,38 @@
    "status": "open",
    "exit": null,
    "notes": "@StockOptions888: '$AER 170 CALL 11/20 @ .65 THIS CAN GO 500%+' (reposted 10:14 as '1K - 100K CHALLENGE'). 7.5% OTM. 170 strike not listed in the Nov 20 chain data (highest listed 165), so no option quote, vol/OI, IV or implied move. Strat D 2↑→2↑, W 2↑→2↑ (lines up with bullish call). Reversal none. IV rank 38 | IV pctl 31 (52w IV 17%–38%, as of 10/28)."
+  },
+  {
+   "time": "1:22 PM ET",
+   "time_pt": "10:22 AM PT",
+   "ticker": "HTH",
+   "side": "CALL",
+   "strike": 40,
+   "expiry": "11/20",
+   "entry": 0.2,
+   "source": "X @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2115494512856633377",
+   "underlying": 36.88,
+   "otm_pct": 8.5,
+   "opt_last": 0.3,
+   "bid": 0.0,
+   "ask": 2.2,
+   "spread_pct": 200,
+   "vol": 4,
+   "oi": 13,
+   "iv": 59.5,
+   "impl_move": 12.3,
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "3",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 70,
+   "iv_pctl": 98,
+   "status": "open",
+   "exit": null,
+   "notes": "@MoonTrades7: '$HTH 40 CALL 11/20 @ .20 underpriced contracts' (reposted 10:23 @ .25). 8.5% OTM. Thin: vol 4, OI 13, bid 0.00/ask 2.20 (spread 200% of mid 1.10). IV 59.5%, implied move ±12.3%. Strat D 2↓→2↑, W 3→1 (daily lines up with bullish call). Reversal none. IV rank 70 | IV pctl 98 (52w IV 12%–76%, as of 10/28)."
   }
  ]
 }
