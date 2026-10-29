@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "updated_pt": "10:30 AM PT",
+ "updated_pt": "2026-10-29 11:33 AM PT",
  "previous": {
   "date": "2026-10-28",
   "updated_pt": "2026-10-28 12:23 PM PT",
@@ -679,6 +679,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph: '$IBM 06 NOV 26 $265 CALL $1.76', four day inside bar setup, 'extreme high confidence'. Strike 3.9% OTM. Last 1.80, bid/ask 1.67/1.87 (mid 1.77, spread 11% of mid), vol 93, OI 479. IV 33.7%, implied move ±10.15 (±4.0%) to 11/6. Strat D 3 then 2↑, W 2↑ then 1. Reversal none. IV rank 27 | IV pctl 31 (52w IV 22%–62%, as of 10/29). Link is the channel (message permalink not captured)."
+  },
+  {
+   "time": "2:29 PM ET",
+   "time_pt": "11:29 AM PT",
+   "ticker": "MCD",
+   "side": "CALL",
+   "strike": 260,
+   "expiry": "10/30",
+   "entry": 0.31,
+   "source": "[X] @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2115873674423345301",
+   "underlying": 256.47,
+   "otm_pct": 1.4,
+   "opt_last": 0.22,
+   "bid": 0.2,
+   "ask": 0.25,
+   "spread_pct": 22,
+   "vol": 1524,
+   "oi": 2318,
+   "iv": 17.5,
+   "impl_move": 0.9,
+   "prev_daily": "3",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 72,
+   "iv_pctl": 90,
+   "status": "open",
+   "exit": null,
+   "notes": "MoonTrades7 '$1K-$100K CHALLENGE TRADE $MCD 260 CALL 10/30 @ .31, 15 contracts'; reposted 12s later @ .34 (https://x.com/MoonTrades7/status/2115873723974562032, merged). Strike 1.4% OTM. Last 0.22, bid/ask 0.20/0.25 (mid 0.225, spread 22% of mid, wide), vol 1524, OI 2318. IV 17.5%, implied move ±2.35 (±0.9%) to 10/30. Strat D 3 then 2↑, W 2↑ then 2↑. Reversal none. IV rank 72 | IV pctl 90 (52w IV 15%–29%, as of 10/29)."
   }
  ]
 }
