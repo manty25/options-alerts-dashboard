@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "updated_pt": "2026-10-29 11:33 AM PT",
+ "updated_pt": "2026-10-29 12:39 PM PT",
  "previous": {
   "date": "2026-10-28",
   "updated_pt": "2026-10-28 12:23 PM PT",
@@ -711,6 +711,38 @@
    "status": "open",
    "exit": null,
    "notes": "MoonTrades7 '$1K-$100K CHALLENGE TRADE $MCD 260 CALL 10/30 @ .31, 15 contracts'; reposted 12s later @ .34 (https://x.com/MoonTrades7/status/2115873723974562032, merged). Strike 1.4% OTM. Last 0.22, bid/ask 0.20/0.25 (mid 0.225, spread 22% of mid, wide), vol 1524, OI 2318. IV 17.5%, implied move ±2.35 (±0.9%) to 10/30. Strat D 3 then 2↑, W 2↑ then 2↑. Reversal none. IV rank 72 | IV pctl 90 (52w IV 15%–29%, as of 10/29)."
+  },
+  {
+   "time": "3:36 PM ET",
+   "time_pt": "12:36 PM PT",
+   "ticker": "KO",
+   "side": "CALL",
+   "strike": 96,
+   "expiry": "11/06",
+   "entry": 0.16,
+   "source": "[X] @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2115890555989430413",
+   "underlying": 92.98,
+   "otm_pct": 3.2,
+   "opt_last": 0.12,
+   "bid": 0.12,
+   "ask": 0.13,
+   "spread_pct": 8,
+   "vol": 117,
+   "oi": 397,
+   "iv": 16.6,
+   "impl_move": 2.1,
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↓",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 50,
+   "iv_pctl": 57,
+   "status": "open",
+   "exit": null,
+   "notes": "MoonTrades7 '$1K-$100K CHALLENGE TRADE $KO 96 CALL 11/06 @ .16, 30 contracts, swing'. Strike 3.2% OTM. Last 0.12, bid/ask 0.12/0.13 (mid 0.125, spread 8% of mid), vol 117, OI 397. IV 16.6%, implied move ±1.97 (±2.1%) to 11/6. Strat D 2↓ then 2↑, W 2↑ then 2↓. Reversal none. IV rank 50 | IV pctl 57 (52w IV 13%–25%, as of 10/29)."
   }
  ]
 }
