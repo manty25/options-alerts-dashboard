@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "updated_pt": "9:26 AM PT",
+ "updated_pt": "2026-10-29 9:53 AM PT",
  "previous": {
   "date": "2026-10-28",
   "updated_pt": "2026-10-28 12:23 PM PT",
@@ -551,6 +551,38 @@
    "status": "open",
    "exit": null,
    "notes": "@StockOptions888: '$ESCA 22.5 CALL 11/20 @ .30 — THIS CAN GO 500%+', reposted 9:22:45 as '1K - 100K CHALLENGE'. THIN: OI 3, vol 4, bid 0.00/ask 0.20 (200% of mid 0.10); last 0.15 vs 0.30 entry. Strike 9.1% OTM vs ±2.80 (±13.6%) implied move via 20 straddle. Strat D 2↓ then 2↑, W 2↑ then 2↑. Reversal none. IV rank 61 | IV pctl 87 (52w IV 22%–92%, as of 10/29)."
+  },
+  {
+   "time": "12:46 PM ET",
+   "time_pt": "9:46 AM PT",
+   "ticker": "DFIN",
+   "side": "CALL",
+   "strike": 65,
+   "expiry": "11/20",
+   "entry": 1.2,
+   "source": "[X] @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2115847773451112662",
+   "underlying": 60.28,
+   "otm_pct": 7.8,
+   "opt_last": null,
+   "bid": null,
+   "ask": null,
+   "spread_pct": null,
+   "vol": null,
+   "oi": null,
+   "iv": 76.0,
+   "impl_move": null,
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 90,
+   "iv_pctl": 98,
+   "status": "open",
+   "exit": null,
+   "notes": "@StockOptions888: '$DFIN 65 CALL 11/20 @ 1.20 / THIS CAN GO 500%+', reposted 9:47 as '1K - 100K CHALLENGE' and 'ADDED HEAVY'. 65 strike not in the 11/20 chain data (listed strikes 50/55/60), so no option quote, volume or OI; IV shown is the underlying's source IV. Strike 7.8% OTM. Strat D 2↓ then 2↑, W 2↑ then 2↑. Reversal none. IV rank 90 | IV pctl 98 (52w IV 23%–82%, as of 10/29)."
   }
  ]
 }
