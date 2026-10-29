@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "updated_pt": "2026-10-29 06:40 AM PT",
+ "updated_pt": "2026-10-29T07:13:00-07:00",
  "previous": {
   "date": "2026-10-28",
   "updated_pt": "2026-10-28 12:23 PM PT",
@@ -261,8 +261,40 @@
    "iv_rank": 59,
    "iv_pctl": 77,
    "status": "open",
-   "exit": null,
-   "notes": "BCF: 'BTO 5 CVNA 70c 10/30 @ 0.71'. 5.1% OTM. Quote not live yet (bid/ask 0.00, last 0.81 from prior session), vol 681, OI 1787. IV 12.5% (feed value, looks stale), implied move ±15.8%. Strat D 2↑→2↑, W 1→3 (lines up with bullish call). Reversal none. IV rank 59 | IV pctl 77 (52w IV 46%–103%, as of 10/27). Message link unavailable."
+   "exit": 1.2,
+   "notes": "BCF: 'BTO 5 CVNA 70c 10/30 @ 0.71'. 5.1% OTM. Quote not live yet (bid/ask 0.00, last 0.81 from prior session), vol 681, OI 1787. IV 12.5% (feed value, looks stale), implied move ±15.8%. Strat D 2↑→2↑, W 1→3 (lines up with bullish call). Reversal none. IV rank 59 | IV pctl 77 (52w IV 46%–103%, as of 10/27). Message link unavailable. 7:01 AM PT BCF: 'STC 3 CVNA 70c 10/30 @ 1.20', holding 2 runners (partial exit)."
+  },
+  {
+   "time": "10:00 AM ET",
+   "time_pt": "7:00 AM PT",
+   "ticker": "ASTS",
+   "side": "CALL",
+   "strike": 44,
+   "expiry": "10/30",
+   "entry": 0.91,
+   "source": "[X] @itsCblast",
+   "link": "https://x.com/itsCblast/status/2115805920596721826",
+   "underlying": 43.97,
+   "otm_pct": 0.1,
+   "opt_last": 0.62,
+   "bid": 0.58,
+   "ask": 0.65,
+   "spread_pct": 11,
+   "vol": 189,
+   "oi": 1926,
+   "iv": 51.2,
+   "impl_move": 5.3,
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 41,
+   "iv_pctl": 20,
+   "status": "exited",
+   "exit": 1.34,
+   "notes": "Chris: 'NEW ENTRY Opened 7 $ASTS 10/30 $44C @ $0.91' (1K to 100K Challenge). Exited 7:08 AM PT: 'SOLD $ASTS 44c at 1.34 for 57.6%' (https://x.com/itsCblast/status/2115808110506078345). 0.1% OTM, last 0.62 / mid 0.615 (feed quote looks delayed vs. 1.34 exit), spread 11% of mid, vol 189, OI 1926. IV 51.2%, implied move ±5.3%. Strat D 1→2↑, W 2↓→2↑ (lines up with bullish call). Reversal none. IV rank 41 | IV pctl 20 (52w IV 68%–128%, as of 10/29)."
   }
  ]
 }
