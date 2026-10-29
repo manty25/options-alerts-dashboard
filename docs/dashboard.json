@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "updated_pt": "2026-10-29T07:31:00-07:00",
+ "updated_pt": "2026-10-29T07:47:00-07:00",
  "previous": {
   "date": "2026-10-28",
   "updated_pt": "2026-10-28 12:23 PM PT",
@@ -359,6 +359,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph: '$EPAC 20 NOV 26 $40 CALL $1.00 DOUBLE EARNINGS BEAT + HIGH CONFIDENCE SWING TRADE'. 3.3% OTM, last 0.50 / mid 0.525, spread 86% of mid (wide), vol 6, OI 37 (thin). IV 32.6%, implied move ±12.2%. Strat D 2↓→2↑, W 3→2↑. Reversal none. IV rank 80 | IV pctl 100 (52w IV 16%–82%, as of 10/29)."
+  },
+  {
+   "time": "10:40 AM ET",
+   "time_pt": "7:40 AM PT",
+   "ticker": "LMT",
+   "side": "CALL",
+   "strike": 665,
+   "expiry": "10/30",
+   "entry": 0.55,
+   "source": "[Discord] Diamond Trading #free-alerts",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279",
+   "underlying": 647.5,
+   "otm_pct": 2.7,
+   "opt_last": null,
+   "bid": null,
+   "ask": null,
+   "spread_pct": null,
+   "vol": null,
+   "oi": null,
+   "iv": null,
+   "impl_move": null,
+   "prev_daily": "3",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 53,
+   "iv_pctl": 59,
+   "status": "open",
+   "exit": null,
+   "notes": "proph: '$LMT | 30 OCT 26 $665 CALL | $0.55 | DOUBLE EARNINGS BEAT + BULLISH OUTSIDE BAR + GAP FILL PLAY + PTs MS 835 / RPC 600 / Citi 706'. 665 strike not listed in the Yahoo chain (660/675 nearest), so no option quote. 7:45 AM PT proph update: '$0.75 on $LMT here! 36% return!' (another member: 'instantly gone, do not chase'). Strat D 3 then 2↑, W 2↑ then 2↑. Reversal none. IV rank 53 | IV pctl 59 (52w IV 19%–40%, as of 10/29)."
   }
  ]
 }
