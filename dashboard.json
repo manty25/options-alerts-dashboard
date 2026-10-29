@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "updated_pt": "2026-10-29 9:53 AM PT",
+ "updated_pt": "2026-10-29 9:59 AM PT",
  "previous": {
   "date": "2026-10-28",
   "updated_pt": "2026-10-28 12:23 PM PT",
@@ -583,6 +583,38 @@
    "status": "open",
    "exit": null,
    "notes": "@StockOptions888: '$DFIN 65 CALL 11/20 @ 1.20 / THIS CAN GO 500%+', reposted 9:47 as '1K - 100K CHALLENGE' and 'ADDED HEAVY'. 65 strike not in the 11/20 chain data (listed strikes 50/55/60), so no option quote, volume or OI; IV shown is the underlying's source IV. Strike 7.8% OTM. Strat D 2↓ then 2↑, W 2↑ then 2↑. Reversal none. IV rank 90 | IV pctl 98 (52w IV 23%–82%, as of 10/29)."
+  },
+  {
+   "time": "12:57 PM ET",
+   "time_pt": "9:57 AM PT",
+   "ticker": "LTC",
+   "side": "CALL",
+   "strike": 45,
+   "expiry": "11/20",
+   "entry": 0.7,
+   "source": "[X] @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2115850587761934350",
+   "underlying": 44.06,
+   "otm_pct": 2.1,
+   "opt_last": 0.5,
+   "bid": 0.5,
+   "ask": 0.6,
+   "spread_pct": 18,
+   "vol": 2,
+   "oi": 420,
+   "iv": 22.5,
+   "impl_move": 5.1,
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "1",
+   "weekly": "3",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 67,
+   "iv_pctl": 90,
+   "status": "open",
+   "exit": null,
+   "notes": "@MoonTrades7: '$LTC 45 CALL 11/20 @ .70 — SAFE SWING, +200% POTENTIAL'. Strike 2.1% OTM. Option last 0.50, bid/ask 0.50/0.60 (mid 0.55, spread 18% of mid, wide), vol 2 (thin), OI 420. IV 22.5%, implied move ±2.25 (±5.1%) to 11/20. Strat D 2↓ then 2↑, W 1 then 3. Reversal none. IV rank 67 | IV pctl 90 (52w IV 10%–35%, as of 10/29)."
   }
  ]
 }
