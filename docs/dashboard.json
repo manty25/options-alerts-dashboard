@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "updated_pt": "2026-10-29 9:19 AM PT",
+ "updated_pt": "9:26 AM PT",
  "previous": {
   "date": "2026-10-28",
   "updated_pt": "2026-10-28 12:23 PM PT",
@@ -519,6 +519,38 @@
    "status": "open",
    "exit": null,
    "notes": "@MoonTrades7: 'ADDING SUPER HEAVY $WEC 120 CALL 11/20 @ .45'. Wide spread 0.30 (86% of mid 0.35); vol 73, OI 163. Implied move ±4.03 (±3.5%) via 115 straddle. Strat D 3 then 2↑, W 2↑ then 2↑. Reversal none. IV rank 49 | IV pctl 39 (52w IV 13%–25%, as of 10/29)."
+  },
+  {
+   "time": "12:22 PM ET",
+   "time_pt": "9:22 AM PT",
+   "ticker": "ESCA",
+   "side": "CALL",
+   "strike": 22.5,
+   "expiry": "11/20",
+   "entry": 0.3,
+   "source": "[X] @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2115841647774924977",
+   "underlying": 20.62,
+   "otm_pct": 9.1,
+   "opt_last": 0.15,
+   "bid": 0.0,
+   "ask": 0.2,
+   "spread_pct": 200,
+   "vol": 4,
+   "oi": 3,
+   "iv": 37.9,
+   "impl_move": 13.6,
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 61,
+   "iv_pctl": 87,
+   "status": "open",
+   "exit": null,
+   "notes": "@StockOptions888: '$ESCA 22.5 CALL 11/20 @ .30 — THIS CAN GO 500%+', reposted 9:22:45 as '1K - 100K CHALLENGE'. THIN: OI 3, vol 4, bid 0.00/ask 0.20 (200% of mid 0.10); last 0.15 vs 0.30 entry. Strike 9.1% OTM vs ±2.80 (±13.6%) implied move via 20 straddle. Strat D 2↓ then 2↑, W 2↑ then 2↑. Reversal none. IV rank 61 | IV pctl 87 (52w IV 22%–92%, as of 10/29)."
   }
  ]
 }
