@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "updated_pt": "2026-10-29 9:59 AM PT",
+ "updated_pt": "10:17 AM PT",
  "previous": {
   "date": "2026-10-28",
   "updated_pt": "2026-10-28 12:23 PM PT",
@@ -615,6 +615,38 @@
    "status": "open",
    "exit": null,
    "notes": "@MoonTrades7: '$LTC 45 CALL 11/20 @ .70 — SAFE SWING, +200% POTENTIAL'. Strike 2.1% OTM. Option last 0.50, bid/ask 0.50/0.60 (mid 0.55, spread 18% of mid, wide), vol 2 (thin), OI 420. IV 22.5%, implied move ±2.25 (±5.1%) to 11/20. Strat D 2↓ then 2↑, W 1 then 3. Reversal none. IV rank 67 | IV pctl 90 (52w IV 10%–35%, as of 10/29)."
+  },
+  {
+   "time": "1:07 PM ET",
+   "time_pt": "10:07 AM PT",
+   "ticker": "RM",
+   "side": "CALL",
+   "strike": 40,
+   "expiry": "11/20",
+   "entry": 0.85,
+   "source": "[Discord] Diamond Trading #free-alerts",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1565411876995727411",
+   "underlying": 36.49,
+   "otm_pct": 9.6,
+   "opt_last": 1.2,
+   "bid": 0.35,
+   "ask": 1.2,
+   "spread_pct": 110,
+   "vol": 3,
+   "oi": 10,
+   "iv": 54.2,
+   "impl_move": 13.3,
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "3",
+   "weekly": "3",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 46,
+   "iv_pctl": 80,
+   "status": "open",
+   "exit": null,
+   "notes": "proph: '$RM 20 NOV 26 $40 CALL $0.85 DOUBLE EARNINGS BEAT + GAP FILL PLAY + HIGH CONFIDENCE SWING TRADE' (reposted 10:11 AM PT, merged). Strike 9.6% OTM. Option last 1.20, bid/ask 0.35/1.20 (mid 0.78, spread 110% of mid, wide), vol 3 (thin), OI 10 (thin). IV 54.2%, implied move ±4.86 (±13.3%) to 11/20. Strat D 2↑ then 2↑, W 3 then 3. Reversal none. IV rank 46 | IV pctl 80 (52w IV 21%–93%, as of 10/29). 10:13 AM PT proph: 'below my fill swinging on $RM'."
   }
  ]
 }
