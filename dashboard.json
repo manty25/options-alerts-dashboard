@@ -1,6 +1,6 @@
 {
  "date": "2026-10-29",
- "updated_pt": "10:17 AM PT",
+ "updated_pt": "10:30 AM PT",
  "previous": {
   "date": "2026-10-28",
   "updated_pt": "2026-10-28 12:23 PM PT",
@@ -647,6 +647,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph: '$RM 20 NOV 26 $40 CALL $0.85 DOUBLE EARNINGS BEAT + GAP FILL PLAY + HIGH CONFIDENCE SWING TRADE' (reposted 10:11 AM PT, merged). Strike 9.6% OTM. Option last 1.20, bid/ask 0.35/1.20 (mid 0.78, spread 110% of mid, wide), vol 3 (thin), OI 10 (thin). IV 54.2%, implied move ±4.86 (±13.3%) to 11/20. Strat D 2↑ then 2↑, W 3 then 3. Reversal none. IV rank 46 | IV pctl 80 (52w IV 21%–93%, as of 10/29). 10:13 AM PT proph: 'below my fill swinging on $RM'."
+  },
+  {
+   "time": "1:18 PM ET",
+   "time_pt": "10:18 AM PT",
+   "ticker": "IBM",
+   "side": "CALL",
+   "strike": 265,
+   "expiry": "11/6",
+   "entry": 1.76,
+   "source": "[Discord] Diamond Trading #free-alerts",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279",
+   "underlying": 254.95,
+   "otm_pct": 3.9,
+   "opt_last": 1.8,
+   "bid": 1.67,
+   "ask": 1.87,
+   "spread_pct": 11,
+   "vol": 93,
+   "oi": 479,
+   "iv": 33.7,
+   "impl_move": 4.0,
+   "prev_daily": "3",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "1",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 27,
+   "iv_pctl": 31,
+   "status": "open",
+   "exit": null,
+   "notes": "proph: '$IBM 06 NOV 26 $265 CALL $1.76', four day inside bar setup, 'extreme high confidence'. Strike 3.9% OTM. Last 1.80, bid/ask 1.67/1.87 (mid 1.77, spread 11% of mid), vol 93, OI 479. IV 33.7%, implied move ±10.15 (±4.0%) to 11/6. Strat D 3 then 2↑, W 2↑ then 1. Reversal none. IV rank 27 | IV pctl 31 (52w IV 22%–62%, as of 10/29). Link is the channel (message permalink not captured)."
   }
  ]
 }
