@@ -1,6 +1,6 @@
 {
   "date": "2026-10-29",
-  "updated_pt": "2026-10-29T08:09:00-07:00",
+  "updated_pt": "2026-10-29T08:11:00-07:00",
   "previous": {
     "date": "2026-10-28",
     "updated_pt": "2026-10-28 12:23 PM PT",
@@ -400,7 +400,7 @@
       "strike": 4.5,
       "expiry": "11/06",
       "entry": 0.29,
-      "source": "[X] @MoonTrades7",
+      "source": "[X] @MoonTrades7, [Discord] Diamond Trading #free-alerts",
       "link": "https://x.com/MoonTrades7/status/2115821216594313374",
       "underlying": 4.47,
       "otm_pct": 0.7,
@@ -422,7 +422,7 @@
       "iv_pctl": 54,
       "status": "open",
       "exit": null,
-      "notes": "@MoonTrades7: 'HIGH CONFIDENCE HEAVY SWING 🚨 $RILY 4.5 CALL 11/06 @. 29'. Last 0.23 vs stated entry 0.29. Implied move ±0.53 (±11.7%) via 4.5 straddle. Strat D 2↑ then 2↑, W 2↓ then 2↓. Reversal none. IV rank 39 | IV pctl 54 (52w IV 52%–153%, as of 10/29)."
+      "notes": "@MoonTrades7: 'HIGH CONFIDENCE HEAVY SWING 🚨 $RILY 4.5 CALL 11/06 @. 29'. Last 0.23 vs stated entry 0.29. Implied move ±0.53 (±11.7%) via 4.5 straddle. Strat D 2↑ then 2↑, W 2↓ then 2↓. Reversal none. IV rank 39 | IV pctl 54 (52w IV 52%–153%, as of 10/29). Also called by proph in #free-alerts at about 8:00 AM PT: '$RILY 06 NOV 26 $4.5 CALL @ $0.29, HIGH CONFIDENCE SWING TRADE' (merged duplicate)."
     }
   ]
 }
