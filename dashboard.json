@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "updated_pt": "2026-10-30T10:29:56-07:00",
+ "updated_pt": "2026-10-30 10:57 AM PT",
  "previous": {
   "date": "2026-10-29",
   "updated_pt": "2026-10-29 12:39 PM PT",
@@ -743,6 +743,38 @@
    "status": "open",
    "exit": null,
    "notes": "StockOptions888 '$MRSH 220 CALL 11/20 @ .55 THIS CAN GO 500%+' (10:27 AM PT). Strike 8.8% OTM. 220 strike not listed in the 11/20 chain on the data feed (highest 210), so no option quote, vol/OI. 11/20 ATM 200 straddle 10.05 implies ±5.0%. Strat D 2↑ then 2↑, W 2↑ then 2↑. Reversal none. IV rank 47 | IV pctl 70 (52w IV 20%–36%, as of 10/30)."
+  },
+  {
+   "time": "1:55 PM ET",
+   "time_pt": "10:55 AM PT",
+   "ticker": "CCEC",
+   "side": "CALL",
+   "strike": 22.5,
+   "expiry": "11/20",
+   "entry": 0.5,
+   "source": "[X] @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2116227575358132334",
+   "underlying": 21.5,
+   "otm_pct": 4.7,
+   "opt_last": null,
+   "bid": null,
+   "ask": null,
+   "spread_pct": null,
+   "vol": null,
+   "oi": null,
+   "iv": null,
+   "impl_move": null,
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↑",
+   "reversal_daily": "2↓→green + vol↑",
+   "reversal_weekly": "2↓→green + vol↑",
+   "iv_rank": 41,
+   "iv_pctl": 92,
+   "status": "open",
+   "exit": null,
+   "notes": "StockOptions888 '$CCEC 22.5 CALL 11/20 @ .50 THIS CAN GO 1000%+' (10:55 AM PT); reposted 10:56 AM PT as '1K - 100K CHALLENGE' (merged). Strike 4.7% OTM. 22.5 strike not listed in the 11/20 chain on the data feed (only 25), so no option quote, vol/OI or implied move. Strat D 2↓ then 2↑, W 2↓ then 2↑. Reversal D: 2↓→green + vol↑ | W: 2↓→green + vol↑. IV rank 41 | IV pctl 92 (52w IV 13%–85%, as of 10/30)."
   }
  ]
 }
