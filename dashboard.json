@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "updated_pt": "2026-10-30T08:12:00-07:00",
+ "updated_pt": "9:49 AM PT",
  "previous": {
   "date": "2026-10-29",
   "updated_pt": "2026-10-29 12:39 PM PT",
@@ -679,6 +679,38 @@
    "status": "open",
    "exit": null,
    "notes": "MoonTrades7 '$1K-$100K CHALLENGE TRADE $CNO 60 CALL 11/20 @ .45 10 contracts'; reposted 7:56:29 at .50 (merged). Strike 5.2% OTM. Last 0.15, bid/ask 0.00/4.30 (spread 200% of mid, wide; no bid). Vol 2, OI 1 (thin). IV 60.1%, implied move ±4.08 (±7.1%) to 11/20 (ATM straddle est.). Strat D 2↑ then 2↑, W 2↑ then 2↑. Reversal none. IV rank 100 | IV pctl 100 (52w IV 12%–50%, as of 10/30)."
+  },
+  {
+   "time": "12:46 PM ET",
+   "time_pt": "9:46 AM PT",
+   "ticker": "SR",
+   "side": "CALL",
+   "strike": 95,
+   "expiry": "11/20",
+   "entry": 0.45,
+   "source": "[X] @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2116210255646560577",
+   "underlying": 88.5,
+   "otm_pct": 7.3,
+   "opt_last": null,
+   "bid": null,
+   "ask": null,
+   "spread_pct": null,
+   "vol": null,
+   "oi": null,
+   "iv": null,
+   "impl_move": null,
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 100,
+   "iv_pctl": 100,
+   "status": "open",
+   "exit": null,
+   "notes": "StockOptions888 '$SR 95 CALL 11/20 @ .45' (9:46:56 AM PT), reposted 9:47:27 as 1K-100K challenge (merged). Strike 7.3% OTM. 95 strike not listed in the 11/20 chain on the data feed (only 85/90), so no option quote, vol/OI or implied move. Strat D 2↑ then 2↑, W 2↑ then 2↑. Reversal none. IV rank 100 | IV pctl 100 (52w IV 12%–42%, as of 10/30)."
   }
  ]
 }
