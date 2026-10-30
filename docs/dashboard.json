@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "updated_pt": "7:16 AM PT",
+ "updated_pt": "7:21 AM PT",
  "previous": {
   "date": "2026-10-29",
   "updated_pt": "2026-10-29 12:39 PM PT",
@@ -551,6 +551,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph '$UPS 30 OCT 26 $110 CALL $0.07 GAP FILL PLAY + $116 PRICE TARGET BY STIFEL NICOLAUS + DOUBLE EARNINGS BEAT' (0DTE; proph called it 'a complete lotto'). Strike 1.8% OTM. Last 0.05, bid/ask 0.02/0.09 (mid 0.055, spread 127% of mid, wide), vol 116, OI 1383. IV 28.3%, implied move ±1.81 (±1.7%) to close today. Strat D 2↑ then 2↑, W 2↑ then 2↑. Reversal none. IV rank 47 | IV pctl 60 (52w IV 21%–44%, as of 10/30)."
+  },
+  {
+   "time": "10:19 AM ET",
+   "time_pt": "7:19 AM PT",
+   "ticker": "SMP",
+   "side": "CALL",
+   "strike": 45,
+   "expiry": "11/20",
+   "entry": 0.85,
+   "source": "[X] @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2116173075670790233",
+   "underlying": 42.62,
+   "otm_pct": 5.6,
+   "opt_last": 0.5,
+   "bid": 0.05,
+   "ask": 1.05,
+   "spread_pct": 182,
+   "vol": 1,
+   "oi": 16,
+   "iv": 47.1,
+   "impl_move": 11.3,
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "1",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 62,
+   "iv_pctl": 88,
+   "status": "open",
+   "exit": null,
+   "notes": "MoonTrades7 '$1K-$100K CHALLENGE TRADE $SMP 45 CALL 11/20 @ .85 – 8 contracts'. Strike 5.6% OTM. Last 0.50, bid/ask 0.05/1.05 (mid 0.55, spread 182% of mid, wide), vol 1, OI 16 (thin). IV 47.1%, implied move ±4.82 (±11.3%) to 11/20. Strat D 2↑ then 2↑, W 1 then 2↑. Reversal none. IV rank 62 | IV pctl 88 (52w IV 13%–72%, as of 10/30)."
   }
  ]
 }
