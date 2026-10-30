@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "updated_pt": "2026-10-30T11:42:00-07:00",
+ "updated_pt": "11:52 AM PT",
  "previous": {
   "date": "2026-10-29",
   "updated_pt": "2026-10-29 12:39 PM PT",
@@ -839,6 +839,38 @@
    "status": "open",
    "exit": null,
    "notes": "@MoonTrades7 '$MSEX 60 CALL 11/20 @. 70 SAFE NOVEMBER +200% SWING' (11:34 AM PT); reposted 11:36 AM PT at entry 0.60 (https://x.com/MoonTrades7/status/2116237928397668641), merged. 60 strike not listed in the 11/20 chain on Yahoo (only 55), so no option quote. Strat D 1 then 2↑, W 3 then 2↑. Reversal none. IV rank 100 | IV pctl 100 (52w IV 15%–66%, as of 10/30)."
+  },
+  {
+   "time": "2:50 PM ET",
+   "time_pt": "11:50 AM PT",
+   "ticker": "YORW",
+   "side": "CALL",
+   "strike": 35,
+   "expiry": "11/20",
+   "entry": 0.1,
+   "source": "[X] @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2116241380834234507",
+   "underlying": 31.62,
+   "otm_pct": 10.7,
+   "opt_last": 0.05,
+   "bid": 0.0,
+   "ask": 0.1,
+   "spread_pct": 200,
+   "vol": 785,
+   "oi": 14,
+   "iv": 30.5,
+   "impl_move": 10.7,
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "3",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 75,
+   "iv_pctl": 97,
+   "status": "open",
+   "exit": null,
+   "notes": "@StockOptions888 '$YORW 35 CALL 11/20 @ .10 THIS CAN GO 500%+' (11:50 AM PT). Thin: OI 14, bid 0.00, spread 200% of mid. Strat D 2↓ then 2↑, W 3 then 2↑. Reversal none. IV rank 75 | IV pctl 97 (52w IV 8%–56%, as of 10/30)."
   }
  ]
 }
