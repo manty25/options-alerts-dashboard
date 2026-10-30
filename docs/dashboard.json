@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "updated_pt": "7:58 AM PT",
+ "updated_pt": "2026-10-30T08:12:00-07:00",
  "previous": {
   "date": "2026-10-29",
   "updated_pt": "2026-10-29 12:39 PM PT",
@@ -612,9 +612,9 @@
    "reversal_weekly": "",
    "iv_rank": 18,
    "iv_pctl": 51,
-   "status": "open",
+   "status": "exited",
    "exit": null,
-   "notes": "proph '$MSTR 18 DEC 26 $100 PUT $3.32 HIGH-RISK SWING TRADE'. Strike 22.0% OTM. Last 3.55, bid/ask 3.50/3.55 (spread 1% of mid), vol 109, OI 7631. IV 78.1%, implied move ±27.25 (±21.3%) to 12/18 (ATM straddle est.). Strat D 1 then 2↓, W 2↓ then 2↓. Reversal none. IV rank 18 | IV pctl 51 (52w IV 60%–126%, as of 10/30)."
+   "notes": "proph '$MSTR 18 DEC 26 $100 PUT $3.32 HIGH-RISK SWING TRADE'. Strike 22.0% OTM. Last 3.55, bid/ask 3.50/3.55 (spread 1% of mid), vol 109, OI 7631. IV 78.1%, implied move ±27.25 (±21.3%) to 12/18 (ATM straddle est.). Strat D 1 then 2↓, W 2↓ then 2↓. Reversal none. IV rank 18 | IV pctl 51 (52w IV 60%–126%, as of 10/30). | proph 'Sold Position' 11:06 AM ET (no ticker/price; follows MSTR put, likely this exit)"
   },
   {
    "time": "10:40 AM ET",
