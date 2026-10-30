@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "updated_pt": "2026-10-30 11:25 AM PT",
+ "updated_pt": "2026-10-30T11:42:00-07:00",
  "previous": {
   "date": "2026-10-29",
   "updated_pt": "2026-10-29 12:39 PM PT",
@@ -807,6 +807,38 @@
    "status": "open",
    "exit": null,
    "notes": "proph '$HGV 20 NOV 26 $40 CALL $0.75 WEEKLY OUTSIDE BAR + SWING TRADE + $39 PT by Barclays + $38 PT by JP Morgan' (11:20 AM PT). Thin: OI 34, vol 4, spread 80% of mid; posted entry 0.75 vs last 0.53. Strat D 3 then 2↑, W 2↑ then 3. Reversal none. IV rank 95 | IV pctl 100 (52w IV 26%–63%, as of 10/30)."
+  },
+  {
+   "time": "2:34 PM ET",
+   "time_pt": "11:34 AM PT",
+   "ticker": "MSEX",
+   "side": "CALL",
+   "strike": 60,
+   "expiry": "11/20",
+   "entry": 0.7,
+   "source": "[X] @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2116237292398354637",
+   "underlying": 56.62,
+   "otm_pct": 6.0,
+   "opt_last": null,
+   "bid": null,
+   "ask": null,
+   "spread_pct": null,
+   "vol": null,
+   "oi": null,
+   "iv": null,
+   "impl_move": null,
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "3",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 100,
+   "iv_pctl": 100,
+   "status": "open",
+   "exit": null,
+   "notes": "@MoonTrades7 '$MSEX 60 CALL 11/20 @. 70 SAFE NOVEMBER +200% SWING' (11:34 AM PT); reposted 11:36 AM PT at entry 0.60 (https://x.com/MoonTrades7/status/2116237928397668641), merged. 60 strike not listed in the 11/20 chain on Yahoo (only 55), so no option quote. Strat D 1 then 2↑, W 3 then 2↑. Reversal none. IV rank 100 | IV pctl 100 (52w IV 15%–66%, as of 10/30)."
   }
  ]
 }
