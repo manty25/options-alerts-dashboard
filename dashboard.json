@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "updated_pt": "2026-10-30 10:57 AM PT",
+ "updated_pt": "2026-10-30 11:25 AM PT",
  "previous": {
   "date": "2026-10-29",
   "updated_pt": "2026-10-29 12:39 PM PT",
@@ -775,6 +775,38 @@
    "status": "open",
    "exit": null,
    "notes": "StockOptions888 '$CCEC 22.5 CALL 11/20 @ .50 THIS CAN GO 1000%+' (10:55 AM PT); reposted 10:56 AM PT as '1K - 100K CHALLENGE' (merged). Strike 4.7% OTM. 22.5 strike not listed in the 11/20 chain on the data feed (only 25), so no option quote, vol/OI or implied move. Strat D 2↓ then 2↑, W 2↓ then 2↑. Reversal D: 2↓→green + vol↑ | W: 2↓→green + vol↑. IV rank 41 | IV pctl 92 (52w IV 13%–85%, as of 10/30)."
+  },
+  {
+   "time": "2:20 PM ET",
+   "time_pt": "11:20 AM PT",
+   "ticker": "HGV",
+   "side": "CALL",
+   "strike": 40,
+   "expiry": "11/20",
+   "entry": 0.75,
+   "source": "[Discord] Diamond Trading #free-alerts",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1565792557286297773",
+   "underlying": 37.89,
+   "otm_pct": 5.6,
+   "opt_last": 0.53,
+   "bid": 0.3,
+   "ask": 0.7,
+   "spread_pct": 80,
+   "vol": 4,
+   "oi": 34,
+   "iv": 40.1,
+   "impl_move": "±3.42 (±9.0%)",
+   "prev_daily": "3",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "3",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 95,
+   "iv_pctl": 100,
+   "status": "open",
+   "exit": null,
+   "notes": "proph '$HGV 20 NOV 26 $40 CALL $0.75 WEEKLY OUTSIDE BAR + SWING TRADE + $39 PT by Barclays + $38 PT by JP Morgan' (11:20 AM PT). Thin: OI 34, vol 4, spread 80% of mid; posted entry 0.75 vs last 0.53. Strat D 3 then 2↑, W 2↑ then 3. Reversal none. IV rank 95 | IV pctl 100 (52w IV 26%–63%, as of 10/30)."
   }
  ]
 }
