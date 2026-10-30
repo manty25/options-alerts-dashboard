@@ -1,6 +1,6 @@
 {
  "date": "2026-10-30",
- "updated_pt": "2026-10-30 7:42 AM PT",
+ "updated_pt": "7:58 AM PT",
  "previous": {
   "date": "2026-10-29",
   "updated_pt": "2026-10-29 12:39 PM PT",
@@ -647,6 +647,38 @@
    "status": "open",
    "exit": null,
    "notes": "MoonTrades7 '$CVLG 35 CALL 11/20 @ .30 SAFE SWING, +200% POTENTIAL'. Strike 10.0% OTM. Last 0.05, bid/ask 0.00/0.40 (spread 200% of mid, wide; no bid). Vol 60, OI 596. IV 45.3%, implied move ±4.03 (±12.7%) to 11/20 (ATM straddle est.). Strat D 2↓ then 2↑, W 2↓ then 2↑. Reversal none. IV rank 49 | IV pctl 67 (52w IV 17%–64%, as of 10/30)."
+  },
+  {
+   "time": "10:56 AM ET",
+   "time_pt": "7:56 AM PT",
+   "ticker": "CNO",
+   "side": "CALL",
+   "strike": 60,
+   "expiry": "11/20",
+   "entry": 0.45,
+   "source": "[X] @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2116182441211957410",
+   "underlying": 57.01,
+   "otm_pct": 5.2,
+   "opt_last": 0.15,
+   "bid": 0.0,
+   "ask": 4.3,
+   "spread_pct": 200,
+   "vol": 2,
+   "oi": 1,
+   "iv": 60.1,
+   "impl_move": 7.1,
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "iv_rank": 100,
+   "iv_pctl": 100,
+   "status": "open",
+   "exit": null,
+   "notes": "MoonTrades7 '$1K-$100K CHALLENGE TRADE $CNO 60 CALL 11/20 @ .45 10 contracts'; reposted 7:56:29 at .50 (merged). Strike 5.2% OTM. Last 0.15, bid/ask 0.00/4.30 (spread 200% of mid, wide; no bid). Vol 2, OI 1 (thin). IV 60.1%, implied move ±4.08 (±7.1%) to 11/20 (ATM straddle est.). Strat D 2↑ then 2↑, W 2↑ then 2↑. Reversal none. IV rank 100 | IV pctl 100 (52w IV 12%–50%, as of 10/30)."
   }
  ]
 }
