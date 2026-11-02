@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "updated_pt": "2026-11-02 10:58 AM PT",
+ "updated_pt": "11:09 AM PT",
  "previous": {
   "date": "2026-10-30",
   "updated_pt": "11:52 AM PT",
@@ -1031,6 +1031,38 @@
    "iv_rank": 57,
    "iv_pctl": 86,
    "notes": "MoonTrades7: 'ADDING HEAVY $FBK 60 CALL 11/20 @ .20' (10:54 AM PT). Thin: OI 3, vol 2; spread 200% of mid (bid 0). IV rank 57 / pctl 86 (52w IV 13%-56%, as of 11/2)."
+  },
+  {
+   "source": "[X] @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2117332442998555053",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "expiry": "11/20",
+   "opt_last": 0.05,
+   "bid": 0.0,
+   "ask": 0.05,
+   "spread_pct": 200,
+   "vol": 7,
+   "oi": 2,
+   "iv": 23.8,
+   "impl_move": "±2.18 (±5.3%)",
+   "time": "2:06 PM ET",
+   "time_pt": "11:06 AM PT",
+   "ticker": "UVSP",
+   "strike": 45,
+   "entry": 0.25,
+   "underlying": 41.17,
+   "otm_pct": 9.3,
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "3",
+   "weekly": "1",
+   "iv_rank": 17,
+   "iv_pctl": 17,
+   "notes": "MoonTrades7: '$UVSP 45 CALL 11/20 @ .25 safe 200% swing' (11:06 AM PT); reposted 11:06:47 AM PT '@ .30 HEAVY SWING SAFE' (merged duplicate, https://x.com/MoonTrades7/status/2117332611957944679). Thin: OI 2, vol 7; spread 200% of mid (bid 0). IV rank 17 / pctl 17 (52w IV 18%-63%, as of 11/2)."
   }
  ]
 }
