@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "updated_pt": "2026-11-02T07:51:00-08:00",
+ "updated_pt": "2026-11-02T07:55:00-08:00",
  "previous": {
   "date": "2026-10-30",
   "updated_pt": "11:52 AM PT",
@@ -647,6 +647,38 @@
    "iv_rank": 25,
    "iv_pctl": 31,
    "notes": "@StockOptions888 '🚨 $LEGH 55 CALL 11/20 @ .75 / THIS CAN GO 500%+' (7:51:08 AM PT). No 11/20 expiry listed for LEGH (listed: 12/18, 1/15, 4/16) and no 55 strike found; LEGH at 32.01, 55 strike is 71.8% OTM. Quote data n/a. Strat D 2↑ then 2↑, W 2↑ then 2↑. Reversal none. IV rank 25 | IV pctl 31 (52w IV 23%–77%, as of 10/29)."
+  },
+  {
+   "source": "[Discord] Diamond Trading #free-alerts",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1566842154700111994",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "expiry": "11/20",
+   "time": "10:51 AM ET",
+   "time_pt": "7:51 AM PT",
+   "ticker": "FRBA",
+   "strike": 20,
+   "entry": 0.6,
+   "underlying": 19.99,
+   "otm_pct": 0.1,
+   "opt_last": null,
+   "bid": null,
+   "ask": null,
+   "spread_pct": null,
+   "vol": null,
+   "oi": null,
+   "iv": null,
+   "impl_move": null,
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "iv_rank": 21,
+   "iv_pctl": 20,
+   "notes": "proph '$FRBA 20 NOV 26 $20 CALL $0.60 ALL-TIME HIGH BREAKOUT + SECTOR AND RELATIVE STRENGTH' (7:51 AM PT); reposted 7:51 as 'HIGH CONFIDENCE SWING TRADE!!' (merged). 11/20 chain lists no 20 strike (only 15 found), so quote, vol/OI and implied move n/a. FRBA at 19.99, 20 strike 0.1% OTM. Strat D 2↓ then 2↑, W 2↑ then 2↑. Reversal none. IV rank 21 | IV pctl 20 (52w IV 15%–80%, as of 10/29)."
   }
  ]
 }
