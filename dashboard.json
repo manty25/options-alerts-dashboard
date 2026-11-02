@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "updated_pt": "2026-11-02 7:05 AM PT",
+ "updated_pt": "2026-11-02 07:11 AM PT",
  "previous": {
   "date": "2026-10-30",
   "updated_pt": "11:52 AM PT",
@@ -455,6 +455,38 @@
    "iv_rank": 27,
    "iv_pctl": 59,
    "notes": "proph '$EPAC 20 NOV 26 $45 CALL $0.60 DOUBLE EARNINGS BEAT + HIGH CONFIDENCE SWING TRADE' (7:01 AM PT). THIN: OI 3, vol 1, spread 0.50 (167% of mid 0.30). Strat D 2↑ then 2↑, W 2↑ then 2↑. Reversal none. IV rank 27 | IV pctl 59 (52w IV 19%–82%, as of 11/2). Separate from Oct 29 EPAC 40C."
+  },
+  {
+   "source": "[X] @StockOptions888",
+   "link": "https://x.com/StockOptions888/status/2117271422175527097",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "expiry": "11/20",
+   "time": "10:03 AM ET",
+   "time_pt": "7:03 AM PT",
+   "ticker": "PRKS",
+   "strike": 40,
+   "entry": 0.7,
+   "underlying": 33.45,
+   "otm_pct": 19.6,
+   "opt_last": 1.5,
+   "bid": 0.0,
+   "ask": 1.0,
+   "spread_pct": 200,
+   "vol": 0,
+   "oi": 1,
+   "iv": 76.2,
+   "impl_move": 16.9,
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "1",
+   "weekly": "2↑",
+   "iv_rank": 80,
+   "iv_pctl": 94,
+   "notes": "@StockOptions888 '$PRKS 40 CALL 11/20 @ .70 THIS CAN GO 500%+' (7:03 AM PT); reposted 7:04 AM PT as '1K - 100K CHALLENGE' (merged, x.com/StockOptions888/status/2117271545500565566). THIN: OI 1, no volume, bid 0.00 / ask 1.00 (200% of mid 0.50). Strat D 2↓ then 2↑, W 1 then 2↑. Reversal none. IV rank 80 | IV pctl 94 (52w IV 31%–82%, as of 11/2)."
   }
  ]
 }
