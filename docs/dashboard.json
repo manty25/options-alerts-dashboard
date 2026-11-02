@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "updated_pt": "2026-11-02T09:31:00-08:00",
+ "updated_pt": "2026-11-02 10:58 AM PT",
  "previous": {
   "date": "2026-10-30",
   "updated_pt": "11:52 AM PT",
@@ -999,6 +999,38 @@
    "iv_rank": 42,
    "iv_pctl": 53,
    "notes": "proph: '$COST 06 NOV 26 $1,100 CALL $0.42 OUTSIDE BAR WEEKLY + RELATIVE AND SECTOR STRENGTH + HIGH CONFIDENCE + HIGHEST CONVICTION' (9:29 AM PT). Thin: OI 90; spread 34% of mid. IV rank 42 / pctl 53 (52w IV 17%-30%, as of 11/2)."
+  },
+  {
+   "source": "[X] @MoonTrades7",
+   "link": "https://x.com/MoonTrades7/status/2117329447665967342",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "expiry": "11/20",
+   "opt_last": 0.22,
+   "bid": 0.0,
+   "ask": 0.5,
+   "spread_pct": 200,
+   "vol": 2,
+   "oi": 3,
+   "iv": 37.8,
+   "impl_move": "±3.30 (±5.9%)",
+   "time": "1:54 PM ET",
+   "time_pt": "10:54 AM PT",
+   "ticker": "FBK",
+   "strike": 60,
+   "entry": 0.2,
+   "underlying": 55.53,
+   "otm_pct": 8.1,
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "iv_rank": 57,
+   "iv_pctl": 86,
+   "notes": "MoonTrades7: 'ADDING HEAVY $FBK 60 CALL 11/20 @ .20' (10:54 AM PT). Thin: OI 3, vol 2; spread 200% of mid (bid 0). IV rank 57 / pctl 86 (52w IV 13%-56%, as of 11/2)."
   }
  ]
 }
