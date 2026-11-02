@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "updated_pt": "11:09 AM PT",
+ "updated_pt": "2026-11-02 11:46 AM PT",
  "previous": {
   "date": "2026-10-30",
   "updated_pt": "11:52 AM PT",
@@ -1063,6 +1063,38 @@
    "iv_rank": 17,
    "iv_pctl": 17,
    "notes": "MoonTrades7: '$UVSP 45 CALL 11/20 @ .25 safe 200% swing' (11:06 AM PT); reposted 11:06:47 AM PT '@ .30 HEAVY SWING SAFE' (merged duplicate, https://x.com/MoonTrades7/status/2117332611957944679). Thin: OI 2, vol 7; spread 200% of mid (bid 0). IV rank 17 / pctl 17 (52w IV 18%-63%, as of 11/2)."
+  },
+  {
+   "source": "[Discord] Diamond Trading #free-alerts",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1566899458678071338",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "expiry": "11/20",
+   "opt_last": null,
+   "bid": null,
+   "ask": null,
+   "spread_pct": null,
+   "vol": null,
+   "oi": null,
+   "iv": 38.0,
+   "impl_move": "±5.95 (±8.4%)",
+   "time": "2:39 PM ET",
+   "time_pt": "11:39 AM PT",
+   "ticker": "COLM",
+   "strike": 75,
+   "entry": 0.8,
+   "underlying": 70.54,
+   "otm_pct": 6.3,
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "iv_rank": 28,
+   "iv_pctl": 51,
+   "notes": "proph: '$COLM 20 NOV 26 $75 CALL $0.80 GAP FILL PLAY + RELATIVE AND SECTOR STRENGTH + DECISIVE DOUBE EARNINGS BEAT' (11:39 AM PT). 75 strike not listed in the Yahoo chain (listed: 70, 80), so option last/bid/ask/vol/OI n/a. IV 38% is ATM IV; implied move from ATM IV. IV rank 28 / pctl 51 (52w IV 27%-65%, as of 11/2)."
   }
  ]
 }
