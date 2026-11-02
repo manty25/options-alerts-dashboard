@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "updated_pt": "2026-11-02T08:31:00-08:00",
+ "updated_pt": "2026-11-02T09:07:00-08:00",
  "previous": {
   "date": "2026-10-30",
   "updated_pt": "11:52 AM PT",
@@ -871,6 +871,38 @@
    "iv_rank": 10,
    "iv_pctl": 4,
    "notes": "'$SMP 50 CALL 11/20 @ .25 THIS CAN GO 500%+' (8:27 AM PT), reposted 8:28 AM PT as '1K - 100K CHALLENGE' (merged). Thin: OI 1, no volume, spread 200% of mid; quoted last 0.04 vs stated entry 0.25. IV rank 10 | IV pctl 4 (52w IV 13%-72%, as of 11/2)."
+  },
+  {
+   "source": "[X] @itsCblast",
+   "link": "https://x.com/itsCblast/status/2117300503537455176",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "expiry": "11/02",
+   "opt_last": 5.0,
+   "bid": 5.0,
+   "ask": 5.1,
+   "spread_pct": 2,
+   "vol": 41172,
+   "oi": 1579,
+   "iv": 6.9,
+   "impl_move": "±21.55 (±0.3%)",
+   "time": "11:59 AM ET",
+   "time_pt": "8:59 AM PT",
+   "ticker": "SPX",
+   "strike": 7640,
+   "entry": 4.2,
+   "underlying": 7625.26,
+   "otm_pct": 0.2,
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "1",
+   "iv_rank": null,
+   "iv_pctl": null,
+   "notes": "'$SPX 7640c 11/02 at 4.20 REVENGE TRADE' (8:59 AM PT). 0DTE. Quoted last 5.00 vs stated entry 4.20. IV rank/pctl n/a."
   }
  ]
 }
