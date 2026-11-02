@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "updated_pt": "2026-11-02T09:07:00-08:00",
+ "updated_pt": "2026-11-02T09:18:00-08:00",
  "previous": {
   "date": "2026-10-30",
   "updated_pt": "11:52 AM PT",
@@ -903,6 +903,38 @@
    "iv_rank": null,
    "iv_pctl": null,
    "notes": "'$SPX 7640c 11/02 at 4.20 REVENGE TRADE' (8:59 AM PT). 0DTE. Quoted last 5.00 vs stated entry 4.20. IV rank/pctl n/a."
+  },
+  {
+   "source": "[Discord] Diamond Trading #free-alerts",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "expiry": "11/06",
+   "opt_last": 0.76,
+   "bid": 0.48,
+   "ask": 0.85,
+   "spread_pct": 56,
+   "vol": 109,
+   "oi": 42,
+   "iv": 24.8,
+   "impl_move": "±22.88 (±2.2%)",
+   "time": "12:13 PM ET",
+   "time_pt": "9:13 AM PT",
+   "ticker": "COST",
+   "strike": 1080,
+   "entry": 0.84,
+   "underlying": 1033.29,
+   "otm_pct": 4.5,
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "3",
+   "weekly": "2↑",
+   "iv_rank": 39,
+   "iv_pctl": 47,
+   "notes": "proph: '$COST 06 NOV 26 $1,080 CALL $0.84 OUTSIDE BAR WEEKLY + RELATIVE AND SECTOR STRENGTH + HIGH CONFIDENCE' (9:13 AM PT, reposted 9:14 merged). Thin: OI 42; wide spread 56% of mid. IV rank 39 / pctl 47 (52w IV 17%-30%, as of 11/2)."
   }
  ]
 }
