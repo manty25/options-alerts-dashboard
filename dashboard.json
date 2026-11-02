@@ -1,6 +1,6 @@
 {
  "date": "2026-11-02",
- "updated_pt": "2026-11-02T08:19:00-08:00",
+ "updated_pt": "2026-11-02 8:22 AM PT",
  "previous": {
   "date": "2026-10-30",
   "updated_pt": "11:52 AM PT",
@@ -807,6 +807,38 @@
    "iv_rank": 44,
    "iv_pctl": 58,
    "notes": "'GAP FILL PLAY $AX 20 NOV 26 $100 CALL $1.10' (8:05 AM PT). Thin: OI 30, vol 2, spread 118% of mid. 8:10 AM proph update: '$1.40 on $AX here! 27% return!'. IV rank 44 | IV pctl 58 (52w IV 26%-52%, as of 11/2)."
+  },
+  {
+   "source": "[Discord] Diamond Trading #free-alerts",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1566849299470360757",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "expiry": "11/13",
+   "opt_last": 2.0,
+   "bid": 1.78,
+   "ask": 2.17,
+   "spread_pct": 20,
+   "vol": 7,
+   "oi": 475,
+   "iv": 31.5,
+   "impl_move": "±13.82 (±5.3%)",
+   "time": "11:19 AM ET",
+   "time_pt": "8:19 AM PT",
+   "ticker": "IBM",
+   "strike": 270,
+   "entry": 2.21,
+   "underlying": 259.47,
+   "otm_pct": 4.1,
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "iv_rank": 35,
+   "iv_pctl": 46,
+   "notes": "'$IBM 13 NOV 26 $270 CALL $2.21 GAP FILL PLAY' (8:19 AM PT). Thin volume: vol 7 (OI 475), spread 20% of mid. IV rank 35 | IV pctl 46 (52w IV 22%-62%, as of 11/2)."
   }
  ]
 }
