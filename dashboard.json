@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "updated_pt": "2026-11-03 06:42 AM PT",
+ "updated_pt": "2026-11-03T06:47:00-08:00",
  "previous": {
   "date": "2026-11-02",
   "updated_pt": "12:27 PM PT",
@@ -458,7 +458,7 @@
     "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1566849299470360757",
     "reversal_daily": "",
     "reversal_weekly": "",
-    "status": "open",
+    "status": "exited",
     "exit": null,
     "side": "CALL",
     "expiry": "11/13",
@@ -483,7 +483,7 @@
     "weekly": "2↑",
     "iv_rank": 35,
     "iv_pctl": 46,
-    "notes": "'$IBM 13 NOV 26 $270 CALL $2.21 GAP FILL PLAY' (8:19 AM PT). Thin volume: vol 7 (OI 475), spread 20% of mid. IV rank 35 | IV pctl 46 (52w IV 22%-62%, as of 11/2). 12:18 PM PT: proph averaged down, avg now $1.72, swinging."
+    "notes": "'$IBM 13 NOV 26 $270 CALL $2.21 GAP FILL PLAY' (8:19 AM PT). Thin volume: vol 7 (OI 475), spread 20% of mid. IV rank 35 | IV pctl 46 (52w IV 22%-62%, as of 11/2). 12:18 PM PT: proph averaged down, avg now $1.72, swinging. Exit: proph 'took the loss on $IBM' (Nov 3, 6:34 AM PT); no exit price given."
    },
    {
     "source": "[X] @StockOptions888",
