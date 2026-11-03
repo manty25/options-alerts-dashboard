@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "updated_pt": "2026-11-03 08:07 AM PT",
+ "updated_pt": "2026-11-03 8:22 AM PT",
  "previous": {
   "date": "2026-11-02",
   "updated_pt": "12:27 PM PT",
@@ -967,6 +967,38 @@
    "iv_rank": 100,
    "iv_pctl": 100,
    "notes": "proph: '$HXL 20 NOV 26 $90 CALL $0.70, GAP FILL PLAY + $117 PRICE TARGET BY UBS + $92 PRICE TARGET BY MORGAN STANLEY' (8:00 AM PT). Thin: vol 2, OI 14, spread 128% of mid. IV rank 100 / pctl 100 (52w IV 22%-49%, IV 49% as of 11/3)."
+  },
+  {
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "source": "[Discord] Diamond Trading #free-alerts",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1567211763768885319",
+   "time": "11:20 AM ET",
+   "time_pt": "8:20 AM PT",
+   "ticker": "RTX",
+   "strike": 215,
+   "expiry": "11/6",
+   "entry": 0.25,
+   "underlying": 205.12,
+   "otm_pct": 4.8,
+   "opt_last": 0.25,
+   "bid": 0.16,
+   "ask": 0.25,
+   "spread_pct": 44,
+   "vol": 9,
+   "oi": 48,
+   "iv": 31.8,
+   "impl_move": "±5.05 (±2.5%)",
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "iv_rank": 47,
+   "iv_pctl": 49,
+   "notes": "proph: '$RTX 06 NOV 26 $215 CALL $0.25 INSIDE BAR SETUP + DOUBLE EARNINGS BEAT' (8:20 AM PT). Thin: vol 9, OI 48, spread 44% of mid. IV rank 47 / pctl 49 (52w IV 20%-37%, IV 28% as of 11/3)."
   }
  ]
 }
