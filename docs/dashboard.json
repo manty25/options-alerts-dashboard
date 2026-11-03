@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "updated_pt": "2026-11-03 11:10 AM PT",
+ "updated_pt": "11:41 AM PT",
  "previous": {
   "date": "2026-11-02",
   "updated_pt": "12:27 PM PT",
@@ -1063,6 +1063,38 @@
    "iv_rank": 100,
    "iv_pctl": 100,
    "notes": "MoonTrades7: '$CBSH 60 CALL 11/20 @ .29 underpriced' (11:01 AM PT). Thin: vol 11 (<50); spread 0.05 = 22% of mid. IV rank 100 / pctl 100 (52w IV 8%-56%, IV 56% as of 11/3)."
+  },
+  {
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "source": "[Discord] Diamond Trading #free-alerts",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1567260466147758202",
+   "time": "2:33 PM ET",
+   "time_pt": "11:33 AM PT",
+   "ticker": "PCB",
+   "strike": 35,
+   "expiry": "11/20",
+   "entry": 0.2,
+   "underlying": 30.62,
+   "otm_pct": 14.3,
+   "opt_last": null,
+   "bid": null,
+   "ask": null,
+   "spread_pct": null,
+   "vol": null,
+   "oi": null,
+   "iv": null,
+   "impl_move": null,
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "iv_rank": 12,
+   "iv_pctl": 8,
+   "notes": "proph: '$PCB 20 NOV 26 $35 CALL $0.20 ALL-TIME HIGH BREAKOUT + HIGH CONFIDENCE SWING TRADE' (11:33 AM PT). 35 strike not listed in the 11/20 chain data (only 30 shown), so no option quote/vol/OI. IV rank 12 / pctl 8 (52w IV 15%-80%, IV 23% as of 10/30)."
   }
  ]
 }
