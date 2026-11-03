@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "updated_pt": "2026-11-03 7:48 AM PT",
+ "updated_pt": "2026-11-03 08:07 AM PT",
  "previous": {
   "date": "2026-11-02",
   "updated_pt": "12:27 PM PT",
@@ -935,6 +935,38 @@
    "iv_rank": 60,
    "iv_pctl": 74,
    "notes": "proph: '$LHX 06 NOV 26 $290 CALL $1.00 INSIDE BAR SETUP + GAP FILL PLAY + BULLISH OUTSIDE BAR SETUP + DOUBLE EARNINGS BEAT + $375 PRICE TARGET BY B OF A' (7:43 AM PT). Thin: vol 2, OI 79, spread 32% of mid. IV rank 60 / pctl 74 (52w IV 21%-38%, IV 31% as of 11/3)."
+  },
+  {
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "source": "[Discord] Diamond Trading #free-alerts",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1567206863391428721",
+   "time": "11:00 AM ET",
+   "time_pt": "8:00 AM PT",
+   "ticker": "HXL",
+   "strike": 90,
+   "expiry": "11/20",
+   "entry": 0.7,
+   "underlying": 83.44,
+   "otm_pct": 7.9,
+   "opt_last": 0.35,
+   "bid": 0.55,
+   "ask": 2.5,
+   "spread_pct": 128,
+   "vol": 2,
+   "oi": 14,
+   "iv": 51.7,
+   "impl_move": "±6.15 (±7.4%)",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↑",
+   "iv_rank": 100,
+   "iv_pctl": 100,
+   "notes": "proph: '$HXL 20 NOV 26 $90 CALL $0.70, GAP FILL PLAY + $117 PRICE TARGET BY UBS + $92 PRICE TARGET BY MORGAN STANLEY' (8:00 AM PT). Thin: vol 2, OI 14, spread 128% of mid. IV rank 100 / pctl 100 (52w IV 22%-49%, IV 49% as of 11/3)."
   }
  ]
 }
