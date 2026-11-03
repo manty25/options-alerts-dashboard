@@ -1,6 +1,6 @@
 {
  "date": "2026-11-03",
- "updated_pt": "2026-11-03T06:47:00-08:00",
+ "updated_pt": "2026-11-03 7:04 AM PT",
  "previous": {
   "date": "2026-11-02",
   "updated_pt": "12:27 PM PT",
@@ -807,5 +807,38 @@
    }
   ]
  },
- "alerts": []
+ "alerts": [
+  {
+   "source": "[Discord] Diamond Trading #free-alerts",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1567191959821619272",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "expiry": "11/06",
+   "opt_last": 0.49,
+   "bid": 0.2,
+   "ask": 0.74,
+   "spread_pct": 115,
+   "vol": 5,
+   "oi": 248,
+   "iv": 35.8,
+   "impl_move": "±5.33 (±2.6%)",
+   "time": "10:01 AM ET",
+   "time_pt": "7:01 AM PT",
+   "ticker": "RTX",
+   "strike": 210,
+   "entry": 0.55,
+   "underlying": 202.82,
+   "otm_pct": 3.5,
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "1",
+   "iv_rank": 64,
+   "iv_pctl": 71,
+   "notes": "proph: '$RTX 06 NOV 26 $210 CALL $0.55 INSIDE BAR SETUP + DOUBLE EARNINGS BEAT' (7:01 AM PT). Wide spread 0.20/0.74 (115% of mid), volume 5 (thin). IV rank 64 / pctl 71 (52w IV 20%-37%, as of 11/3)."
+  }
+ ]
 }
