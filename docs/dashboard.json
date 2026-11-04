@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "updated_pt": "2026-11-04T07:43:16-08:00",
+ "updated_pt": "2026-11-04T08:08:00-08:00",
  "previous": {
   "date": "2026-11-03",
   "updated_pt": "2026-11-03 11:52 AM PT",
@@ -519,6 +519,38 @@
    "oi": 540,
    "iv": 14.1,
    "notes": "proph: '$SPX 0DTE $7,620 PUT $2.00 EXTREME HIGH-RISK' (7:40 AM PT). Vol 9,668, OI 540, spread 6% of mid. Option last 3.40 vs called entry 2.00. Bearish call vs D 2↑ (up day). IV rank/pctl n/a."
+  },
+  {
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "source": "[X] @StockOptions888",
+   "ticker": "IRMD",
+   "expiry": "11/20",
+   "underlying": 87.6,
+   "impl_move": "±6.64 (±7.6%)",
+   "prev_daily": "2↑",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↑",
+   "iv_rank": 100,
+   "iv_pctl": 100,
+   "link": "https://x.com/StockOptions888/status/2118010658650460161",
+   "time": "11:01 AM ET",
+   "time_pt": "8:01 AM PT",
+   "strike": 95,
+   "entry": 0.85,
+   "otm_pct": 8.4,
+   "opt_last": 0.5,
+   "bid": 0.5,
+   "ask": 0.55,
+   "spread_pct": 10.0,
+   "vol": 72,
+   "oi": 20,
+   "iv": 36.2,
+   "notes": "@StockOptions888: '$IRMD 95 CALL 11/20 @ 0.85 THIS CAN GO 500%+' (8:01 AM PT); reposted 8:01:39 ('1K - 100K CHALLENGE') and 8:01:47 ('ADDED HEAVY'), merged. Thin: OI 20. Spread 10% of mid. Option last 0.50 vs called entry 0.85. Bullish call vs D 2↑, W 2↑. IV rank 100 / pctl 100 (52w IV 20%–66%, as of 11/4)."
   }
  ]
 }
