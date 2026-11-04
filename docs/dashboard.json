@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "updated_pt": "2026-11-04 11:19 AM PT",
+ "updated_pt": "2026-11-04 12:35 PM PT",
  "previous": {
   "date": "2026-11-03",
   "updated_pt": "2026-11-03 11:52 AM PT",
@@ -807,6 +807,38 @@
    "oi": 2,
    "iv": 49.0,
    "notes": "@MoonTrades7: '$CASS 60 CALL 11/20 @ .45 SAFE NOVEMBER +200% SWING' (11:16 AM PT); reposted at 11:17 AM PT @ .40 (https://x.com/MoonTrades7/status/2118060032017223764). Thin: OI 2, no volume, bid 0.00 / ask 0.75 (spread 200% of mid). Bullish call vs D 1 then 2↑ (prior daily high taken out), W 2↓ then 1 (inside). IV rank 100 / pctl 100 (52w IV 15%–64%, as of 11/4)."
+  },
+  {
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "source": "[Discord] LTP #bcf (BCF)",
+   "ticker": "QQQ",
+   "expiry": "11/4",
+   "underlying": 693.38,
+   "impl_move": "±1.68 (±0.2%)",
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↓",
+   "iv_rank": 47,
+   "iv_pctl": 58,
+   "link": "https://discord.com/channels/1244040902117167174/1484651542077505677/1567637827817177241",
+   "time": "3:33 PM ET",
+   "time_pt": "12:33 PM PT",
+   "strike": 695,
+   "entry": 0.29,
+   "otm_pct": 0.2,
+   "opt_last": 0.22,
+   "bid": 0.22,
+   "ask": 0.23,
+   "spread_pct": 4,
+   "vol": 271752,
+   "oi": 3680,
+   "iv": 5.4,
+   "notes": "BCF: 'BTO 5 QQQ 695c 11/4 @ 0.29 Lotto' (12:33 PM PT). 0DTE. Liquid: vol 271,752, OI 3,680, spread 4% of mid. Bullish call vs D 1 then 2↑ (prior daily high taken out), W 2↓ then 2↓. IV rank 47 / pctl 58 (52w IV 15%–30%, as of 11/4)."
   }
  ]
 }
