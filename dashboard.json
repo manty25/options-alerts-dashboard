@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "updated_pt": "2026-11-04 7:41 AM PT",
+ "updated_pt": "2026-11-04T07:43:16-08:00",
  "previous": {
   "date": "2026-11-03",
   "updated_pt": "2026-11-03 11:52 AM PT",
@@ -487,6 +487,38 @@
    "oi": 3384,
    "iv": 16.2,
    "notes": "proph: '$SPY 05 NOV 26 $760 PUT $0.90 HIGH-RISK' (7:38 AM PT). Liquid: vol 10,097, OI 3,384, spread 1% of mid. Option last 1.18 vs called entry 0.90. Bearish call vs D 2↑ (up day). IV rank 17 / pctl 40 (52w IV 11%-27%, IV 14% as of 11/4, live)."
+  },
+  {
+   "status": "open",
+   "exit": null,
+   "side": "PUT",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "source": "[Discord] Diamond Trading #free-alerts",
+   "ticker": "SPX",
+   "expiry": "11/4 (0DTE)",
+   "underlying": 7684.91,
+   "impl_move": "±36.25 (±0.5%)",
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "1",
+   "iv_rank": "n/a",
+   "iv_pctl": "n/a",
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1567564282948886559",
+   "time": "10:40 AM ET",
+   "time_pt": "7:40 AM PT",
+   "strike": 7620,
+   "entry": 2.0,
+   "otm_pct": 0.8,
+   "opt_last": 3.4,
+   "bid": 3.2,
+   "ask": 3.4,
+   "spread_pct": 6.0,
+   "vol": 9668,
+   "oi": 540,
+   "iv": 14.1,
+   "notes": "proph: '$SPX 0DTE $7,620 PUT $2.00 EXTREME HIGH-RISK' (7:40 AM PT). Vol 9,668, OI 540, spread 6% of mid. Option last 3.40 vs called entry 2.00. Bearish call vs D 2↑ (up day). IV rank/pctl n/a."
   }
  ]
 }
