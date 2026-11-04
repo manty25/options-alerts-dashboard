@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "updated_pt": "2026-11-04 7:12 AM PT",
+ "updated_pt": "7:38 AM PT",
  "previous": {
   "date": "2026-11-03",
   "updated_pt": "2026-11-03 11:52 AM PT",
@@ -423,6 +423,38 @@
    "oi": 1,
    "iv": 36.6,
    "notes": "SniperAlert: '$GIC 55 CALL 11/20 @ .80 / THIS CAN GO 500%+' (7:05 AM PT); reposted 7:05 as '1K-100K CHALLENGE' and 'ADDED HEAVY'. Thin: OI 1, bid 0, spread 200% of mid. IV rank 78 / pctl 98 (52w IV 15%-84%, IV 69% as of 11/4, live)."
+  },
+  {
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "source": "[Discord] Diamond Trading #free-alerts",
+   "ticker": "TCMD",
+   "expiry": "11/20",
+   "underlying": 27.98,
+   "impl_move": "±4.89 (±17.5%)",
+   "prev_daily": "3",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "3",
+   "iv_rank": 11,
+   "iv_pctl": 5,
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1567562183292756149",
+   "time": "10:32 AM ET",
+   "time_pt": "7:32 AM PT",
+   "strike": 30,
+   "entry": 0.7,
+   "otm_pct": 7.2,
+   "opt_last": 0.25,
+   "bid": 0.0,
+   "ask": 2.45,
+   "spread_pct": 200.0,
+   "vol": null,
+   "oi": 2,
+   "iv": 83.5,
+   "notes": "proph: '$TCMD 20 NOV 26 $30 CALL $0.70 GAP FILL PLAY' (7:32 AM PT). Thin: OI 2, no volume, bid 0, spread 200% of mid. IV rank 11 / pctl 5 (52w IV 35%-115%, IV 44% as of 11/4, live)."
   }
  ]
 }
