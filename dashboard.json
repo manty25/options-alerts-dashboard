@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "updated_pt": "2026-11-04 8:49 AM PT",
+ "updated_pt": "2026-11-04 8:55 AM PT",
  "previous": {
   "date": "2026-11-03",
   "updated_pt": "2026-11-03 11:52 AM PT",
@@ -615,6 +615,38 @@
    "oi": 4,
    "iv": 32.0,
    "notes": "proph: '$AVNT 20 NOV 26 $50 CALL $0.75 ALL-TIME HIGH BREAKOUT' (8:41 AM PT). 8:46 AM PT follow-up: '$AVNT instantly gone'. Thin: OI 4, vol 1; wide spread 137% of mid (mid 0.475). Bullish call vs D 2↓ then 2↑, W 2↑ then 2↑. IV rank 22 / pctl 26 (52w IV 16%–87%, as of 11/4). Implied move n/a (no straddle data)."
+  },
+  {
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "reversal_daily": "",
+   "reversal_weekly": "2↑→red + vol↑",
+   "source": "[X] @MoonTrades7",
+   "ticker": "HSTM",
+   "expiry": "11/20",
+   "underlying": 32.79,
+   "impl_move": "n/a",
+   "prev_daily": "3",
+   "daily": "1",
+   "prev_weekly": "2↑",
+   "weekly": "2↓",
+   "iv_rank": 100,
+   "iv_pctl": 100,
+   "link": "https://x.com/MoonTrades7/status/2118022926381269479",
+   "time": "11:49 AM ET",
+   "time_pt": "8:49 AM PT",
+   "strike": 35,
+   "entry": 0.48,
+   "otm_pct": 6.7,
+   "opt_last": 0.13,
+   "bid": 0.0,
+   "ask": 0.65,
+   "spread_pct": 200.0,
+   "vol": 5,
+   "oi": 35,
+   "iv": 51.6,
+   "notes": "@MoonTrades7: '$HSTM 35 CALL 11/20 @ .48' (8:49 AM PT); reposted 8:50 AM PT '@ .55' (https://x.com/MoonTrades7/status/2118023136293662853), merged. Thin: OI 35, vol 5; wide spread 200% of mid (mid 0.325, bid 0). Bullish call vs D 3 then 1, W 2↑ then 2↓. IV rank 100 / pctl 100 (52w IV 16%–85%, as of 11/4). Implied move n/a."
   }
  ]
 }
