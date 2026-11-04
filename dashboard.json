@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "updated_pt": "2026-11-04 8:55 AM PT",
+ "updated_pt": "2026-11-04T09:24:00-08:00",
  "previous": {
   "date": "2026-11-03",
   "updated_pt": "2026-11-03 11:52 AM PT",
@@ -647,6 +647,38 @@
    "oi": 35,
    "iv": 51.6,
    "notes": "@MoonTrades7: '$HSTM 35 CALL 11/20 @ .48' (8:49 AM PT); reposted 8:50 AM PT '@ .55' (https://x.com/MoonTrades7/status/2118023136293662853), merged. Thin: OI 35, vol 5; wide spread 200% of mid (mid 0.325, bid 0). Bullish call vs D 3 then 1, W 2↑ then 2↓. IV rank 100 / pctl 100 (52w IV 16%–85%, as of 11/4). Implied move n/a."
+  },
+  {
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "source": "[X] @StockOptions888",
+   "ticker": "REYN",
+   "expiry": "12/18",
+   "underlying": 26.41,
+   "impl_move": "n/a",
+   "prev_daily": "2↑",
+   "daily": "3",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "iv_rank": 58,
+   "iv_pctl": 81,
+   "link": "https://x.com/StockOptions888/status/2118029019602157860",
+   "time": "12:14 PM ET",
+   "time_pt": "9:14 AM PT",
+   "strike": 30,
+   "entry": 0.1,
+   "otm_pct": 13.6,
+   "opt_last": null,
+   "bid": null,
+   "ask": null,
+   "spread_pct": null,
+   "vol": null,
+   "oi": null,
+   "iv": null,
+   "notes": "@StockOptions888: '$REYN 30 CALL 12/18 @ 0.10 / THIS CAN GO 500%+' (9:14 AM PT). 30 strike not listed in the 12/18 chain (only 25 found), so no option quote. Bullish call vs D 2↑ then 3, W 2↑ then 2↑ (prior weekly high taken out). IV rank 58 / pctl 81 (52w IV 10%–56%, as of 11/4)."
   }
  ]
 }
