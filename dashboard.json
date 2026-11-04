@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "updated_pt": "6:47 AM PT",
+ "updated_pt": "2026-11-04 7:12 AM PT",
  "previous": {
   "date": "2026-11-03",
   "updated_pt": "2026-11-03 11:52 AM PT",
@@ -391,6 +391,38 @@
    "oi": 46,
    "iv": 55.6,
    "notes": "proph: '$DASH 06 NOV 26 $207.5 CALL $0.74 INSIDE BAR' (6:45 AM PT). Thin: OI 46, vol 32, spread 185% of mid. IV rank 45 / pctl 57 (52w IV 32%-81%, IV 54% as of 11/4, live)."
+  },
+  {
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "source": "[X] @StockOptions888",
+   "ticker": "GIC",
+   "expiry": "11/20",
+   "underlying": 50.15,
+   "impl_move": "±3.84 (±7.7%)",
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "2↓",
+   "weekly": "2↑",
+   "iv_rank": 78,
+   "iv_pctl": 98,
+   "link": "https://x.com/StockOptions888/status/2117996658487435428",
+   "time": "10:05 AM ET",
+   "time_pt": "7:05 AM PT",
+   "strike": 55,
+   "entry": 0.8,
+   "otm_pct": 9.7,
+   "opt_last": 0.2,
+   "bid": 0.0,
+   "ask": 0.25,
+   "spread_pct": 200.0,
+   "vol": 818,
+   "oi": 1,
+   "iv": 36.6,
+   "notes": "SniperAlert: '$GIC 55 CALL 11/20 @ .80 / THIS CAN GO 500%+' (7:05 AM PT); reposted 7:05 as '1K-100K CHALLENGE' and 'ADDED HEAVY'. Thin: OI 1, bid 0, spread 200% of mid. IV rank 78 / pctl 98 (52w IV 15%-84%, IV 69% as of 11/4, live)."
   }
  ]
 }
