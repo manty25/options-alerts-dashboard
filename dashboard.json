@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "updated_pt": "2026-11-04 8:29 AM PT",
+ "updated_pt": "2026-11-04 8:49 AM PT",
  "previous": {
   "date": "2026-11-03",
   "updated_pt": "2026-11-03 11:52 AM PT",
@@ -583,6 +583,38 @@
    "oi": 207,
    "iv": 41.7,
    "notes": "@StockOptions888: '$HELE 40 CALL 11/20 @ 0.55 THIS CAN GO 500%+' (8:25 AM PT); reposted 8:26:05 ('1K - 100K CHALLENGE') and 8:26:30 ('ADDED HEAVY'), merged. Wide spread: 33% of mid. Option last 0.25 vs called entry 0.55. Bullish call vs D 2↑, W 2↑. IV rank 15 / pctl 5 (52w IV 36%–126%, as of 11/4)."
+  },
+  {
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "source": "[Discord] Diamond Trading #free-alerts",
+   "ticker": "AVNT",
+   "expiry": "11/20",
+   "underlying": 48.67,
+   "impl_move": "n/a",
+   "prev_daily": "2↓",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "iv_rank": 22,
+   "iv_pctl": 26,
+   "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1567579465003827261",
+   "time": "11:41 AM ET",
+   "time_pt": "8:41 AM PT",
+   "strike": 50,
+   "entry": 0.75,
+   "otm_pct": 2.7,
+   "opt_last": 0.75,
+   "bid": 0.15,
+   "ask": 0.8,
+   "spread_pct": 137.0,
+   "vol": 1,
+   "oi": 4,
+   "iv": 32.0,
+   "notes": "proph: '$AVNT 20 NOV 26 $50 CALL $0.75 ALL-TIME HIGH BREAKOUT' (8:41 AM PT). 8:46 AM PT follow-up: '$AVNT instantly gone'. Thin: OI 4, vol 1; wide spread 137% of mid (mid 0.475). Bullish call vs D 2↓ then 2↑, W 2↑ then 2↑. IV rank 22 / pctl 26 (52w IV 16%–87%, as of 11/4). Implied move n/a (no straddle data)."
   }
  ]
 }
