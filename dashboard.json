@@ -1,6 +1,6 @@
 {
  "date": "2026-11-04",
- "updated_pt": "2026-11-04T08:08:00-08:00",
+ "updated_pt": "2026-11-04 8:29 AM PT",
  "previous": {
   "date": "2026-11-03",
   "updated_pt": "2026-11-03 11:52 AM PT",
@@ -551,6 +551,38 @@
    "oi": 20,
    "iv": 36.2,
    "notes": "@StockOptions888: '$IRMD 95 CALL 11/20 @ 0.85 THIS CAN GO 500%+' (8:01 AM PT); reposted 8:01:39 ('1K - 100K CHALLENGE') and 8:01:47 ('ADDED HEAVY'), merged. Thin: OI 20. Spread 10% of mid. Option last 0.50 vs called entry 0.85. Bullish call vs D 2↑, W 2↑. IV rank 100 / pctl 100 (52w IV 20%–66%, as of 11/4)."
+  },
+  {
+   "status": "open",
+   "exit": null,
+   "side": "CALL",
+   "reversal_daily": "",
+   "reversal_weekly": "",
+   "source": "[X] @StockOptions888",
+   "ticker": "HELE",
+   "expiry": "11/20",
+   "underlying": 36.9,
+   "impl_move": "±3.67 (±10.0%)",
+   "prev_daily": "1",
+   "daily": "2↑",
+   "prev_weekly": "2↑",
+   "weekly": "2↑",
+   "iv_rank": 15,
+   "iv_pctl": 5,
+   "link": "https://x.com/StockOptions888/status/2118016842908446878",
+   "time": "11:25 AM ET",
+   "time_pt": "8:25 AM PT",
+   "strike": 40,
+   "entry": 0.55,
+   "otm_pct": 8.4,
+   "opt_last": 0.25,
+   "bid": 0.25,
+   "ask": 0.35,
+   "spread_pct": 33.0,
+   "vol": 229,
+   "oi": 207,
+   "iv": 41.7,
+   "notes": "@StockOptions888: '$HELE 40 CALL 11/20 @ 0.55 THIS CAN GO 500%+' (8:25 AM PT); reposted 8:26:05 ('1K - 100K CHALLENGE') and 8:26:30 ('ADDED HEAVY'), merged. Wide spread: 33% of mid. Option last 0.25 vs called entry 0.55. Bullish call vs D 2↑, W 2↑. IV rank 15 / pctl 5 (52w IV 36%–126%, as of 11/4)."
   }
  ]
 }
