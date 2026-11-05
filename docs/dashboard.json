@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updated_pt": "2026-11-5 9:19 AM PT",
+  "updated_pt": "2026-11-05 9:35 AM PT",
   "previous": {
     "date": "2026-11-04",
     "updated_pt": "2026-11-04 12:35 PM PT",
@@ -615,6 +615,38 @@
       "oi": null,
       "iv": null,
       "notes": "proph: '$TREE 20 NOV 26 $45 CALL $0.40 GAP FILL PLAY + $65 PRICE TARGET BY TRUIST SECURITIES + HIGH CONFIDENCE SWING TRADE' (9:12 AM PT). Nov 20 chain in yfinance has no 45 strike (listed to 40); option quote n/a. IV rank 29 / pctl 41 (52w IV 36%-120%, IV 60% as of 11/5, live)."
+    },
+    {
+      "status": "open",
+      "exit": null,
+      "side": "CALL",
+      "reversal_daily": "",
+      "reversal_weekly": "2\u2193\u2192green + vol\u2191",
+      "source": "[X] @StockOptions888",
+      "ticker": "NVRI",
+      "expiry": "11/20",
+      "underlying": 22.36,
+      "impl_move": null,
+      "prev_daily": "2\u2191",
+      "daily": "2\u2191",
+      "prev_weekly": "2\u2193",
+      "weekly": "3",
+      "iv_rank": 34,
+      "iv_pctl": 74,
+      "link": "https://x.com/StockOptions888/status/2118395063768416575",
+      "time": "12:28 PM ET",
+      "time_pt": "9:28 AM PT",
+      "strike": 25,
+      "entry": 0.25,
+      "otm_pct": 11.8,
+      "opt_last": null,
+      "bid": null,
+      "ask": null,
+      "spread_pct": null,
+      "vol": null,
+      "oi": null,
+      "iv": null,
+      "notes": "StockOptions888: '$NVRI 25 CALL 11/20 @ 0.25' (9:28 AM PT); repeats HERE/ADDED HEAVY folded. Nov 20 yfinance chain has no 25 strike (listed 20, 22.5); option quote n/a. Underlying 22.36, OTM 11.8%. Strat D: 2\u2191 then 2\u2191 | W: 2\u2193 then 3. Reversal D: none | W: 2\u2193\u2192green + vol\u2191. IV rank 34 | IV pctl 74 (52w IV 11%\u2013114%, src IV 46% as of 2026-11-05, live)."
     }
   ]
 }
