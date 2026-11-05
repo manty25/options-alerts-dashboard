@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updated_pt": "2026-11-05 7:27 AM PT",
+  "updated_pt": "2026-11-05 8:10 AM PT",
   "previous": {
     "date": "2026-11-04",
     "updated_pt": "2026-11-04 12:35 PM PT",
@@ -551,6 +551,38 @@
       "status": "open",
       "exit": null,
       "notes": "itsCblast (X+Discord #cblast): '$QCOM 165c 11/06 at 1.35' / 'BTO 1 QCOM 165c 11/06 @ 1.35' (challenge entry, 1 contract). Discord: https://discord.com/channels/1244040902117167174/1341827704483221554/1567920764806766764. Underlying 156.26, OTM 5.6%. Opt last 1.20 mid ~1.17, spread 15% of mid, vol 1905 OI 921. IV 87.7%. Impl move \u00b14.4%. Strat D: 2\u2191 then 2\u2193 | W: 3 then 2\u2193. Reversal D: none | W: none. IV rank 42 | IV pctl 70 (52w IV 26%\u201392%, as of 11/5)."
+    },
+    {
+      "time": "10:58 AM ET",
+      "time_pt": "7:58 AM PT",
+      "ticker": "ATNI",
+      "side": "CALL",
+      "strike": 30,
+      "expiry": "11/20",
+      "entry": 0.8,
+      "source": "[X] @StockOptions888",
+      "link": "https://x.com/StockOptions888/status/2118372454309793823",
+      "underlying": 27.86,
+      "otm_pct": 7.7,
+      "opt_last": null,
+      "bid": null,
+      "ask": null,
+      "spread_pct": null,
+      "vol": null,
+      "oi": null,
+      "iv": null,
+      "impl_move": null,
+      "prev_daily": "2\u2191",
+      "daily": "2\u2191",
+      "prev_weekly": "2\u2191",
+      "weekly": "2\u2191",
+      "reversal_daily": "",
+      "reversal_weekly": "",
+      "iv_rank": 43,
+      "iv_pctl": 79,
+      "status": "open",
+      "exit": null,
+      "notes": "11/20 not on yfinance chain (listed: 2026-12-18, 2027-03-19). Ref Dec18 30C last 0.75 bid 0.50 ask 1.20 vol 1 OI 56 IV 52.4% (thin/wide). IV rank 43 | IV pctl 79 (52w 22\u2013100%, src 56% as of 2026-11-05 live)."
     }
   ]
 }
