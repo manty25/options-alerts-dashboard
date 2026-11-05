@@ -1,6 +1,6 @@
 {
   "date": "2026-11-05",
-  "updated_pt": "2026-11-05 8:10 AM PT",
+  "updated_pt": "2026-11-5 9:19 AM PT",
   "previous": {
     "date": "2026-11-04",
     "updated_pt": "2026-11-04 12:35 PM PT",
@@ -583,6 +583,38 @@
       "status": "open",
       "exit": null,
       "notes": "11/20 not on yfinance chain (listed: 2026-12-18, 2027-03-19). Ref Dec18 30C last 0.75 bid 0.50 ask 1.20 vol 1 OI 56 IV 52.4% (thin/wide). IV rank 43 | IV pctl 79 (52w 22\u2013100%, src 56% as of 2026-11-05 live)."
+    },
+    {
+      "status": "open",
+      "exit": null,
+      "side": "CALL",
+      "reversal_daily": "",
+      "reversal_weekly": "",
+      "source": "[Discord] Diamond Trading #free-alerts",
+      "ticker": "TREE",
+      "expiry": "11/20",
+      "underlying": 40.08,
+      "impl_move": null,
+      "prev_daily": "2\u2191",
+      "daily": "2\u2191",
+      "prev_weekly": "2\u2191",
+      "weekly": "2\u2191",
+      "iv_rank": 29,
+      "iv_pctl": 41,
+      "link": "https://discord.com/channels/948036115254878249/1525232955872772279@2026-11-05T09:12",
+      "time": "12:12 PM ET",
+      "time_pt": "9:12 AM PT",
+      "strike": 45,
+      "entry": 0.4,
+      "otm_pct": 12.3,
+      "opt_last": null,
+      "bid": null,
+      "ask": null,
+      "spread_pct": null,
+      "vol": null,
+      "oi": null,
+      "iv": null,
+      "notes": "proph: '$TREE 20 NOV 26 $45 CALL $0.40 GAP FILL PLAY + $65 PRICE TARGET BY TRUIST SECURITIES + HIGH CONFIDENCE SWING TRADE' (9:12 AM PT). Nov 20 chain in yfinance has no 45 strike (listed to 40); option quote n/a. IV rank 29 / pctl 41 (52w IV 36%-120%, IV 60% as of 11/5, live)."
     }
   ]
 }
