@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updated_pt": "11:12 AM PT",
+  "updated_pt": "12:22 PM PT",
   "previous": {
     "date": "2026-11-05",
     "updated_pt": "12:56 PM PT",
@@ -615,6 +615,38 @@
       "status": "open",
       "exit": null,
       "notes": "proph: '$SARO 20 NOV 26 $30 CALL $0.25 GAP FILL PLAY + HIGH CONFIDENCE'. Underlying 27.22, OTM 10.2%. Opt last 0.15 mid 0.125, spread 120% of mid (wide), vol 6 OI 179 (thin vol). IV 45.7%. Impl move \u00b13.10 (\u00b111.4%). Strat D: 2\u2193 then 2\u2191 | W: 2\u2191 then 2\u2191. Reversal D: none | W: none. IV rank 80 | IV pctl 95 (52w IV 14%\u201362%, src IV 52% as of 2026-11-06, live)."
+    },
+    {
+      "time": "3:06 PM ET",
+      "time_pt": "12:06 PM PT",
+      "ticker": "AVNT",
+      "side": "CALL",
+      "strike": 50,
+      "expiry": "11/20",
+      "entry": 0.2,
+      "source": "[X] @MoonTrades7",
+      "link": "https://x.com/MoonTrades7/status/2118797243142578622",
+      "underlying": 46.0,
+      "otm_pct": 8.7,
+      "opt_last": 0.05,
+      "bid": 0.05,
+      "ask": 0.25,
+      "spread_pct": 133,
+      "vol": 1,
+      "oi": 185,
+      "iv": 37.4,
+      "impl_move": "n/a",
+      "prev_daily": "2\u2193",
+      "daily": "2\u2193",
+      "prev_weekly": "2\u2191",
+      "weekly": "2\u2191",
+      "reversal_daily": "",
+      "reversal_weekly": "",
+      "iv_rank": 29,
+      "iv_pctl": 49,
+      "status": "open",
+      "exit": null,
+      "notes": "MoonTrades7: '$AVNT 50 CALL 11/20 @ .20'. Underlying 46.00, OTM 8.7%. Opt last 0.05 mid 0.15, spread 133% of mid (wide), vol 1 OI 185 (thin vol). IV 37.4%. Impl move n/a. Strat D: 2\u2193 then 2\u2193 | W: 2\u2191 then 2\u2191. Reversal D: none | W: none. IV rank 29 | IV pctl 49 (52w IV 16%\u201387%, src IV 37% as of 2026-11-06, live)."
     }
   ]
 }
