@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updated_pt": "9:21 AM PT",
+  "updated_pt": "9:41 AM PT",
   "previous": {
     "date": "2026-11-05",
     "updated_pt": "12:56 PM PT",
@@ -551,6 +551,38 @@
       "status": "open",
       "exit": null,
       "notes": "Strike 55 not listed on 11/20 chain (listed: 30/45/50). Source later posted $0.65 / 30% gain update. Underlying 48.27 OTM 13.9%. Strat D: 2↓ then 2↑ | W: 2↑ then 2↑. Reversal D: none | W: none. IV rank 96 | IV pctl 100 (52w IV 17%–83%, src IV 81% as of 2026-11-06, live)."
+    },
+    {
+      "time": "12:27 PM ET",
+      "time_pt": "9:27 AM PT",
+      "ticker": "SNEX",
+      "side": "CALL",
+      "strike": 60,
+      "expiry": "11/20",
+      "entry": 0.8,
+      "source": "[Discord] Diamond Trading #free-alerts",
+      "link": "https://discord.com/channels/948036115254878249/1525232955872772279@2026-11-06T09:27-SNEX",
+      "underlying": 55.65,
+      "otm_pct": 7.8,
+      "opt_last": 0.6,
+      "bid": 0.25,
+      "ask": 0.85,
+      "spread_pct": 109,
+      "vol": 18,
+      "oi": 68,
+      "iv": 52.0,
+      "impl_move": "±5.75 (±10.3%)",
+      "prev_daily": "3",
+      "daily": "1",
+      "prev_weekly": "2↓",
+      "weekly": "2↑",
+      "reversal_daily": "",
+      "reversal_weekly": "",
+      "iv_rank": 82,
+      "iv_pctl": 94,
+      "status": "open",
+      "exit": null,
+      "notes": "proph: '$SNEX 20 NOV 26 $60 CALL $0.80 DAILY OUTSIDE BAR SETUP + HIGH CONFIDENCE SWING TRADE'. Underlying 55.65, OTM 7.8%. Opt last 0.60 mid 0.55, spread 109% of mid (wide), vol 18 OI 68 (thin vol/OI). IV 52.0%. Impl move ±5.75 (±10.3%). Strat D: 3 then 1 | W: 2↓ then 2↑. Reversal D: none | W: none. IV rank 82 | IV pctl 94 (52w IV 17%–63%, src IV 55% as of 2026-11-06, live)."
     }
   ]
 }
