@@ -1,6 +1,6 @@
 {
   "date": "2026-11-06",
-  "updated_pt": "8:07 AM PT",
+  "updated_pt": "9:07 AM PT",
   "previous": {
     "date": "2026-11-05",
     "updated_pt": "12:56 PM PT",
@@ -455,6 +455,38 @@
       "status": "open",
       "exit": null,
       "notes": "MoonTrades7: '$CAC 65 CALL 11/20 @ .28 SAFE NOVEMBER +200% SWING'. Underlying 58.13, OTM 11.8%. Nov20 chain has no 65 strike (listed 60) — option quote n/a. Strat D: 3 then 2↓ | W: 2↑ then 3. Reversal D: none | W: none. IV rank 27 | IV pctl 44 (52w IV 11%–61%, src 25% as of 11/4, UW)."
+    },
+    {
+      "time": "11:39 AM ET",
+      "time_pt": "8:39 AM PT",
+      "ticker": "ACHC",
+      "side": "CALL",
+      "strike": 40,
+      "expiry": "11/20",
+      "entry": 0.45,
+      "source": "[Discord] Diamond Trading #free-alerts",
+      "link": "https://discord.com/channels/948036115254878249/1525232955872772279/1568303485470900243",
+      "underlying": 37.41,
+      "otm_pct": 6.9,
+      "opt_last": 0.45,
+      "bid": 0.4,
+      "ask": 0.5,
+      "spread_pct": 22,
+      "vol": 1925,
+      "oi": 8,
+      "iv": 46.0,
+      "impl_move": 8.0,
+      "prev_daily": "2↑",
+      "daily": "1",
+      "prev_weekly": "3",
+      "weekly": "2↑",
+      "reversal_daily": "",
+      "reversal_weekly": "",
+      "iv_rank": 27,
+      "iv_pctl": 6,
+      "status": "open",
+      "exit": null,
+      "notes": "proph: '$ACHC 20 NOV 26 $40 CALL $0.45 INSIDE BAR SETUP + PRICE TARGET RAISED TO $41 A SHARE FROM GUGGENHEIM'. Underlying 37.41, OTM 6.9%. Opt last 0.45 mid 0.45, spread 22% of mid, vol 1925 OI 8 (thin OI). IV 46.0%. Impl move ±8.0%. Strat D: 2↑ then 1 | W: 3 then 2↑. Reversal D: none | W: none. IV rank 27 | IV pctl 6 (52w IV 29%–106%, src IV 50% as of 2026-11-06, live)."
     }
   ]
 }
