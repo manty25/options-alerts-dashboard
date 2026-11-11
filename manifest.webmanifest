@@ -1,0 +1,17 @@
+{
+  "name": "Options Screens",
+  "short_name": "Options",
+  "description": "Weekly and LEAPS options screens. Candidates matching your criteria — not a recommendation.",
+  "start_url": "/options-alerts-dashboard/weekly/",
+  "scope": "/options-alerts-dashboard/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0d1117",
+  "theme_color": "#0d1117",
+  "icons": [
+    {"src": "/options-alerts-dashboard/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/options-alerts-dashboard/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "/options-alerts-dashboard/icons/icon-192-maskable.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable"},
+    {"src": "/options-alerts-dashboard/icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

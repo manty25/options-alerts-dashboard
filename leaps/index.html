@@ -1,6 +1,16 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
 <title>LEAPS Screen — Options Alerts</title>
+<meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)"/>
+<meta name="theme-color" content="#f5f7fb" media="(prefers-color-scheme: light)"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-title" content="Options"/>
+<link rel="manifest" href="../manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png"/>
+<link rel="icon" type="image/png" sizes="192x192" href="../icons/icon-192.png"/>
+
 <style>
 :root{--bg:#0d1117;--panel:#161d27;--panel2:#1c2533;--line:#273244;--text:#e6edf3;--muted:#8b9bb4;--green:#3dd68c;--red:#f07178;--amber:#e6b450;--blue:#59c2ff;--chip:#223047;--acc:#7aa2ff}
 @media (prefers-color-scheme:light){:root{--bg:#f5f7fb;--panel:#fff;--panel2:#f0f3f8;--line:#dde3ec;--text:#18202c;--muted:#5d6b80;--green:#14935a;--red:#c9364a;--amber:#a86f00;--blue:#1769c2;--chip:#e7edf6;--acc:#3557d6}}
@@ -75,8 +85,20 @@ button.tc.dn.weak{background:#f7f2f2;color:#7a5d5d;border-color:#dde3ec}
 button.tc.failed{background:#fde8ea;color:#b42318;border-color:#e3b4b8}
 }
 
+
+.appnav{display:flex;gap:4px;margin:4px 0 2px;flex-wrap:wrap}
+.appnav a{display:inline-flex;align-items:center;justify-content:center;min-height:32px;padding:4px 14px;border-radius:6px;border:1px solid var(--line);color:var(--muted);font-size:12px;font-weight:600}
+.appnav a.on{background:var(--line);color:var(--text);border-color:var(--acc)}
+.offline-banner{display:none;background:#3a3115;color:#e6c56e;padding:8px 16px;padding-top:max(8px,env(safe-area-inset-top));font-size:12.5px;border-bottom:1px solid #7d5f1b;text-align:center}
+.offline-banner.show{display:block}
+html,body{max-width:100%;overflow-x:hidden}
+body{padding-bottom:env(safe-area-inset-bottom);padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
+.tw{-webkit-overflow-scrolling:touch}
+@media (max-width:640px){header{padding-top:max(8px,env(safe-area-inset-top))}.offline-banner.show~header{padding-top:8px}}
 </style></head><body>
-<header><div><h1>LEAPS Screen</h1><nav><a href="../weekly/">← Weekly screen</a> · <b>LEAPS screen</b></nav><div class="meta" id="meta">Loading…</div></div><div class="stats" id="stats"></div></header>
+<div id="offline-banner" class="offline-banner" role="status"></div>
+
+<header><div><h1>LEAPS Screen</h1><nav class="appnav" aria-label="Screens"><a href="/options-alerts-dashboard/weekly/">Weekly</a><a href="/options-alerts-dashboard/leaps/" class="on">LEAPS</a></nav><div class="meta" id="meta">Loading…</div></div><div class="stats" id="stats"></div></header>
 <main>
 <h2>Top matches by score v2 <small>Candidates matching your criteria — not a recommendation. Only names whose 0.70–0.80Δ Apr–Jul 2027 call passes the tradability/data gate are ranked, by daily percentile ranks across today's gated names. Tap a card for the breakdown.</small></h2>
 <div class="top" id="top"></div>
@@ -175,5 +197,11 @@ const se=document.getElementById("sec");[...new Set(d.rows.map(r=>r.sec))].forEa
 const ff=document.getElementById("ff");[...new Set(d.rows.flatMap(r=>r.fails))].forEach(s=>ff.add(new Option(s,s)));
 ["q","sec","ff","loi"].forEach(i=>document.getElementById(i).oninput=table);
 document.querySelectorAll(".tg").forEach(t=>t.onclick=()=>{t.classList.toggle("on");if(t.dataset.s){on.has(t.dataset.s)?on.delete(t.dataset.s):on.add(t.dataset.s)}table()});table();const p=new URLSearchParams(location.search);const ex=p.get("expand");if(ex){const btn=document.querySelector(`#tb button.tc[data-tk="${CSS.escape(ex)}"]`);if(btn)btn.click()}}
-fetch("leaps.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;return r.json()}).then(render).catch(()=>render(EMBED));
+window.__DATA_URL="leaps.json";window.__DATA_CB=render;
+function noteOffline(d,on){const el=document.getElementById("offline-banner");if(!el)return;if(!on){el.classList.remove("show");return}el.textContent="Offline — showing last saved data from "+((d&&d.asof)||"—");el.classList.add("show")}
+function loadJSON(url,cb){fetch(url,{cache:"no-store"}).then(r=>{if(!r.ok)throw 0;const off=r.headers.get("X-Offline-Cache")==="1"||!navigator.onLine;return r.json().then(d=>{noteOffline(d,off);cb(d)})}).catch(()=>{noteOffline(EMBED,true);cb(EMBED)})}
+if("serviceWorker" in navigator){navigator.serviceWorker.register("/options-alerts-dashboard/sw.js",{scope:"/options-alerts-dashboard/"}).catch(()=>{})}
+window.addEventListener("offline",()=>{if(typeof D!=="undefined"&&D)noteOffline(D,true)});
+window.addEventListener("online",()=>loadJSON(window.__DATA_URL,window.__DATA_CB));
+loadJSON("leaps.json",render);
 </script></body></html>
