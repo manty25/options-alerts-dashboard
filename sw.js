@@ -2,7 +2,7 @@
    Network-first for HTML and JSON so online data is never stale.
    Cached fallback when offline. Bump CACHE when changing shell/assets.
    Daily screen data uses network-first and does not require a bump. */
-const CACHE = 'options-screens-v20261111';
+const CACHE = 'options-screens-v20261114';
 const SCOPE = '/options-alerts-dashboard';
 const PRECACHE = [
   SCOPE + '/',
