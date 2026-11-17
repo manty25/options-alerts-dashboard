@@ -1,0 +1,21 @@
+{
+  "name": "relay-pr",
+  "version": "1.0.0",
+  "description": "Relay: AI PR campaign engine. One sentence in, a complete, standards-checked PR campaign out.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "relay": "./cli.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node cli.js demo",
+    "test": "node --test --test-concurrency=1 test/*.test.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.10.0"
+  }
+}
