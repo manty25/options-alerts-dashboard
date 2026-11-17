@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Relay — Option C: Aurora</title>
+<style>
+@font-face{font-family:Manrope;src:url(fonts/manrope-latin-wght-normal.woff2) format('woff2');font-weight:200 800}
+@font-face{font-family:JBM;src:url(fonts/jetbrains-mono-latin-wght-normal.woff2) format('woff2');font-weight:100 900}
+:root{--bg:#f4f3f8;--card:rgba(255,255,255,.78);--fg:#14121f;--mut:#6c6880;--dim:#a29fb3;--line:rgba(20,18,31,.07);--vio:#6d4aff;--pink:#ff6fa8;--peach:#ffb37a;--mint:#3ccf9e;--sky:#4fb3ff}
+*{box-sizing:border-box;margin:0}.chip,.btn,.pill,.tag{white-space:nowrap}
+body{background:#ccc;font:14px/1.5 Manrope,system-ui,sans-serif;color:var(--fg);-webkit-font-smoothing:antialiased}
+.frame{width:1440px;height:900px;position:relative;overflow:hidden;background:var(--bg);display:flex}
+.mesh{position:absolute;inset:0;background:radial-gradient(520px 420px at 18% 8%,rgba(109,74,255,.22),transparent 70%),radial-gradient(520px 420px at 82% 2%,rgba(255,111,168,.20),transparent 70%),radial-gradient(600px 460px at 60% 30%,rgba(255,179,122,.18),transparent 70%),radial-gradient(500px 400px at 30% 60%,rgba(79,179,255,.12),transparent 70%);filter:blur(10px)}
+.side{position:relative;z-index:1;width:232px;margin:16px 0 16px 16px;border-radius:24px;background:rgba(255,255,255,.6);backdrop-filter:blur(24px);border:1px solid rgba(255,255,255,.8);padding:20px 14px;display:flex;flex-direction:column;gap:4px;box-shadow:0 10px 40px -20px rgba(60,40,120,.25)}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;padding:0 8px 18px}
+.mark{width:30px;height:30px;border-radius:10px;background:conic-gradient(from 200deg,var(--vio),var(--pink),var(--peach),var(--vio));box-shadow:0 6px 18px -4px rgba(109,74,255,.6)}
+.nv{display:flex;align-items:center;gap:10px;height:40px;padding:0 12px;border-radius:12px;color:var(--mut);font-weight:600;font-size:13.5px}.nv.on{background:#fff;color:var(--fg);box-shadow:0 2px 10px -4px rgba(60,40,120,.2)}
+.nv i{width:8px;height:8px;border-radius:3px;background:currentColor;opacity:.5}.nv.on i{background:var(--vio);opacity:1}
+.cnt{margin-left:auto;font-size:11.5px;background:rgba(109,74,255,.1);color:var(--vio);padding:1px 7px;border-radius:999px}
+.sh{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);padding:18px 12px 6px}
+.camp{display:flex;align-items:center;gap:10px;padding:8px 12px;font-size:13px;font-weight:600;color:var(--fg)}.camp b{width:24px;height:24px;border-radius:8px;display:grid;place-items:center;color:#fff;font-size:11px}
+.main{position:relative;z-index:1;flex:1;display:flex;flex-direction:column;padding:16px 24px 16px 24px}
+.top{flex:none;display:flex;justify-content:space-between;align-items:center;height:44px}
+.pill{height:32px;padding:0 14px;border-radius:999px;background:rgba(255,255,255,.75);border:1px solid rgba(255,255,255,.9);display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:12.5px;color:var(--mut);box-shadow:0 2px 10px -6px rgba(60,40,120,.3)}
+.pill .d{width:7px;height:7px;border-radius:50%;background:var(--mint)}
+.btn{height:44px;padding:0 20px;border-radius:14px;border:0;background:#fff;color:var(--fg);font:700 14px Manrope;display:inline-flex;align-items:center;gap:10px;box-shadow:0 4px 14px -6px rgba(60,40,120,.3)}
+.btn.pri{background:linear-gradient(135deg,#7b5cff,#5a36f0);color:#fff;box-shadow:0 12px 30px -10px rgba(109,74,255,.8),inset 0 1px 0 rgba(255,255,255,.3)}
+.kbd{font:11px JBM;opacity:.7}
+/* compose */
+.center{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding-bottom:40px}
+.hello{font-size:15px;font-weight:600;color:var(--mut)}
+h1{font-size:52px;font-weight:800;letter-spacing:-.035em;line-height:1.05;text-align:center;margin-top:8px}
+h1 span{background:linear-gradient(90deg,var(--vio),var(--pink) 55%,var(--peach));-webkit-background-clip:text;color:transparent}
+.composer{width:820px;margin-top:34px;border-radius:26px;background:rgba(255,255,255,.88);backdrop-filter:blur(30px);border:1px solid #fff;box-shadow:0 30px 70px -30px rgba(60,40,120,.4),0 0 0 8px rgba(255,255,255,.35);padding:20px 20px 14px}
+.composer .t{font-size:18px;line-height:1.55;font-weight:500;min-height:84px;padding:4px 6px}
+.cb{display:flex;justify-content:space-between;align-items:center;margin-top:10px}
+.chips{display:flex;gap:8px}.chip{height:32px;padding:0 12px;border-radius:10px;background:#f2f0f8;color:var(--mut);font-weight:600;font-size:12.5px;display:inline-flex;align-items:center;gap:6px}
+.chip.on{background:#ede8ff;color:var(--vio)}
+.send{width:44px;height:44px;border-radius:14px;background:linear-gradient(135deg,#7b5cff,#5a36f0);display:grid;place-items:center;color:#fff;font-size:20px;box-shadow:0 10px 24px -8px rgba(109,74,255,.9)}
+.sugs{display:flex;gap:10px;margin-top:22px;flex-wrap:wrap;justify-content:center;max-width:860px}
+.sug{padding:10px 16px;border-radius:14px;background:rgba(255,255,255,.65);border:1px solid #fff;font-size:13px;font-weight:600;color:var(--mut)}.sug b{color:var(--fg)}
+.trust{display:flex;gap:26px;margin-top:40px;color:var(--mut);font-size:12.5px;font-weight:600}.trust span:before{content:"✓";color:var(--mint);margin-right:6px;font-weight:800}
+/* bento */
+.ttl{display:flex;justify-content:space-between;align-items:flex-end;margin:14px 0 16px}
+.ttl h2{font-size:30px;font-weight:800;letter-spacing:-.03em}.ttl p{color:var(--mut);font-weight:600;margin-top:2px}
+.bento{flex:1;display:grid;grid-template-columns:repeat(12,1fr);grid-template-rows:180px 1fr 72px;gap:14px}
+.c{background:var(--card);backdrop-filter:blur(24px);border:1px solid rgba(255,255,255,.95);border-radius:22px;padding:18px 20px;box-shadow:0 10px 30px -18px rgba(60,40,120,.3);position:relative;overflow:hidden}
+.c h4{font-size:12.5px;font-weight:700;color:var(--mut);display:flex;justify-content:space-between}
+.big{font-size:40px;font-weight:800;letter-spacing:-.04em;line-height:1.05;margin-top:8px;font-variant-numeric:tabular-nums}.big small{font-size:18px;color:var(--dim)}
+.cap{font-size:12.5px;color:var(--mut);font-weight:600;margin-top:4px;max-width:150px}
+.gauge{position:absolute;right:18px;bottom:16px;width:96px;height:96px}
+.area{position:absolute;left:0;right:0;bottom:0;height:70px}
+.s4{grid-column:span 3}.s5{grid-column:span 5}.s7{grid-column:span 7}.s12{grid-column:1/-1}
+.tl{display:flex;flex-direction:column;gap:10px;margin-top:14px}
+.ti{display:grid;grid-template-columns:12px 92px 1fr auto;gap:12px;align-items:center;font-size:13px;font-weight:600}
+.ti i{width:12px;height:12px;border-radius:50%;background:var(--c)}.ti time{color:var(--mut)}.ti .tag{font-size:11.5px;padding:3px 9px;border-radius:999px;background:color-mix(in srgb,var(--c) 14%,white);color:color-mix(in srgb,var(--c) 75%,black)}
+.who{display:flex;flex-direction:column;gap:8px;margin-top:14px}
+.wr{display:grid;grid-template-columns:34px 1fr 64px 76px;gap:12px;align-items:center;font-size:13px}
+.wr b{width:34px;height:34px;border-radius:11px;display:grid;place-items:center;color:#fff;font-weight:800;font-size:12px}
+.wr strong{font-weight:700}.wr small{display:block;white-space:nowrap;color:var(--mut);font-weight:600;font-size:12px}
+.meter{height:6px;border-radius:3px;background:#efedf6;overflow:hidden}.meter span{display:block;height:100%;border-radius:3px;background:linear-gradient(90deg,var(--vio),var(--pink))}
+.tag{font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:999px;background:#f2f0f8;color:var(--mut);text-align:center}.tag.x{background:#ede8ff;color:var(--vio)}
+.assets{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.as{border-radius:16px;background:#fff;padding:12px 14px;border:1px solid var(--line)}.as b{display:block;font-size:20px;font-weight:800}.as span{font-size:12px;color:var(--mut);font-weight:600}
+.as em{float:right;font-style:normal;font-size:11px;font-weight:800;color:var(--mint)}.as em.w{color:#e08a1e}
+.dock{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;padding:0 14px 0 22px;border-radius:22px;background:rgba(20,18,31,.92);color:#fff;box-shadow:0 20px 40px -20px rgba(20,18,31,.6)}
+.dock p{font-weight:600;font-size:14px;display:flex;gap:18px;align-items:center}.dock p span{color:#b9b4d0;font-weight:600}.dock p b{color:var(--mint)}
+</style></head><body>
+<section class="frame" id="f1"><div class="mesh"></div>
+  <aside class="side"><div class="brand"><span class="mark"></span>Relay</div>
+    <div class="nv on"><i></i>New campaign</div><div class="nv"><i></i>Campaigns<span class="cnt">4</span></div><div class="nv"><i></i>Contacts</div><div class="nv"><i></i>Newsroom</div><div class="nv"><i></i>Reports</div>
+    <div class="sh">Recent</div>
+    <div class="camp"><b style="background:linear-gradient(135deg,#3ccf9e,#4fb3ff)">F</b>Fernwood Series A</div>
+    <div class="camp"><b style="background:linear-gradient(135deg,#ff6fa8,#ffb37a)">B</b>Brightwater clinic</div>
+    <div class="camp"><b style="background:linear-gradient(135deg,#6d4aff,#ff6fa8)">C</b>Clearline survey</div>
+  </aside>
+  <div class="main">
+    <div class="top"><span></span><span class="pill"><span class="d"></span>Test mode — nothing leaves your outbox</span></div>
+    <div class="center">
+      <div class="hello">Good afternoon, Sam</div>
+      <h1>Tell Relay your <span>news</span></h1>
+      <div class="composer">
+        <div class="t">Lumora Mobility launches the Lumora Commuter, a foldable e-bike that weighs 14 kg and recharges to 80% in 45 minutes, priced at $1,290.</div>
+        <div class="cb"><div class="chips"><span class="chip on">◎ Lumora Mobility</span><span class="chip on">⌖ Austin, TX</span><span class="chip">＋ Spokesperson</span><span class="chip">＋ Facts</span><span class="chip">⎘ Attach</span></div><span class="send">↑</span></div>
+      </div>
+      <div class="sugs"><span class="sug">🚀 <b>Product launch</b> — new app, feature, device</span><span class="sug">💸 <b>Funding round</b></span><span class="sug">📊 <b>Survey or data</b></span><span class="sug">🔗 Paste a link or draft</span></div>
+      <div class="trust"><span>Facts only — gaps flagged</span><span>One reporter per outlet</span><span>33 standards checked</span><span>Your approval before anything sends</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="frame" id="f2"><div class="mesh"></div>
+  <aside class="side"><div class="brand"><span class="mark"></span>Relay</div>
+    <div class="nv"><i></i>New campaign</div><div class="nv on"><i></i>Campaigns<span class="cnt">4</span></div><div class="nv"><i></i>Contacts</div><div class="nv"><i></i>Newsroom</div><div class="nv"><i></i>Reports</div>
+    <div class="sh">This campaign</div>
+    <div class="nv on" style="background:rgba(255,255,255,.6)"><i></i>Overview</div><div class="nv"><i></i>Assets<span class="cnt">9</span></div><div class="nv"><i></i>Media list<span class="cnt">22</span></div><div class="nv"><i></i>Results</div>
+  </aside>
+  <div class="main">
+    <div class="ttl"><div><h2>Lumora Commuter launch</h2><p>Product launch · ready for your review</p></div><div style="display:flex;gap:10px"><button class="btn">Edit</button><button class="btn pri">Approve &amp; run test <span class="kbd">⌘↵</span></button></div></div>
+    <div class="bento">
+      <div class="c s4"><h4>News value</h4><div class="big">61<small>/100</small></div><div class="cap">Moderate — add a customer story</div>
+        <svg class="gauge" viewBox="0 0 100 100"><defs><linearGradient id="gg" x1="0" x2="1"><stop stop-color="#6d4aff"/><stop offset=".6" stop-color="#ff6fa8"/><stop offset="1" stop-color="#ffb37a"/></linearGradient></defs><circle cx="50" cy="50" r="40" fill="none" stroke="#efedf6" stroke-width="12"/><circle cx="50" cy="50" r="40" fill="none" stroke="url(#gg)" stroke-width="12" stroke-linecap="round" stroke-dasharray="153 251" transform="rotate(-90 50 50)"/></svg></div>
+      <div class="c s4"><h4>Expected placements</h4><div class="big">1.3–3.2</div><div class="cap">incl. one exclusive</div>
+        <svg class="area" viewBox="0 0 300 70" preserveAspectRatio="none"><defs><linearGradient id="ag" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#6d4aff" stop-opacity=".35"/><stop offset="1" stop-color="#6d4aff" stop-opacity="0"/></linearGradient></defs><path d="M0 60 C40 55 60 30 100 28 S160 8 200 18 260 40 300 34 V70 H0Z" fill="url(#ag)"/><path d="M0 60 C40 55 60 30 100 28 S160 8 200 18 260 40 300 34" fill="none" stroke="#6d4aff" stroke-width="2.5"/></svg></div>
+      <div class="c s4"><h4>Earned reach</h4><div class="big">72K–217K</div><div class="cap" style="max-width:none">22 outlets, tier-weighted</div>
+        <svg class="area" viewBox="0 0 300 70" preserveAspectRatio="none"><g fill="#ff6fa8" opacity=".75"><rect x="10" y="40" width="34" height="30" rx="8"/><rect x="58" y="26" width="34" height="44" rx="8"/><rect x="106" y="12" width="34" height="58" rx="8"/><rect x="154" y="22" width="34" height="48" rx="8"/><rect x="202" y="36" width="34" height="34" rx="8"/><rect x="250" y="48" width="34" height="22" rx="8"/></g></svg></div>
+      <div class="c s4"><h4>Cost <span class="tag x">−99.9%</span></h4><div class="big">$0.38</div><div class="cap" style="max-width:none">vs ≈ $5.8K / month agency<br>Brief → campaign in 38 s</div></div>
+      <div class="c s5"><h4>Launch sequence <span>your time</span></h4><div class="tl">
+        <div class="ti" style="--c:#6d4aff"><i></i><time>Thu 19</time><span>Exclusive → TechCrunch</span><span class="tag">next</span></div>
+        <div class="ti" style="--c:#ff6fa8"><i></i><time>Tue 24</time><span>Embargo pre-brief · 8 outlets</span><span class="tag">auto</span></div>
+        <div class="ti" style="--c:#ffb37a"><i></i><time>Thu 26 · 8:05</time><span>Launch · newsroom + 13 pitches</span><span class="tag">auto</span></div>
+        <div class="ti" style="--c:#4fb3ff"><i></i><time>Thu 26 · 8:35</time><span>LinkedIn, X, Bluesky</span><span class="tag">auto</span></div>
+        <div class="ti" style="--c:#3ccf9e"><i></i><time>Tue Dec 1</time><span>One follow-up, new detail</span><span class="tag">auto</span></div></div></div>
+      <div class="c s4" style="grid-column:span 4"><h4>Top reporters <span style="color:var(--vio)">All 22 →</span></h4><div class="who">
+        <div class="wr"><b style="background:#0a9d4f">TC</b><span><strong>TechCrunch</strong><small>transport · tier 1</small></span><span class="meter"><span style="width:70%"></span></span><span class="tag x">Exclusive</span></div>
+        <div class="wr"><b style="background:#1f7ae0">E</b><span><strong>Electrek</strong><small>e-bikes, 6 days ago</small></span><span class="meter"><span style="width:88%"></span></span><span class="tag">Embargo</span></div>
+        <div class="wr"><b style="background:#e0482a">S</b><span><strong>Streetsblog</strong><small>commuting, 12 days ago</small></span><span class="meter"><span style="width:74%"></span></span><span class="tag">Embargo</span></div>
+        <div class="wr"><b style="background:#5a36f0">V</b><span><strong>The Verge</strong><small>transport · tier 1</small></span><span class="meter"><span style="width:70%"></span></span><span class="tag">Backup</span></div></div></div>
+      <div class="c s4" style="grid-column:span 3"><h4>Assets</h4><div class="assets">
+        <div class="as"><em>✓</em><b>1</b><span>Press release</span></div><div class="as"><em>✓</em><b>31</b><span>Pitches</span></div>
+        <div class="as"><em>✓</em><b>3</b><span>Social posts</span></div><div class="as"><em class="w">!</em><b>1</b><span>Draft quote</span></div></div></div>
+      <div class="dock"><p><b>●</b> 32 of 33 checks passed <span>·</span><span>No invented facts</span><span>·</span><span>Quote needs Dana’s approval</span></p><button class="btn pri" style="height:46px">Approve &amp; run test campaign <span class="kbd">⌘↵</span></button></div>
+    </div>
+  </div>
+</section>
+</body></html>

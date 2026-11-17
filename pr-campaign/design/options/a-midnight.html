@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Relay — Option A: Midnight</title>
+<style>
+@font-face{font-family:Geist;src:url(fonts/geist-latin-wght-normal.woff2) format('woff2');font-weight:100 900}
+@font-face{font-family:JBM;src:url(fonts/jetbrains-mono-latin-wght-normal.woff2) format('woff2');font-weight:100 900}
+:root{--bg:#07080b;--panel:rgba(255,255,255,.035);--panel2:rgba(255,255,255,.06);--line:rgba(255,255,255,.08);--line2:rgba(255,255,255,.14);--fg:#eceef3;--mut:#8b90a0;--dim:#5b6070;--acc:#8b7cff;--acc2:#5ec8ff;--ok:#4ade80;--warn:#fbbf24}
+*{box-sizing:border-box;margin:0}.chip,.btn,.pill,.tag,.seg span{white-space:nowrap}.top{flex:none}body{background:#000;font:14px/1.5 Geist,system-ui,sans-serif;color:var(--fg);-webkit-font-smoothing:antialiased}
+.frame{width:1440px;height:900px;position:relative;overflow:hidden;background:var(--bg);display:flex}
+.frame:before{content:"";position:absolute;inset:-200px 0 auto 0;height:700px;background:radial-gradient(600px 300px at 50% 40%,rgba(139,124,255,.22),transparent 70%),radial-gradient(500px 260px at 70% 30%,rgba(94,200,255,.10),transparent 70%);pointer-events:none}
+.frame:after{content:"";position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:64px 64px;mask-image:radial-gradient(700px 400px at 50% 0%,#000 0%,transparent 70%);opacity:.35;pointer-events:none}
+.rail{width:64px;border-right:1px solid var(--line);display:flex;flex-direction:column;align-items:center;gap:6px;padding:16px 0;z-index:1}
+.logo{width:32px;height:32px;border-radius:9px;background:linear-gradient(135deg,var(--acc),var(--acc2));display:grid;place-items:center;font-weight:700;color:#0b0b10;margin-bottom:14px;box-shadow:0 0 24px rgba(139,124,255,.5)}
+.ri{width:40px;height:40px;border-radius:10px;display:grid;place-items:center;color:var(--mut)}.ri.on{background:var(--panel2);color:var(--fg)}
+.ri svg{width:18px;height:18px}
+.main{flex:1;position:relative;z-index:1;display:flex;flex-direction:column}
+.top{height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 28px;border-bottom:1px solid var(--line)}
+.crumb{color:var(--mut)}.crumb b{color:var(--fg);font-weight:500}
+.kbd{font:11px JBM,monospace;color:var(--mut);border:1px solid var(--line2);border-radius:5px;padding:1px 6px;background:var(--panel)}
+.search{display:flex;align-items:center;gap:10px;width:340px;height:34px;border:1px solid var(--line);border-radius:9px;padding:0 12px;color:var(--dim);background:var(--panel)}
+.pill{display:inline-flex;align-items:center;gap:6px;height:26px;padding:0 10px;border-radius:999px;border:1px solid var(--line2);color:var(--mut);font-size:12px;background:var(--panel)}
+.dot{width:6px;height:6px;border-radius:50%;background:var(--ok);box-shadow:0 0 8px var(--ok)}
+.btn{height:36px;padding:0 14px;border-radius:9px;border:1px solid var(--line2);background:var(--panel2);color:var(--fg);font:500 13px Geist;display:inline-flex;align-items:center;gap:8px}
+.btn.pri{background:linear-gradient(180deg,#9d90ff,#7a6af6);border-color:rgba(255,255,255,.25);color:#0d0b1f;font-weight:600;box-shadow:0 8px 30px -8px rgba(139,124,255,.8),inset 0 1px 0 rgba(255,255,255,.4)}
+.btn.pri .kbd{background:rgba(0,0,0,.15);border-color:rgba(0,0,0,.2);color:#1b1640}
+/* compose */
+.compose{flex:1;display:flex;flex-direction:column;align-items:center;padding-top:120px}
+h1{font-size:44px;font-weight:600;letter-spacing:-.03em;line-height:1.1;background:linear-gradient(180deg,#fff,#a9adbd);-webkit-background-clip:text;color:transparent}
+.sub{color:var(--mut);margin-top:10px;font-size:15px}
+.box{width:900px;margin-top:36px;border:1px solid var(--line2);border-radius:16px;background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.025));box-shadow:0 30px 80px -30px rgba(0,0,0,.8),0 0 0 6px rgba(139,124,255,.06);backdrop-filter:blur(20px)}
+.box .text{padding:22px 22px 8px;font-size:18px;line-height:1.55;color:#f2f3f7;min-height:96px}
+.caret{display:inline-block;width:2px;height:22px;background:var(--acc);vertical-align:-4px;margin-left:2px;box-shadow:0 0 8px var(--acc)}
+.box .bar{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;border-top:1px solid var(--line)}
+.chips{display:flex;gap:8px}.chip{height:30px;padding:0 11px;border-radius:8px;border:1px dashed var(--line2);color:var(--mut);display:inline-flex;align-items:center;gap:6px;font-size:12.5px}
+.chip.set{border-style:solid;color:var(--fg);background:var(--panel2)}
+.av{width:18px;height:18px;border-radius:5px;background:linear-gradient(135deg,#f59e0b,#ef4444);display:grid;place-items:center;font-size:10px;font-weight:700;color:#fff}
+.seg{display:flex;border:1px solid var(--line);border-radius:8px;padding:2px;background:rgba(0,0,0,.25)}.seg span{padding:4px 10px;border-radius:6px;color:var(--mut);font-size:12px}.seg .on{background:var(--panel2);color:var(--fg)}
+.pipeline{display:flex;gap:6px;margin-top:22px;color:var(--dim);font-size:12.5px;align-items:center}
+.pipeline i{font-style:normal;color:var(--mut)}.pipeline .sep{width:16px;height:1px;background:var(--line2)}
+.recent{width:900px;margin-top:56px}
+.recent h3{font-size:12px;font-weight:500;color:var(--dim);text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px}
+.row{display:grid;grid-template-columns:1fr 150px 120px 90px;align-items:center;height:46px;border-bottom:1px solid var(--line);color:var(--mut);font-size:13px}
+.row b{color:var(--fg);font-weight:500}
+.st{display:inline-flex;align-items:center;gap:6px}.st:before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+.ok{color:var(--ok)}.wa{color:var(--warn)}.ac{color:var(--acc)}
+/* campaign */
+.wrap{padding:24px 28px;display:grid;gap:16px;grid-template-columns:1fr 360px;flex:1}
+.head{grid-column:1/-1;display:flex;justify-content:space-between;align-items:flex-end}
+.head h2{font-size:26px;font-weight:600;letter-spacing:-.02em}.head p{color:var(--mut);margin-top:4px}
+.steps{display:flex;gap:4px;margin-top:14px}.steps span{height:28px;padding:0 12px;border-radius:7px;display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--dim);border:1px solid transparent}
+.steps .done{color:var(--mut)}.steps .done:before{content:"✓";color:var(--ok)}.steps .cur{color:var(--fg);border-color:var(--line2);background:var(--panel2)}
+.card{border:1px solid var(--line);border-radius:14px;background:var(--panel);padding:18px}
+.kpis{grid-column:1/-1;display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.k .l{color:var(--mut);font-size:12.5px;display:flex;justify-content:space-between}.k .v{font-size:30px;font-weight:600;letter-spacing:-.02em;margin-top:6px;font-variant-numeric:tabular-nums}.k .s{color:var(--dim);font-size:12px;margin-top:2px}
+.k .v small{font-size:15px;color:var(--mut);font-weight:500}
+.ring{width:44px;height:44px}
+.bars{display:flex;gap:3px;align-items:flex-end;height:28px;margin-top:8px}.bars i{flex:1;background:linear-gradient(180deg,var(--acc),rgba(139,124,255,.2));border-radius:2px}
+.ttl{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px}.ttl h4{font-size:13.5px;font-weight:600}.ttl span{color:var(--dim);font-size:12px}
+.tl{display:grid;grid-template-columns:repeat(5,1fr);position:relative}.tl:before{content:"";position:absolute;left:8px;right:8px;top:7px;height:2px;background:linear-gradient(90deg,var(--acc),var(--acc2) 60%,var(--line2) 60%)}
+.tl div{position:relative;padding-top:24px}.tl div:before{content:"";position:absolute;top:0;left:0;width:16px;height:16px;border-radius:50%;background:var(--bg);border:2px solid var(--acc)}
+.tl div.next:before{background:var(--acc);box-shadow:0 0 14px var(--acc)}.tl div.fut:before{border-color:var(--line2)}
+.tl b{display:block;font-size:13px;font-weight:500}.tl small{color:var(--mut);font-size:12px}
+table{width:100%;border-collapse:collapse}th{text-align:left;color:var(--dim);font-weight:500;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;padding:0 0 8px}
+td{padding:9px 0;border-top:1px solid var(--line);font-size:13px;color:var(--mut)}td b{color:var(--fg);font-weight:500}
+.sc{display:flex;align-items:center;gap:8px;font-variant-numeric:tabular-nums}.sc i{display:block;width:60px;height:4px;border-radius:2px;background:var(--line2);overflow:hidden}.sc i:after{content:"";display:block;height:100%;width:var(--w);background:linear-gradient(90deg,var(--acc),var(--acc2))}
+.tag{font-size:11.5px;padding:2px 7px;border-radius:5px;border:1px solid var(--line2);color:var(--mut)}.tag.ex{color:#c4bbff;border-color:rgba(139,124,255,.5);background:rgba(139,124,255,.12)}
+.check{display:flex;gap:10px;padding:9px 0;border-top:1px solid var(--line);font-size:13px;color:var(--mut)}.check:first-of-type{border-top:0}.check b{color:var(--fg);font-weight:500;display:block}
+.ic{width:20px;height:20px;border-radius:6px;display:grid;place-items:center;font-size:11px;flex:none}.ic.g{background:rgba(74,222,128,.12);color:var(--ok)}.ic.y{background:rgba(251,191,36,.12);color:var(--warn)}
+.pr{font-size:13px;color:var(--mut);line-height:1.6}.pr h5{font-size:16px;color:var(--fg);font-weight:600;line-height:1.35;margin-bottom:6px;letter-spacing:-.01em}
+.cta{width:100%;height:44px;justify-content:center;font-size:14px;margin-top:4px}
+</style></head><body>
+<!-- Frame 1: compose -->
+<section class="frame" id="f1">
+  <nav class="rail"><div class="logo">R</div>
+    <div class="ri on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 1 1 3 3L7 19l-4 1 1-4Z"/></svg></div>
+    <div class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/></svg></div>
+    <div class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M21.5 20a6 6 0 0 0-4-5.6"/></svg></div>
+    <div class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V5M10 19V9M16 19v-6M22 19H2"/></svg></div>
+  </nav>
+  <div class="main">
+    <div class="top"><span class="crumb">Relay · <b>New campaign</b></span><div class="search">Search campaigns, outlets, reporters <span style="margin-left:auto" class="kbd">⌘K</span></div><span class="pill"><span class="dot"></span>Claude · test mode</span></div>
+    <div class="compose">
+      <h1>What’s the news?</h1>
+      <p class="sub">One sentence is enough. Relay plans, writes, targets and checks the whole campaign.</p>
+      <div class="box">
+        <div class="text">Lumora Mobility launches the Lumora Commuter, a foldable e-bike that weighs 14 kg and recharges to 80% in 45 minutes, priced at $1,290.<span class="caret"></span></div>
+        <div class="bar">
+          <div class="chips"><span class="chip set"><span class="av">L</span>Lumora Mobility</span><span class="chip set">Austin, TX</span><span class="chip">+ Spokesperson</span><span class="chip">+ Facts</span><span class="chip">+ Link or doc</span></div>
+          <div style="display:flex;gap:10px;align-items:center"><div class="seg"><span>Free</span><span class="on">Lean</span><span>Full</span></div><button class="btn pri">Build campaign <span class="kbd">⌘↵</span></button></div>
+        </div>
+      </div>
+      <div class="pipeline"><i>Classify story</i><span class="sep"></span><i>Pick channels</i><span class="sep"></span><i>Rank 22 outlets</i><span class="sep"></span><i>Write 9 assets</i><span class="sep"></span><i>Check 33 standards</i><span style="margin-left:8px">≈ 40 s</span></div>
+      <div class="recent"><h3>Recent</h3>
+        <div class="row"><b>Fernwood Labs — Series A</b><span class="st ok">Monitoring</span><span>4 placements</span><span>2d ago</span></div>
+        <div class="row"><b>Brightwater Health — Dayton clinic</b><span class="st wa">Needs 3 facts</span><span>12 targets</span><span>5d ago</span></div>
+        <div class="row"><b>Clearline — Remote work survey</b><span class="st ac">Scheduled Thu</span><span>38 targets</span><span>1w ago</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Frame 2: campaign -->
+<section class="frame" id="f2">
+  <nav class="rail"><div class="logo">R</div>
+    <div class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 1 1 3 3L7 19l-4 1 1-4Z"/></svg></div>
+    <div class="ri on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/></svg></div>
+    <div class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M21.5 20a6 6 0 0 0-4-5.6"/></svg></div>
+    <div class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19V5M10 19V9M16 19v-6M22 19H2"/></svg></div>
+  </nav>
+  <div class="main">
+    <div class="top"><span class="crumb">Campaigns / <b>Lumora Commuter launch</b></span><div class="search">Jump to asset, outlet or step <span style="margin-left:auto" class="kbd">⌘K</span></div><span class="pill"><span class="dot"></span>Test mode · nothing is sent</span></div>
+    <div class="wrap">
+      <div class="head"><div><h2>Lumora Commuter launch</h2><p>Product launch · moderate news value · built in 38 s by Claude</p>
+        <div class="steps"><span class="done">Brief</span><span class="done">Plan</span><span class="cur">Review</span><span>Launch</span><span>Results</span></div></div>
+        <div style="display:flex;gap:10px"><button class="btn">Edit assets <span class="kbd">E</span></button><button class="btn pri">Approve &amp; run test <span class="kbd">⌘↵</span></button></div></div>
+      <div class="kpis">
+        <div class="card k"><div class="l">News value<svg class="ring" viewBox="0 0 44 44"><circle cx="22" cy="22" r="18" stroke="rgba(255,255,255,.08)" stroke-width="4" fill="none"/><circle cx="22" cy="22" r="18" stroke="url(#g)" stroke-width="4" fill="none" stroke-dasharray="69 113" stroke-linecap="round" transform="rotate(-90 22 22)"/><defs><linearGradient id="g"><stop stop-color="#8b7cff"/><stop offset="1" stop-color="#5ec8ff"/></linearGradient></defs></svg></div><div class="v" style="margin-top:-14px">61<small>/100</small></div><div class="s">Add a customer story to reach “strong”</div></div>
+        <div class="card k"><div class="l">Expected placements</div><div class="v">1.3–3.2</div><div class="bars"><i style="height:30%"></i><i style="height:45%"></i><i style="height:70%"></i><i style="height:100%"></i><i style="height:80%"></i><i style="height:50%"></i><i style="height:35%"></i><i style="height:20%"></i></div></div>
+        <div class="card k"><div class="l">Earned reach</div><div class="v">72K–217K</div><div class="s">Tier-weighted · 22 outlets · 1 exclusive</div></div>
+        <div class="card k"><div class="l">Cost</div><div class="v">$0.38</div><div class="s">Agency equivalent ≈ $5.8K–27.8K / month</div></div>
+      </div>
+      <div style="display:grid;gap:16px;grid-template-rows:auto 1fr">
+        <div class="card"><div class="ttl"><h4>Launch sequence</h4><span>Times in each reporter’s zone</span></div>
+          <div class="tl"><div class="next"><b>Exclusive</b><small>Thu 19 · TechCrunch</small></div><div><b>Embargo</b><small>Tue 24 · 8 outlets</small></div><div class="fut"><b>Launch</b><small>Thu 26 · 08:05</small></div><div class="fut"><b>Social</b><small>Thu 26 · 08:35</small></div><div class="fut"><b>Follow-up</b><small>Tue Dec 1</small></div></div></div>
+        <div class="card"><div class="ttl"><h4>Media list</h4><span>22 of 92 outlets · one reporter each · <span style="color:var(--acc)">View all</span></span></div>
+          <table><tr><th>Outlet</th><th>Why</th><th>Fit</th><th>Role</th></tr>
+            <tr><td><b>TechCrunch</b></td><td>transport · tech · tier 1</td><td><span class="sc"><i style="--w:70%"></i>70</span></td><td><span class="tag ex">Exclusive</span></td></tr>
+            <tr><td><b>Electrek</b></td><td>covered “folding e-bikes” 6 days ago</td><td><span class="sc"><i style="--w:88%"></i>88</span></td><td><span class="tag">Embargo</span></td></tr>
+            <tr><td><b>The Verge</b></td><td>transport · consumer tech · tier 1</td><td><span class="sc"><i style="--w:70%"></i>70</span></td><td><span class="tag">Backup 1</span></td></tr>
+            <tr><td><b>Streetsblog</b></td><td>covered “bike commuting costs” 12 days ago</td><td><span class="sc"><i style="--w:74%"></i>74</span></td><td><span class="tag">Embargo</span></td></tr>
+            <tr><td><b>Engadget</b></td><td>transport · consumer tech</td><td><span class="sc"><i style="--w:75%"></i>75</span></td><td><span class="tag">Embargo</span></td></tr>
+          </table></div>
+      </div>
+      <div style="display:grid;gap:16px;grid-template-rows:auto 1fr">
+        <div class="card"><div class="ttl"><h4>Ready to run</h4><span>32 / 33 checks</span></div>
+          <div class="check"><span class="ic g">✓</span><span><b>No blocking issues</b>Release, 31 pitches, 3 posts pass house standards</span></div>
+          <div class="check"><span class="ic y">!</span><span><b>Quote is a draft</b>Send to Dana Reyes for approval</span></div>
+          <div class="check"><span class="ic g">✓</span><span><b>Every number traces to the brief</b>No invented facts</span></div>
+          <button class="btn pri cta">Approve &amp; run test campaign</button></div>
+        <div class="card pr"><div class="ttl"><h4>Press release</h4><span>182 words · grade 9</span></div><h5>Lumora Mobility Launches a 14 kg Folding E-Bike for City Commuters</h5>AUSTIN, Texas — Nov. 26, 2026 — Lumora Mobility today launched the Lumora Commuter, a foldable e-bike that weighs 14 kg and recharges to 80% in 45 minutes…</div>
+      </div>
+    </div>
+  </div>
+</section>
+</body></html>
