@@ -39,9 +39,23 @@ replies and coverage (labelled **SIMULATED** everywhere), and writes a report. O
 npm start            # http://localhost:8787
 ```
 
-Type the news and the organisation, then press **Run full test campaign**. You can also press **Build
-campaign** to review it first, using these tabs: Overview (news value, channel mix, timeline, cost vs
-agency), Assets (editable, with the QA panel), Media list, Approve & launch, Results.
+Write the news in one sentence. Relay fills in the organisation and city from it, and you can complete the
+short sentence below the box ("It's from ___ in ___, announced ___, with ___ speaking, on a ___ budget") or leave
+it. Press **⌘↵** to build the campaign, or **⇧⌘↵** to run a full test in one go. On a campaign, **⌘↵** always does
+the next step (approve and run the test, launch, view results).
+
+| Shortcut | Action |
+|----------|--------|
+| ⌘K / Ctrl K | Command menu: jump to any campaign or section, run any action |
+| ⌘↵ | The main action on the current screen |
+| ⇧⌘↵ | Run a full test (new campaign) |
+| ⌘S | Save the asset you are editing |
+| 1–5 | Overview, Assets, Media list, Launch, Results |
+| N / C | New campaign / Campaigns |
+| / | Focus the news box |
+| ? | Show all shortcuts |
+
+The design follows the "Editorial" direction in `design/options/` (light and dark themes, self-hosted fonts).
 
 ## Configuration (all optional)
 

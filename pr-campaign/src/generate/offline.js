@@ -50,6 +50,10 @@ const STOPEND = /\s+(a|an|the|to|for|of|and|with|that|in|on|at|by|from|its|their
 function cutWords(s, max) {
   if (s.length <= max) return s;
   let out = s.slice(0, max + 1).replace(/\s+\S*$/, '');
+  // Never stop inside a clause ("…that weighs 14"): fall back to before the clause marker.
+  const clause = out.match(/^(.{12,})\s+(that|which|who|with|and|while|after|before)(?:\s.*)?$/i);
+  if (clause) out = clause[1];
+  out = out.replace(/\s+[\d$€£][\d.,]*$/, ''); // no dangling number without its unit
   // Do not end inside a proper-noun run ("… the Lumora" of "the Lumora Commuter").
   const next = s.slice(out.length).trim().split(/\s+/)[0] || '';
   if (/^[A-Z]/.test(next)) out = out.replace(/(\s+[A-Z][\w’'-]*)+$/, '');

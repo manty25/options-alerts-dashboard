@@ -89,19 +89,24 @@ export function reportHtml(c, r = computeReport(c)) {
   return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Campaign report — ${escapeHtml(c.name)}</title>
 <style>
-:root{--bg:#f6f7f9;--panel:#fff;--fg:#1b1f24;--muted:#5b6573;--line:#dde2e8;--acc:#2456d6;--sim:#9a3412;--simbg:#ffedd5}
-@media (prefers-color-scheme:dark){:root{--bg:#0f1318;--panel:#171c23;--fg:#e7ecf2;--muted:#9aa5b4;--line:#2a323d;--acc:#7aa2ff;--sim:#fdba74;--simbg:#431407}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}
-main{max-width:980px;margin:0 auto;padding:28px 16px 64px}h1{font-size:24px;margin:0 0 4px}h2{font-size:17px;margin:28px 0 10px}
-.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
-.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px}.big{font-size:26px;font-weight:700;font-variant-numeric:tabular-nums}
-.sim{display:inline-block;background:var(--simbg);color:var(--sim);font:700 11px/1 system-ui;letter-spacing:.06em;padding:4px 6px;border-radius:4px;margin-left:6px;vertical-align:middle}
-.banner{background:var(--simbg);color:var(--sim);padding:10px 14px;border-radius:8px;margin:14px 0;font-weight:600}
-table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
-th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}th{font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
-.bar{display:inline-block;width:120px;height:8px;background:var(--line);border-radius:4px;vertical-align:middle;margin-right:8px}.bar span{display:block;height:100%;background:var(--acc);border-radius:4px}
-a{color:var(--acc)}td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+@font-face{font-family:"Instrument Serif";src:url(/fonts/instrument-serif-latin-400-normal.woff2) format("woff2")}
+@font-face{font-family:Inter;src:url(/fonts/inter-latin-wght-normal.woff2) format("woff2");font-weight:100 900}
+:root{--bg:#f6f3ec;--panel:#fffdf8;--fg:#16140f;--ink2:#3c3830;--muted:#6b655a;--line:#e2dccf;--acc:#d6401f;--acc-ink:#a32d14;--sim:#a32d14;--simbg:#fbe4dc;--serif:"Instrument Serif",Georgia,serif}
+@media (prefers-color-scheme:dark){:root{--bg:#15130f;--panel:#1d1a15;--fg:#f1ece2;--ink2:#d6cfc2;--muted:#a39b8c;--line:#2e2a23;--acc:#f0643f;--acc-ink:#ff8a68;--sim:#ff8a68;--simbg:#3a1d14}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.55 Inter,system-ui,-apple-system,Segoe UI,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:980px;margin:0 auto;padding:32px 16px 64px}h1{font:400 40px/1.05 var(--serif);letter-spacing:-.02em;margin:6px 0 6px}
+h2{font:500 11.5px Inter,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:36px 0 0;padding-bottom:9px;border-bottom:1px solid var(--fg);display:flex;gap:8px;align-items:center}
+.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));border-bottom:1px solid var(--line)}
+.card{padding:18px 18px 16px 0}.card+.card{padding-left:18px;border-left:1px solid var(--line)}
+.big{font:400 44px/1 var(--serif);letter-spacing:-.02em;font-variant-numeric:tabular-nums;margin:6px 0}
+.sim{display:inline-block;background:var(--simbg);color:var(--sim);font:600 10.5px/1 Inter,sans-serif;letter-spacing:.1em;padding:4px 6px;border-radius:3px}
+.banner{border-left:2px solid var(--acc);background:var(--simbg);color:var(--sim);padding:10px 14px;margin:18px 0 0;font-size:14px}
+table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:10px 12px 10px 0;border-bottom:1px solid var(--line);vertical-align:top;font-size:14px}
+th{font:500 11px Inter,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.bar{display:inline-block;width:120px;height:3px;background:var(--line);vertical-align:middle;margin-right:10px}.bar span{display:block;height:100%;background:var(--fg)}
+a{color:var(--acc-ink)}td.num{font-variant-numeric:tabular-nums;white-space:nowrap}td .o{font-family:var(--serif);font-size:18px}
 </style></head><body><main>
+<div class="muted" style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase">Results report</div>
 <h1>${escapeHtml(c.name)}</h1>
 <div class="muted">${escapeHtml(c.analysis.topic.label)} · ${c.mode === 'test' ? 'Test campaign' : 'Live campaign'} · launched ${escapeHtml(fmtDateTime(new Date(c.launchedAt || c.plan.launchAt), c.brief.timezone))}</div>
 ${r.simulated ? '<div class="banner">SIMULATED results: this is a test campaign. No journalist was contacted; replies, clicks and coverage below are generated to exercise the pipeline.</div>' : ''}
@@ -120,7 +125,7 @@ ${r.outcomes.messages.map((m) => `<tr><td>${escapeHtml(m.message)}</td><td class
 <div class="card"><div class="muted">Reply rate</div><div class="big">${r.outtakes.replyRate}%</div><div class="muted">${Object.entries(r.outtakes.byKind).map(([k, v]) => `${k.replace(/_/g, ' ')} ${v}`).join(' · ') || 'no replies'}</div></div>
 <div class="card"><div class="muted">Tracked clicks</div><div class="big">${n(r.outtakes.totalClicks)}</div></div>
 </div>
-<table style="margin-top:12px"><tr><th>Channel</th><th>Clicks</th></tr>${Object.entries(r.outtakes.clicks).map(([k, v]) => `<tr><td>${escapeHtml(k)}</td><td class="num">${bar(v, maxClicks)}${n(v)}</td></tr>`).join('')}</table>
+<table><tr><th>Channel</th><th>Clicks</th></tr>${Object.entries(r.outtakes.clicks).map(([k, v]) => `<tr><td>${escapeHtml(k)}</td><td class="num">${bar(v, maxClicks)}${n(v)}</td></tr>`).join('')}</table>
 <h2>Outputs</h2>
 <div class="grid">
 <div class="card"><div class="muted">Pitches sent</div><div class="big">${n(r.outputs.pitchesSent)}</div><div class="muted">${Object.entries(r.outputs.byStage).map(([k, v]) => `${k.replace(/_/g, ' ')} ${v}`).join(' · ')}</div></div>
@@ -134,7 +139,7 @@ ${r.outcomes.messages.map((m) => `<tr><td>${escapeHtml(m.message)}</td><td class
 <tr><td>Brief → campaign kit</td><td class="num">${r.efficiency.buildSeconds} s</td><td class="num">${r.efficiency.benchmarkDays ? `${r.efficiency.benchmarkDays[0]}–${r.efficiency.benchmarkDays[1]} days` : '—'}</td></tr></table>
 <h2>Coverage ${sim}</h2>
 <table><tr><th>Date</th><th>Outlet</th><th>Headline</th><th>Sentiment</th></tr>
-${r.outcomes.coverage.map((x) => `<tr><td class="num">${escapeHtml(x.date)}</td><td>${escapeHtml(x.outlet)}${x.tier ? ` <span class="muted">T${x.tier}</span>` : ''}</td><td>${x.simulated ? escapeHtml(x.title) : `<a href="${escapeHtml(x.url)}">${escapeHtml(x.title)}</a>`}</td><td>${escapeHtml(x.sentiment || '—')}</td></tr>`).join('') || '<tr><td colspan="4" class="muted">No coverage logged yet.</td></tr>'}</table>
+${r.outcomes.coverage.map((x) => `<tr><td class="num">${escapeHtml(x.date)}</td><td><span class="o">${escapeHtml(x.outlet)}</span>${x.tier ? ` <span class="muted">T${x.tier}</span>` : ''}</td><td>${x.simulated ? escapeHtml(x.title) : `<a href="${escapeHtml(x.url)}">${escapeHtml(x.title)}</a>`}</td><td>${escapeHtml(x.sentiment || '—')}</td></tr>`).join('') || '<tr><td colspan="4" class="muted">No coverage logged yet.</td></tr>'}</table>
 <p class="muted" style="margin-top:24px">Method: ${escapeHtml(r.method)}</p>
 </main></body></html>`;
 }
